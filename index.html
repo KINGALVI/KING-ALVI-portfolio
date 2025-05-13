@@ -1,69 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="my-bg.png" type="image/x-icon">
+  <link rel="shortcut icon" href="Project-Image/Developer-Portfolio.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="midia-query-index.css">
-  <title>KING ALVI devoloper-portfolio</title>
+  <title>KING ALVI Developer Portfolio</title>
 </head>
+
+<header class="header">
+  <!-- 🔹 Header Wrapper:
+       - Houses branding, navigation, and call-to-action elements. -->
+
+  <nav class="navbar">
+    <!-- 🔹 Navigation Bar:
+         - Uses Flexbox for alignment.
+         - Includes branding and menu items. -->
+
+    <div class="logo">
+      <h1 class="logo-text">KING ALVI</h1>
+      <!-- 🔹 Logo Section:
+           - Displays your portfolio branding. -->
+    </div>
+
+    <ul class="nav-links">
+      <!-- 🔹 Navigation Links -->
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="cta">
+      <a href="https://github.com/KINGALVI" target="_blank" class="btn">Hire Me</a>
+    </div>
+    <!-- 🔹 Call-to-Action Button:
+         - Directs visitors to your GitHub profile. -->
+  </nav>
+
+  <div class="hero-content">
+    <!-- 🔹 Hero Section:
+         - Displays an intro message with an engaging background. -->
+
+    <div class="hero-text">
+      <h2>Welcome to <span class="highlight">KING ALVI</span> World!</h2>
+      <p>Building myself as a strong full-stack web developer.</p>
+      <br>
+      <a href="https://github.com/KINGALVI" class="btn">View My Work</a>
+    </div>
+    <br>
+    <div class="hero-image">
+      <img src="Project-Image/my-bg1.png" alt="KING ALVI Developer">
+    </div>
+  </div>
+</header>
+
 <body>
-<section class="alvi1">
-  <div id="al1">
-<span id="a5">  
-  <h1>Welcome To</h1>
-  <h1><span id="a1">KING ALVI</span> World !</h1>
-</span>
-  <h3>Build myself as a strong full-stack web devoloper</h3>
-  <p>You might saw me learning HTML , CSS , Javascript , Node js and Phython hardly. But nobody pays me a dime for that work. that's why I am learning and mastering full-stack web development. I will not stop until I become the Web Development Hero.</p>
-  <br>
-  <br>
-  <span id="a2"><a id="btn" target="_blank" href="https://github.com/">HIER ME</a></span>
-  </div>
-  <div id="al3">
-  <img src="my-bg1.png" alt="">
-</div>
-</section>
-<section class="alvi2">
-  <div id="al4"><img src="my-bg2.png" alt=""></div>
-  <div id="al5">
-  <h1 id="a6">Dream Big</h1>
-  <h3 id="a4">Become a web developer</h3>
-  <p id="a3">I already learned the basic HTML and CSS. I can build any simple website. I can even teach my friends how to make simple website. My goal is to build 3 websites and learn advanced topics</p>
-  <br>
-  <br>
-  <span id="a7"><a id="btn" target="_blank" href="https://github.com/">COANTACT WITH ME</a></span>
-  </div>
-</section>
-<br>
-<br>
-<section class="alvi3">
-  <span class="a1"><h1>Experiences</h1></span>
-  <div class="alvi5">
-  <div id="al6">
-    <h2>Full Stack Web Developer</h2>
-    <h3 id="a11">2021-Present | Pro Level Developer</h3>
-    <p id="a8">I am the master of HTML, CSS and Javascript. I know everything  needed to make a website function, <br>efficient. I didn't stop with the  web. I went beyond with most popular Javascript framework called Vue <br> JS. I evennow the deployment, server and security. I will give you 100% web solution.
-    </p>
-  </div>
-  <span id="a10"></span>
-  <div id="al7">
-    <h2> Junior Web Developer</h2>
-    <h3 id="a12">2021-Present | Pro Level Developer</h3>
-    <p id="a9">They didn't offer me a job. But I made myself as a remove web  developer. I made their website and showed it to them. They liked it.  And uploaded the content. It was fun working at Programming Hero.</p>
-  </div>
-  </div>
-</section>
-<br>
-<br>
-<br>
-<hr>
-<center class="alvi4">© KING ALVI  2023 , a Programming Hero initiative</center>
-<hr>
+
+  <main>
+
+    <section class="alvi1">
+      <!-- 🔹 Hero Section (Introduction):
+         - Displays the portfolio welcome message and main call-to-action. -->
+
+      <div id="al1">
+        <span id="a5">
+          <h1>MY <span id="a1">GOAL</span> !</h1>
+        </span>
+        <h3>Build myself as a strong full-stack web developer</h3>
+        <p>
+          You might see me learning HTML, CSS, JavaScript, Node.js, and Python passionately.
+          But nobody pays me a dime for that work. That's why I am mastering full-stack web development.
+          I will not stop until I become the Web Development Hero.
+        </p>
+        <br><br>
+        <span id="a2">
+          <a id="btn" target="_blank" href="https://github.com/KINGALVI">HIRE ME</a>
+          <!-- 🔹 Call-to-action button linking to the GitHub profile:
+             - `target="_blank"`: Opens the link in a new tab.
+             - `id="btn"`: Uses CSS styling for better visibility. -->
+        </span>
+      </div>
+
+      <div id="al3">
+        <img src="Project-Image/my-bg1.png" alt="Developer Portfolio Image">
+        <!-- 🔹 Developer profile image:
+           - `img`: Displays a personal branding image.
+           - `alt="Developer Portfolio Image"`: Improves accessibility. -->
+      </div>
+    </section>
+
+    <section class="alvi2">
+      <!-- 🔹 Second Section - Personal Goals:
+         - Highlights aspirations and long-term objectives. -->
+
+      <div id="al4">
+        <img src="Project-Image/my-bg2.png" alt="Web Development Journey">
+      </div>
+
+      <div id="al5">
+        <h1 id="a6">Dream <span id="a1">Big</span> !</h1>
+        <h3 id="a4">Become a Web Developer</h3>
+        <p id="a3">
+          I have already learned basic HTML and CSS. I can build simple websites and even teach my friends how to create
+          them.
+          My goal is to develop three websites and learn advanced topics to expand my knowledge.
+        </p>
+        <br><br>
+        <span id="a7">
+          <a id="btn" target="_blank" href="https://github.com/KINGALVI">CONTACT ME</a>
+        </span>
+      </div>
+    </section>
+
+    <br><br>
+
+    <section class="alvi3">
+      <!-- 🔹 Experiences Section:
+         - Displays professional experience and expertise. -->
+
+      <span class="a1">
+        <h1>Experiences</h1>
+      </span>
+
+      <div class="alvi5">
+        <!-- 🔹 Full Stack Web Developer -->
+        <div id="al6">
+          <h2>Full Stack Web Developer</h2>
+          <h3 id="a11">2021-Present | Pro Level Developer</h3>
+          <p id="a8">
+            I am an expert in HTML, CSS, and JavaScript.
+            I know everything necessary to make a website **functional and efficient**.
+            I expanded my skills with Vue.js, deployment, server management, and web security.
+            I provide **100% web solutions**.
+          </p>
+        </div>
+
+        <span id="a10"></span>
+
+        <!-- 🔹 Junior Web Developer -->
+        <div id="al7">
+          <h2>Junior Web Developer</h2>
+          <h3 id="a12">2021-Present | Pro Level Developer</h3>
+          <p id="a9">
+            I wasn’t officially hired, but I made myself an independent web developer.
+            I built a website, showcased it to Programming Hero, and they uploaded the content.
+            It was a **fun and rewarding experience**.
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer class="footer">
+    <!-- 🔹 Footer Wrapper:
+       - Defines the footer section, providing structured navigation and branding.
+       - Uses `class="footer"` for styling consistency. -->
+
+    <div class="container">
+      <!-- 🔹 Bootstrap Container:
+         - Ensures proper spacing and alignment for responsive behavior. -->
+
+      <div class="row">
+        <!-- 🔹 Bootstrap Row:
+           - Creates a responsive grid system for proper layout. -->
+
+        <!-- 🔹 Brand & Copyright Section -->
+        <div class="col-md-4 text-center text-md-start">
+          <!-- 📌 Column for Branding:
+             - `col-md-4`: Takes 4 columns in medium-sized screens.
+             - `text-center`: Centers content on smaller screens.
+             - `text-md-start`: Aligns content to the left on medium+ screens. -->
+
+          <h3 class="fw-bold">KING ALVI</h3>
+          <!-- 🔹 Portfolio Brand Name:
+             - Uses `h5` for a moderate-sized title.
+             - `fw-bold`: Ensures the text appears bold for emphasis. -->
+
+          <p>© 2023, a Programming Hero initiative</p>
+          <!-- 🔹 Copyright Information:
+             - Provides legal attribution for the portfolio. -->
+        </div>
+
+        <!-- 🔹 Quick Links -->
+        <div class="col-md-4 text-center">
+          <!-- 📌 Column for Quick Links:
+             - `col-md-4`: Ensures equal width for the section.
+             - `text-center`: Centers content for better visibility. -->
+
+          <h5 class="fw-bold">Quick Links</h5>
+          <!-- 🔹 Section Header:
+             - Uses bold styling for emphasis. -->
+
+          <ul class="list-unstyled">
+            <!-- 🔹 Navigation List:
+               - `list-unstyled`: Removes default bullet styling for a clean look. -->
+
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <!-- 🔹 Navigation Links:
+               - Provides internal links for quick navigation inside the website. -->
+          </ul>
+        </div>
+
+        <!-- 🔹 Social Media & Subscription -->
+        <div class="col-md-4 text-center text-md-end">
+          <!-- 📌 Column for Social Media & Subscription:
+             - `col-md-4`: Ensures equal space allocation.
+             - `text-center`: Centers content on small screens.
+             - `text-md-end`: Aligns content to the right on medium+ screens. -->
+
+          <h2 class="fw-bold">Stay Connected</h2>
+          <!-- 🔹 Section Header for Social Media & Subscription. -->
+
+          <!-- 🔹 Social Media Icons -->
+          <div>
+            <a href="https://www.facebook.com/profile.php?id=100014653386664" class="social-icon"><i
+                class="fab fa-facebook"></i></a>
+            <a href="https://x.com/alvi_al_mahamud?t=GZM3qXSVf45yAh7s-7BfLA&s=09" class="social-icon"><i
+                class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/sabender_khan_alvi/" class="social-icon"><i
+                class="fab fa-instagram"></i></a>
+            <!-- 📌 Social Media Links:
+               - Uses FontAwesome icons for modern aesthetics.
+               - `class="social-icon"` applies styling for spacing and interactivity. -->
+          </div>
+
+          <br>
+
+          <!-- 🔹 Subscription Form -->
+          <form>
+            <input type="email" class="form-control mt-3" placeholder="Enter your email">
+            <!-- 🔹 Email Input Field:
+               - `form-control`: Applies Bootstrap styling.
+               - `mt-3`: Adds top margin for spacing.
+               - `placeholder="Enter your email"`: Improves user experience. -->
+
+            <button class="btn btn-warning mt-2">Subscribe</button>
+            <!-- 🔹 Subscription Button:
+               - Uses Bootstrap `btn-warning` for a standout yellow button.
+               - `mt-2`: Adds vertical spacing for better alignment. -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </footer>
+
 </body>
+
 </html>

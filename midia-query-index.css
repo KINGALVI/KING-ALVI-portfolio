@@ -1,175 +1,304 @@
-@media (max-width:500px) {
-  
-body{
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-}
-h1{
-  font-size: 50px;
-  text-align: center;
-  padding-left: 17vw;
-}
-h3{
-  color:orange;
-  text-align: center;
-  padding-left: 15vw;
-}
-p{
-  text-align: center;
-  margin: auto;
-padding-left: 15vw;
-}
-#a2 a {
-  text-decoration: none;
-  padding:10px 40px; 
-  background-image: linear-gradient(orange, tomato);
-  color: wheat;
-  font-weight: bolder;
-  border-radius: 5px;
-  margin: auto;
-}
-#a2{
-  padding-left: 14vh;
-}
-#a1{
-  color: orange;
-}
-#a3{
-  padding-left: 7vw;
-padding-right: 7vw;
-}
-#a4{
-  padding-right: 19vw;
-}
-#a5{
-  display: grid;
-  align-items: center;
-}
-#a6{
-  padding-right: 22vw;
-}
-#a7{
-  padding-left: 8vh;
-}
-#a7 a {
-  text-decoration: none;
-  padding:10px 40px; 
-  background-image: linear-gradient(orange, tomato);
-  color: wheat;
-  font-weight: bolder;
-  border-radius: 5px;
-}
-.alvi1{
-  display: grid;
-  background-image: url(top-banner.png);
-  background-repeat: no-repeat;
-}
-#al1{
-  order: 2;
-}
-/* #al1 a{
-  display: inline-block;
-  background-color: rgb(240, 139, 121);
-  text-decoration: none;
-  height: 7.5vh;
-  width: 12.5vw;
-  font-size: larger;
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 2.5vh;
-  border: 5px solid rgb(240, 139, 121);
-  border-radius: 50px;
-} */
-#al3{
-  order: 1;
-  margin: auto;
-}
-#al3 img{
-  height: 37vh;
-  width: 75vw;
-}
-#al4{
-  margin: auto;
-}
-#al4 img{
-  height: 37vh;
-  width: 75vw;
-}
-.alvi2{
-  padding-top: 15vh;
-  background-image: url(dream-bg.png);
-  background-repeat: no-repeat;
-background-position: right;
-  display: grid;
-}
-.alvi3{
-  display: inline-block;
- background-image:url(exp-bg.png);
-  background-repeat: no-repeat;
-}
-.alvi5{
-  height: 100%;
-  width: 100%;
-  display: grid;
-padding-top: 7.5vh;
-}
-.alvi4{
-  color:slategray;
-}
-#al6{
-  background-image: linear-gradient(rgb(0, 255, 234), rgb(206, 255, 71));
-height: 100%;
-width: 80%;
-border: 5px solid rgb(0, 255, 234);
-border-radius: 50px;
-text-align: center;
-margin:auto;
-box-shadow: 5px 5px 5px 5px;
-}
-h2{
-  padding-top: 5vh;
-}
-.a1 h1{
+/* 🔹 Mobile Responsive Styles (max-width: 500px)
+   - This media query ensures proper layout adjustments for screens **500px or smaller**. */
 
-padding-left: 2vw;
-  color:black;
-}
-#a8{
-  padding-right: 13vw;
-  text-align: center;
-  color: #000;
-  padding-bottom: 7.5vh;
-}
-#a9{
-  padding-right: 13vw;
-  text-align: center;
-  color: #000;
-  padding-bottom: 7.5vh;
-}
-#a10{
-  padding-bottom: 7.5vh;
-}
-#a11{
-  padding-right: 13vw;
-  text-align: center;
-}
-#a12{
-  padding-right: 13vw;
-  text-align: center;
-  color: brown;
-}
-#al7{
-  background-image: linear-gradient(orange, tomato);
-border-radius: 50px;
-border: 5px solid orange;
-height: 80%;
-width: 75%;
-text-align: center;
-margin: auto;
-box-shadow: 5px 5px 5px 5px;
-}
-#bd{
-  color: brown;
-}
+@media (max-width: 500px) {
+
+  /* 🔹 Global Styling */
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* - Uses 'Poppins' font for modern typography.
+       - Removes default browser margins to achieve full-width rendering. */
+  }
+
+  .navbar {
+    display: grid;
+    justify-content: center;
+    /* - Uses **CSS Grid** instead of Flexbox for layout control.
+       - Centers navbar content horizontally.
+      */
+  }
+
+  .logo {
+    padding-right: 29px;
+    /* - Adds **right padding** to create spacing between the logo and other elements.
+       - Ensures proper alignment for **branding visibility**. */
+  }
+
+  .nav-links {
+    flex-direction: column;
+    padding-top: 10px;
+    /* - Converts navigation menu to **vertical layout**.
+       - Adds padding for **easy tap interaction**. */
+  }
+
+  .nav-links li {
+    margin: 8px 0;
+    /* - Increases spacing between navigation items for **touch accessibility**. */
+  }
+
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 5%;
+    /* - Stacks content **vertically** for better mobile readability.
+       - Reduces padding for a balanced **mobile layout**. */
+  }
+
+  .hero-image img {
+    width: 90%;
+    max-width: 250px;
+    /* - Ensures hero image **scales properly** for smaller screens.
+       - Limits maximum width for a **clean mobile fit**. */
+  }
+
+  .btn {
+    display: block;
+    width: 85%;
+    margin: 12px auto;
+    padding: 14px;
+    font-size: 1rem;
+    /* - Expands buttons for **easier touch interactions**.
+       - Adjusts font size for **readability on mobile devices**. */
+  }
+
+  /* 🔹 Heading Adjustments */
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-left: 17vw;
+    /* - Centers headings for mobile screens.
+       - `padding-left: 17vw`: Adjusts positioning dynamically. */
+  }
+
+  h3 {
+    color: orange;
+    text-align: center;
+    padding-left: 15vw;
+    /* - Applies orange color for emphasis.
+       - Centers the text for a better mobile experience. */
+  }
+
+  /* 🔹 Paragraph Alignment */
+  p {
+    text-align: center;
+    margin: auto;
+    padding-left: 15vw;
+    /* - Centers text for readability.
+       - `margin: auto`: Keeps text blocks properly spaced. */
+  }
+
+  /* 🔹 Button Styling */
+  #a2 a {
+    text-decoration: none;
+    padding: 12.5px 25px;
+    font-size: 15px;
+    background-image: linear-gradient(orange, tomato);
+    color: wheat;
+    font-weight: bolder;
+    border-radius: 5px;
+    margin: auto;
+    /* - Ensures buttons remain **clickable** on mobile.
+       - `border-radius: 5px`: Slightly rounds button edges.
+       - `margin: auto`: Centers the button properly. */
+  }
+
+  #a2 {
+    padding-left: 14vh;
+    /* - Adds **vertical padding** to improve button spacing. */
+  }
+
+  /* 🔹 Text Highlights */
+  #a1 {
+    color: orange;
+    /* - Applies an orange highlight to **important text**. */
+  }
+
+  /* 🔹 Section Adjustments */
+  #a3 {
+    padding-left: 7vw;
+    padding-right: 7vw;
+    /* - Ensures balanced padding inside **content blocks**. */
+  }
+
+  #a4 {
+    padding-right: 19vw;
+    /* - Adjusts right padding for proper alignment. */
+  }
+
+  /* 🔹 Centered Grid Layout */
+  #a5 {
+    display: grid;
+    align-items: center;
+    /* - Uses **CSS Grid** for vertical alignment. */
+  }
+
+  #a6 {
+    padding-right: 22vw;
+    /* - Ensures spacing is **optimized for mobile** screens. */
+  }
+
+  #a7 {
+    padding-left: 8vh;
+    /* - Adds **extra vertical padding** to maintain consistency. */
+  }
+
+  #a7 a {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    color: wheat;
+    font-weight: bolder;
+    border-radius: 5px;
+    /* - Makes buttons **responsive and visually appealing**:
+       - Uses `linear-gradient` for a modern UI feel.
+       - Keeps text **bold** for visibility. */
+  }
+
+  /* 🔹 Hero Section */
+  .alvi1 {
+    display: grid;
+    background-image: url(Project-Image/top-banner.png);
+    background-repeat: no-repeat;
+    /* - Converts flex-based layout into **CSS Grid** for small screens.
+       - Keeps background **static** without repeating. */
+  }
+
+  /* 🔹 Swap Content Order for Mobile */
+  #al1 {
+    order: 2;
+    /* - Moves **text section BELOW images** on mobile for better readability. */
+  }
+
+  #al3 {
+    order: 1;
+    margin: auto;
+    /* - Moves **image ABOVE text** to adjust hierarchy. */
+  }
+
+  /* 🔹 Responsive Images */
+  #al3 img,
+  #al4 img {
+    width: 100%;
+    max-width: 300px;
+    /* - Resizes images **proportionally** on smaller screens:
+       - `max-width: 250px`: Maximum width.
+       - `width: 90%`: Expands width. */
+  }
+
+
+  #al4 {
+    margin: auto;
+    /* - Centers the second section image. */
+  }
+
+  /* 🔹 Dream Big Section */
+  .alvi2 {
+    padding-top: 15vh;
+    background-image: url(Project-Image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: grid;
+    /* - Converts layout to **grid-based** for small screens.
+       - Moves background to the **right** for balance. */
+  }
+
+  /* 🔹 Experience Section */
+  .alvi3 {
+    display: inline-block;
+    background-image: url(Project-Image/exp-bg.png);
+    background-repeat: no-repeat;
+    /* - Maintains **inline-block structure** while keeping the background fixed. */
+  }
+
+  .alvi5 {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    padding-top: 7.5vh;
+    /* - Uses **CSS Grid** instead of flexbox for mobile adjustments. */
+  }
+
+  /* 🔹 Footer Styling */
+  .alvi4 {
+    color: slategray;
+    /* - Uses a **soft gray tone** for footer readability. */
+  }
+
+  /* 🔹 Full Stack Experience Box */
+  #al6 {
+    background-image: linear-gradient(rgb(0, 255, 234), rgb(206, 255, 71));
+    height: 100%;
+    width: 80%;
+    border: 5px solid rgb(0, 255, 234);
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px;
+    /* - Resizes **experience boxes** to fit mobile screens.
+       - Uses gradient for better styling.
+       - Centers the box with `margin: auto`. */
+  }
+
+  /* 🔹 Headings */
+  h2 {
+    padding-top: 5vh;
+    /* - Adds spacing above headings for **better readability**. */
+  }
+
+  .a1 h1 {
+    padding-left: 2vw;
+    color: black;
+    /* - Ensures **consistent text placement** for mobile screens. */
+  }
+
+  /* 🔹 Experience Text Alignment */
+  #a8,
+  #a9 {
+    padding-right: 13vw;
+    text-align: center;
+    color: #000;
+    padding-bottom: 15vh;
+    /* padding-bottom: 25px */
+    /* - Centers **experience descriptions** while maintaining text clarity. */
+  }
+
+  #a10 {
+    padding-bottom: 7.5vh;
+    /* - Adds **bottom spacing** for text consistency. */
+  }
+
+  #a11 {
+    padding-right: 13vw;
+    text-align: center;
+    /* - Centers important details for mobile-friendly text flow. */
+  }
+
+  #a12 {
+    padding-right: 13vw;
+    text-align: center;
+    color: brown;
+    /* - Highlights **important experience titles** in brown. */
+  }
+
+  /* 🔹 Junior Developer Experience Box */
+  #al7 {
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 50px;
+    border: 5px solid orange;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    box-shadow: 5px 5px 5px 5px;
+    /* - Uses **a smooth gradient** for dynamic styling.
+       - Centers the content properly for readability. */
+  }
+
+  /* 🔹 Miscellaneous */
+  #bd {
+    color: brown;
+    /* - Sets brown color for additional text elements. */
+  }
 
 }

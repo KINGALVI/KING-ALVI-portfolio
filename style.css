@@ -1,0 +1,431 @@
+/* 🔹 Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  /* Ensures full-width rendering without extra margins.
+     - `font-family`: Uses Poppins for a modern, clean UI.
+     - `margin: 0`: Removes default browser spacing. */
+}
+
+/* 🔹 Header Styling */
+.header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  /* - Uses a **smooth gradient transition** for a modern look.
+     - Ensures all text is **highly visible** against the gradient background. 
+     - Adds vertical padding for **spacious** header appearance.
+     - Centers header content for **uniform alignment**. */
+}
+
+/* 🔹 Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5%;
+  /* - Implements **Flexbox** for better alignment:
+     - `justify-content: space-between`: Evenly distributes elements across the navbar.
+     - `align-items: center`: Ensures **vertical alignment** of text and buttons.
+     - `padding: 0 5%`: Adds **horizontal spacing**. */
+}
+
+/* 🔹 Logo Styling */
+.logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  /* - `font-size: 2rem`: Sets a **large** logo font for visibility.
+     - `font-weight: bold`: Makes branding **stand out**.
+     - `color: #fff`: Keeps text **white** for contrast. */
+}
+
+/* 🔹 Navigation Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  /* - Removes default list bullet points (`list-style: none`).
+     - Uses **Flexbox** for a horizontal menu layout. */
+}
+
+.nav-links li {
+  margin: 0 15px;
+  /* - Adds **spacing** between menu items for readability. */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  /* - `text-decoration: none`: Removes default **underline** from links.
+     - `color: white`: Keeps navigation **visible** against the background.
+     - `font-weight: bold`: Enhances readability. */
+}
+
+/* 🔹 Call-to-Action Button */
+.cta .btn {
+  background: #ff5733;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  /* - Uses a **bright red-orange** for strong visibility. 
+     - Ensures button text **stands out**.
+     - Defines **button size** for comfortable clicking.
+     - Slightly rounds button edges for a **modern feel**.
+     - Prevents default **underlining** for a cleaner UI. */
+}
+
+/* 🔹 Hero Section */
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 5%;
+  /* - Creates a **flexible horizontal layout**:
+     - `display: flex`: Ensures elements align side by side.
+     - `align-items: center`: Vertically centers content inside the section.
+     - `justify-content: space-between`: Places text on the left and image on the right.
+     - `padding: 50px 5%`: Adds proper spacing to maintain readability and visual balance. */
+}
+
+/* 🔹 Hero Text */
+.hero-text h2 {
+  font-size: 2.5rem;
+  /* - `font-size: 2.5rem`: Makes the heading **large and bold** for a striking effect. */
+}
+
+.hero-text .highlight {
+  color: yellow;
+  /* - `color: yellow`: Highlights important branding words for emphasis. */
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+  /* - `font-size: 1.2rem`: Improves readability of paragraph content.
+     - `margin: 15px 0`: Adds spacing above and below for a clean layout. */
+}
+
+/* 🔹 Hero Image */
+.hero-image img {
+  width: 350px;
+  border-radius: 10px;
+  /* - `width: 350px`: Ensures the image maintains proper proportion.
+     - `border-radius: 10px`: Softens the image edges for a polished look. */
+}
+
+/* 🔹 Call-to-Action Button */
+.hero-text .btn {
+  background: orange;
+  color: white;
+  padding: 12px 20px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  /* - `background: orange`: Uses a warm, attention-grabbing color.
+     - `color: white`: Ensures **high contrast** for readability.
+     - `padding: 12px 20px`: Expands the button for easier clicking.
+     - `font-weight: bold`: Makes the text **strong and noticeable**.
+     - `border-radius: 5px`: Gives the button **rounded edges** for a clean design.
+     - `text-decoration: none`: Removes default underlining for a sleek look. */
+}
+
+h1 {
+  font-size: 50px;
+  /* Sets a large heading size to maintain emphasis.
+     - Consistency across all heading elements. */
+}
+
+/* 🔹 Highlighted Text */
+#a1 {
+  color: orange;
+  /* Applies an orange color to specific highlighted text elements. */
+}
+
+/* 🔹 Hero Section */
+.alvi1 {
+  display: flex;
+  background-image: url(Project-Image/top-banner.png);
+  background-repeat: no-repeat;
+  /* Ensures the section follows a flexible row-based layout:
+     - `display: flex`: Enables a horizontal layout.
+     - `background-image`: Adds a hero banner for branding.
+     - `background-repeat: no-repeat`: Prevents repetitive backgrounds. */
+}
+
+/* 🔹 First Section */
+#al1 {
+  padding-right: 15vw;
+  padding-left: 2.5vw;
+  /* Controls spacing around the main intro section:
+     - Creates balanced padding inside the container. */
+}
+
+/* 🔹 Buttons */
+#al1 a {
+  display: inline-block;
+  background-color: rgb(240, 139, 121);
+  text-decoration: none;
+  height: 7.5vh;
+  width: 12.5vw;
+  font-size: larger;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 2.5vh;
+  border: 5px solid rgb(240, 139, 121);
+  border-radius: 50px;
+  /* Ensures buttons are **large, rounded, and centered**:
+     - `inline-block`: Allows proper alignment.
+     - `background-color`: Uses soft reddish-pink for contrast.
+     - `border-radius: 50px`: Makes the button round.
+     - `text-align: center`: Ensures text stays centered.
+     - `font-weight: bolder`: Makes text stand out. */
+}
+
+/* 🔹 Special Button Styles */
+#a2 a {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  color: wheat;
+  font-weight: bolder;
+  /* Applies gradient styling:
+     - `linear-gradient(orange, tomato)`: Smooth color transition.
+     - `color: wheat`: Provides soft contrast. */
+}
+
+#a7 a {
+  text-decoration: none;
+  padding: 10px 40px;
+  background-image: linear-gradient(orange, tomato);
+  color: wheat;
+  font-weight: bolder;
+  border-radius: 5px;
+  /* Improves button accessibility:
+     - `border-radius: 5px`: Slightly rounded edges for smoothness.
+     - `padding`: Defines button size for proper clickability. */
+}
+
+/* 🔹 Responsive Images */
+#al3 img,
+#al4 img {
+  height: 80vh;
+  width: 40vw;
+  padding-top: 50px;
+  /* Ensures images scale properly:
+     - `height: 80vh`: Takes up 80% of the viewport height.
+     - `width: 40vw`: Occupies 40% of the viewport width. */
+}
+
+#al4 {
+  padding-right: 9vw;
+  padding-left: 2.5vw;
+  /* Adds spacing around the **second image section** to keep it well-structured. */
+}
+
+/* 🔹 Second Section */
+.alvi2 {
+  padding-top: 15vh;
+  background-image: url(Project-Image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  /* Uses **flexbox layout** to align items:
+     - `background-position: right`: Moves image to the right.
+     - `display: flex`: Ensures flexibility for content placement.
+     - `padding-top: 15vh`: Adjusts spacing at the top. */
+}
+
+/* 🔹 Experience Section */
+.alvi3 {
+  display: inline-block;
+  background-image: url(Project-Image/exp-bg.png);
+  background-repeat: no-repeat;
+  /* Handles the **experience section's background image** while keeping an inline-block structure. */
+}
+
+.alvi5 {
+  display: flex;
+  /* Ensures experience sections align **horizontally in a flexible layout**. */
+}
+
+/* 🔹 Highlighted Experience Titles */
+#a12 {
+  color: brown;
+}
+
+#a11 {
+  color: orange;
+}
+
+/* 🔹 Footer Text */
+.alvi4 {
+  color: slategray;
+  /* Gives the footer a subtle **gray tone for softer contrast**. */
+}
+
+/* 🔹 Full Stack Developer Experience Box */
+#al6 {
+  background-image: linear-gradient(rgb(0, 255, 234), rgb(206, 255, 71));
+  height: 50%;
+  width: 50%;
+  border: 5px solid rgb(0, 255, 234);
+  border-radius: 50px;
+  text-align: center;
+  margin: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  box-shadow: 5px 5px 5px 5px;
+  /* Creates a **floating gradient-based card effect**:
+     - `linear-gradient`: Smooth transition between colors.
+     - `border-radius: 50px`: Keeps edges rounded.
+     - `box-shadow`: Adds depth for visual enhancement. */
+}
+
+/* 🔹 Junior Developer Experience Box */
+#al7 {
+  background-image: linear-gradient(orange, tomato);
+  border-radius: 50px;
+  border: 5px solid orange;
+  height: 50%;
+  width: 50%;
+  text-align: center;
+  margin: 5vh;
+  padding-top: 2vh;
+  padding-bottom: 5.7vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  box-shadow: 5px 5px 5px 5px;
+  /* Applies **orange gradient for Junior Developer role**:
+     - `border: 5px solid orange`: Highlights section.
+     - `box-shadow`: Adds depth and realism. */
+}
+
+/* 🔹 Text Color */
+#a9 {
+  color: black;
+}
+
+/* 🔹 General Section Title */
+.a1 h1 {
+  color: black;
+  padding-top: 3vh;
+  padding-left: 3vw;
+  /* Adds a **subtle gap above section headings**:
+     - `padding-top: 3vh`: Gives breathing space.
+     - `padding-left: 3vw`: Aligns text elegantly. */
+}
+
+/* 🔹 Footer Styling */
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+  /* - Uses a **dark background** for contrast against lighter page sections.
+     - Adds vertical spacing inside the footer.
+     - Centers footer content for better readability. */
+}
+
+/* 🔹 Container */
+.footer .container {
+  max-width: 1200px;
+  margin: auto;
+  /* - Restricts width to **1200px**, ensuring content remains neatly aligned.
+     - Centers the footer content within the page layout. */
+}
+
+/* 🔹 Footer Columns */
+.footer .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  /* - Uses **Flexbox** for a horizontal layout.
+     - Evenly distributes content across the footer.
+     - Ensures vertical alignment of all elements.
+     - Allows columns to stack when screen width decreases, ensuring responsiveness. */
+}
+
+/* 🔹 Quick Links */
+.footer ul {
+  list-style: none;
+  padding: 0;
+  /* - Removes default bullet points from the list.
+     - Eliminates unwanted padding for a cleaner look. */
+}
+
+.footer ul li {
+  margin: 5px 0;
+  /* - Adds spacing between list items for readability. */
+}
+
+.footer ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  /* - Keeps links **white** to maintain contrast against the footer background.
+     - Removes default underlining from links.
+     - Adds a **smooth transition** effect when hovered. */
+}
+
+.footer ul li a:hover {
+  color: #f39c12;
+  /* - Highlights links with **orange color** when hovered to enhance visibility. */
+}
+
+/* 🔹 Social Media Icons */
+.social-icon {
+  margin: 0 10px;
+  font-size: 30px;
+  color: white;
+  transition: transform 0.3s ease, color 0.3s ease;
+  /* - Adds spacing between social media icons.
+     - Sets **icon size** for visibility.
+     - Maintains contrast between icons and background.
+     - Adds **interactive effects** when hovered. */
+}
+
+.social-icon:hover {
+  color: #f39c12;
+  transform: scale(1.2);
+  /* - Changes **icon color** on hover for a visually appealing effect.
+   Enlarges the icons slightly when hovered to improve interactivity. */
+}
+
+/* 🔹 Subscription Form */
+.footer input {
+  width: 80%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  /* - Ensures input field takes up a large portion of the available space.
+     - Adds spacing inside the input field for comfort.
+     - Removes default border for a smoother design.
+     - Softens the corners of the input field. */
+}
+
+.footer button {
+  background: #f39c12;
+  /* - Uses **orange color** for visibility and branding consistency. */
+
+  color: white;
+  /* - Ensures button text stands out. */
+
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 8px;
+  cursor: pointer;
+  /* - Defines button size for **comfortable clicking**. 
+     - Removes default border for a modern look. 
+     - Gives the button rounded edges for a sleek appearance.
+     - Adds spacing above the button for layout balance.
+     - Ensures the button appears **clickable**. */
+}
+
+.footer button:hover {
+  background: #e67e22;
+  /* - Changes **button color** on hover to improve interactivity. */
+}
