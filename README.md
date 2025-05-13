@@ -10,8 +10,7 @@ It serves as a **resume, skillset showcase, and learning journal** for my journe
 ## 🔧 Technologies Used
 
 - **HTML5** → Semantic structuring of content  
-- **CSS3 (Bootstrap & Tailwind)** → Stunning responsive design  
-- **JavaScript** → Dynamic interactivity  
+- **CSS3** → Stunning responsive design
 - **FontAwesome** → Beautiful icons integration  
 - **Netlify** → Seamless deployment  
 
