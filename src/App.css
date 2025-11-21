@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
-@plugin "daisyui" {
-  themes: light --default;
+@plugin "daisyui";
+
+body {
+  background-color: var(--root-bg, var(--color-base-100));
+}
+
+a.active {
+  color: white;
+  font-weight: bold;
 }
