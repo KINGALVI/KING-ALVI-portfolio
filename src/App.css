@@ -3,10 +3,14 @@
 @plugin "daisyui";
 
 body {
-  background-color: var(--root-bg, var(--color-base-100));
+  background-color: oklch(25.33% 0.016 252.42);
 }
 
 a.active {
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
+}
+
+.Logo:hover {
+  color: white;
 }
