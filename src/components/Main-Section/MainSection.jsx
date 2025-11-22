@@ -7,11 +7,11 @@ import Footer from "../Footer/Footer";
 const Main = () => {
 
   return (
-    <section className="flex">
+    <section className="md:flex">
 
       <Left_Side_Design />
 
-      <section className="lg:w-[1100px] bg-[#282C33]">
+      <section className="md:w-[1100px] bg-[#282C33]">
 
         <Header />
 

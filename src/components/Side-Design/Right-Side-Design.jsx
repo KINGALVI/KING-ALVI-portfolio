@@ -1,7 +1,7 @@
 const Right_Side_Design = () => {
 
     return (
-        <section className="">
+        <section className="w-[125px] hidden md:block">
 
         </section>
     );
