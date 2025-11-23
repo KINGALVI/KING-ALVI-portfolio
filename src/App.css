@@ -14,3 +14,39 @@ a.active {
 .Logo:hover {
   color: white;
 }
+
+.Background-Image {
+  background-image: url("../../../../public/Images/Outline-Style.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 7%;
+}
+
+.Dots-Image {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  right: 20%;
+  top: 85px;
+}
+
+button {
+  height: 37px;
+  width: 148px;
+  border: 2px solid #C778DD;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #C778DD;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
+}
+
+.reletive-quote_man-image {
+  position: relative;
+  top: 11px;
+  height: 63px;
+  width: 315px;
+}
