@@ -9,17 +9,17 @@ const Home = () => {
     return (
         <>
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
-                <div className="card-body">
-                    <h2 className="text-4xl">Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and <span className="text-[#C778DD]">Gamer</span> </h2>
+                <div className="card-body gird lg:items-start md:items-center sm:items-center">
+                    <h2 className="text-4xl md:text-center lg:text-left">Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and <span className="text-[#C778DD]">Gamer</span> </h2>
                     <p className="text-[#ABB2BF] pt-5 pb-2.5">He crafts responsive websites where technologies meet creativity</p>
                     <div className="card-actions">
                         <button className="text-[#ABB2BF]">Contact me !!</button>
                     </div>
                 </div>
-                <div className="grid">
+                <div className="grid lg:ps-0 md:ps-16">
                     <figure style={{ position: 'relative' }}>
                         <img
-                            className="w-[457px] h-[386px] Background-Image"
+                            className="lg:w-[457px] lg:h-[386px] sm:w-[457px] sm:h-[386px] md:w-[350px] md:h-[450px]  Background-Image"
                             src={MyPhoto}
                             alt="My Photo" />
                         <img className="Dots-Image" src={Dots} alt="" />
