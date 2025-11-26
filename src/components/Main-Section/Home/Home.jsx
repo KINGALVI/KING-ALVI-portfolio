@@ -9,19 +9,20 @@ const Home = () => {
     return (
         <>
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
-                <div className="card-body gird lg:items-start md:items-center sm:items-center">
-                    <h2 className="text-4xl md:text-center lg:text-left">Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and <span className="text-[#C778DD]">Gamer</span> </h2>
-                    <p className="text-[#ABB2BF] pt-5 pb-2.5">He crafts responsive websites where technologies meet creativity</p>
-                    <div className="card-actions">
+                <div className="card-body grid lg:items-start md:items-center sm:items-center">
+                    <h2 className="text-4xl text-center md:text-center lg:text-left">
+                        Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and <span className="text-[#C778DD]">Gamer</span>
+                    </h2>
+                    <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center md:text-center lg:text-left">
+                        He crafts responsive websites where technologies meet creativity
+                    </p>
+                    <div className="card-actions justify-center md:justify-center lg:justify-start">
                         <button className="text-[#ABB2BF]">Contact me !!</button>
                     </div>
                 </div>
                 <div className="grid lg:ps-0 md:ps-16">
-                    <figure style={{ position: 'relative' }}>
-                        <img
-                            className="lg:w-[457px] lg:h-[386px] sm:w-[457px] sm:h-[386px] md:w-[350px] md:h-[450px]  Background-Image"
-                            src={MyPhoto}
-                            alt="My Photo" />
+                    <figure style={{ position: 'relative' }} >
+                        <img src={MyPhoto} alt="My Photo" className="Background-Image lg:w-[457px] lg:h-[386px] md:w-[350px] md:h-[450px] sm:w-[457px] sm:h-[386px] ml-[75px] md:ml-[30px] mx-auto" />
                         <img className="Dots-Image" src={Dots} alt="" />
                     </figure>
                     <img src={Dedication} alt="" />
