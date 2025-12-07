@@ -4,10 +4,14 @@ import Dedication from "../../../../public/Images/My-Dedication.png";
 import Big_Medium_Screen_Quote from "../../../../public/Images/big-medim-screen-quote.png";
 import Mini_Small_Screen_Quote from "../../../../public/Images/mini-small-screen-quote.png";
 import quote_man from "../../../../public/Images/Frame-49.png";
+import Pink_line from "../../../../public/Images/Line-7.png"
+import Arrow_Button from "../../../../public/Images/Arrow_Button.png"
+import { Link } from "react-router-dom";
 const Home = () => {
 
     return (
         <>
+
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
                     <h2 className="text-4xl text-center md:text-center lg:text-left">
@@ -28,6 +32,7 @@ const Home = () => {
                     <img src={Dedication} alt="" />
                 </div>
             </section>
+
             <section className="flex justify-center">
                 <div>
                     <img className="reletive-quote_man-image" src={quote_man} alt="" />
@@ -42,6 +47,21 @@ const Home = () => {
                         className="block md:hidden"
                     />
                 </div>
+            </section>
+
+            <br /><br />
+
+            <section>
+                <div className="flex justify-between">
+                    <div className="flex items-center gap-3">
+                        <h1 className="text-4xl"><span className="text-[#C778DD]">#</span>Projects</h1>
+                        <div>
+                            <img className="mt-2.5" src={Pink_line} alt="Pink Line" />
+                        </div>
+                    </div>
+                    <Link to={"/works"} className="text-[#ABB2BF] flex items-center justify-center gap-1.5 projects-btn mt-2.5">View All<span><img src={Arrow_Button} alt="" /></span></Link>
+                </div>
+                <br /><br />
             </section>
 
         </>

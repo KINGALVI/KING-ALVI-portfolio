@@ -48,3 +48,12 @@ button:hover {
   position: relative;
   top: 13px;
 }
+
+.projects-btn{
+  border: none;
+}
+
+.projects-btn:hover{
+  color: whitesmoke;
+  background-color: #282C33;
+}
