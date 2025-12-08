@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
                 <nav className="grid grid-flow-col gap-4">
                     <NavLink to={"/"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Home</NavLink>
-                    <NavLink to={"/Works"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Works</NavLink>
+                    <NavLink to={"/Projects"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Projects</NavLink>
                     <NavLink to={"/About"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>About-Me</NavLink>
                     <NavLink to={"/Contacts"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Contacts</NavLink>
                 </nav>

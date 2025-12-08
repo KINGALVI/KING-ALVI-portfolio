@@ -17,7 +17,7 @@ export default function Header() {
             {/* Desktop / Pad menu */}
             <ul className="menu menu-horizontal lg:flex hidden">
                 <li><NavLink to="/"><span className="text-[#C778DD]">#</span>Home</NavLink></li>
-                <li><NavLink to="/Works"><span className="text-[#C778DD]">#</span>Works</NavLink></li>
+                <li><NavLink to="/Projects"><span className="text-[#C778DD]">#</span>Projects</NavLink></li>
                 <li><NavLink to="/About"><span className="text-[#C778DD]">#</span>About-Me</NavLink></li>
                 <li><NavLink to="/Contacts"><span className="text-[#C778DD]">#</span>Contacts</NavLink></li>
             </ul>
@@ -33,7 +33,7 @@ export default function Header() {
                 </label>
                 <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52">
                     <li><NavLink to="/"><span className="text-[#C778DD]">#</span>Home</NavLink></li>
-                    <li><NavLink to="/Works"><span className="text-[#C778DD]">#</span>Works</NavLink></li>
+                    <li><NavLink to="/Projects"><span className="text-[#C778DD]">#</span>Projects</NavLink></li>
                     <li><NavLink to="/About"><span className="text-[#C778DD]">#</span>About-Me</NavLink></li>
                     <li><NavLink to="/Contacts"><span className="text-[#C778DD]">#</span>Contacts</NavLink></li>
                     <br />

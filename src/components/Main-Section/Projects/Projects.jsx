@@ -1,6 +1,6 @@
 import Pink_line from "../../../../public/Images/Line-7.png"
 
-const Works = () => {
+const Projects = () => {
 
     return (
         <>
@@ -17,4 +17,4 @@ const Works = () => {
     );
 };
 
-export default Works;
+export default Projects;

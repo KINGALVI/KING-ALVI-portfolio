@@ -59,7 +59,7 @@ const Home = () => {
                             <img className="mt-2.5" src={Pink_line} alt="Pink Line" />
                         </div>
                     </div>
-                    <Link to={"/works"} className="text-[#ABB2BF] flex items-center justify-center gap-1.5 projects-btn mt-2.5">View All<span><img src={Arrow_Button} alt="" /></span></Link>
+                    <Link to={"/Projects"} className="text-[#ABB2BF] flex items-center justify-center gap-1.5 projects-btn mt-2.5">View All<span><img src={Arrow_Button} alt="" /></span></Link>
                 </div>
                 <br /><br />
             </section>
