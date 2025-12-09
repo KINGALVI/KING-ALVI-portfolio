@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { PortfolioContextAPI } from "./PrortfolioContex";
+import { PortfolioContextAPI } from "./PortfolioContext";
 
 const PortfolioContextAPIProvider = ({ children }) => {
   const [projectsAPI, setProjectsAPI] = useState([]);
@@ -11,7 +11,7 @@ const PortfolioContextAPIProvider = ({ children }) => {
       .catch(err => console.error("Failed to load projects:", err));
   }, []);
 
-  const value = { projectsAPI};
+  const value = { projectsAPI };
 
   return (
     <PortfolioContextAPI.Provider value={value}>
