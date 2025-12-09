@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import Pink_line from "../../../../public/Images/Line-7.png";
-import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
+import { PortfolioContextAPI } from "../../../Context-API/Portfolio-Context";
 import { Link } from "react-router-dom";
 
 const Projects = () => {

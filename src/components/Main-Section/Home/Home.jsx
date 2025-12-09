@@ -8,7 +8,7 @@ import Pink_line from "../../../../public/Images/Line-7.png";
 import Arrow_Button from "../../../../public/Images/Arrow_Button.png";
 import { Link } from "react-router-dom";
 import { useContext } from "react";
-import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
+import { PortfolioContextAPI } from "../../../Context-API/Portfolio-Context";
 
 const Home = () => {
     const { projectsAPI } = useContext(PortfolioContextAPI);
