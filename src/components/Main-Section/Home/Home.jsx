@@ -90,19 +90,21 @@ const Home = () => {
                         :
                         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                             {firstThreeProjects.map(project => (
-                                <div className="hover-3d">
+                                <div className="hover-3d ">
                                     <div
                                         key={project.id}
-                                        className="bg-[#2C2F36] grid items-center p-4 rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105"
+                                        className="bg-[#2C2F36] grid items-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
                                     >
                                         <img
                                             src={project.image}
                                             alt={project.projectName}
-                                            className="w-full h-48 object-cover rounded-md"
+                                            className="w-full h-48 object-cover rounded-md m-4"
                                         />
-                                        <h2 className="text-xl font-semibold mt-3">{project.projectName}</h2>
-                                        <h3 className="text-lg font-semibold mt-3 text-[#C778DD]">Technologies Used</h3>
-                                        <div className="flex flex-wrap gap-2 mt-2">
+                                        <span className="border border-[#ABB2BF]"></span>
+                                        <h2 className="text-xl font-semibold mt-3 m-4">{project.projectName}</h2>
+                                        <span className="border border-[#ABB2BF]"></span>
+                                        <h3 className="text-lg font-semibold text-[#C778DD] m-4">Technologies Used</h3>
+                                        <div className="flex flex-wrap gap-2 mt-1 m-4">
                                             {project.technologies.map((tech, index) => (
                                                 <span
                                                     key={index}
@@ -112,12 +114,14 @@ const Home = () => {
                                                 </span>
                                             ))}
                                         </div>
-                                        <p className="text-sm text-gray-400 mt-2 line-clamp-3">
+                                        <span className="border border-[#ABB2BF]"></span>
+                                        <p className="text-sm text-gray-400 mt-2 line-clamp-3 m-4">
                                             {project.detailInfo.slice(0, 100)}...<Link to={`/PojectsDetail/${project.id}`}
                                                 className="text-[#C778DD] hover:underline"
                                             >Read More</Link>
                                         </p>
-                                        <div className="flex gap-3 mt-3">
+                                        <span className="border border-[#ABB2BF]"></span>
+                                        <div className="flex gap-3 m-4 justify-center">
                                             <a
                                                 href={project.githubLink}
                                                 target="_blank"
