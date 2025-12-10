@@ -43,7 +43,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Quote Section */}
             <section className="flex justify-center">
                 <div>
                     <img className="reletive-quote_man-image" src={quote_man} alt="" />
