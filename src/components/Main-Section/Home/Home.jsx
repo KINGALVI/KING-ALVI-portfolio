@@ -16,7 +16,7 @@ const Home = () => {
     const firstThreeProjects = projectsAPI.slice(0, 3);
 
     return (
-        <>
+        <section className="p-4">
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
                     <h2 className="text-4xl text-center md:text-center lg:text-left">
@@ -151,7 +151,7 @@ const Home = () => {
                         </div>
                 }
             </section>
-        </>
+        </section>
     );
 };
 

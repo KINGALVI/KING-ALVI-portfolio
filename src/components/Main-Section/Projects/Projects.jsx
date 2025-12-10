@@ -7,7 +7,7 @@ const Projects = () => {
   const { projectsAPI } = useContext(PortfolioContextAPI);
 
   return (
-    <>
+    <section className="p-4">
       <div className="flex justify-between mb-6">
         <div className="flex items-center gap-3">
           <h1 className="text-4xl">
@@ -84,7 +84,7 @@ const Projects = () => {
           ))}
         </div>
       )}
-    </>
+    </section>
   );
 };
 
