@@ -114,7 +114,7 @@ const Home = () => {
                                             ))}
                                         </div>
                                         <span className="border border-[#ABB2BF]"></span>
-                                        <p className="text-sm text-gray-400 mt-2 line-clamp-3 m-4">
+                                        <p className="text-sm text-gray-400 line-clamp-3 m-4">
                                             {project.detailInfo.slice(0, 100)}...<Link to={`/PojectsDetail/${project.id}`}
                                                 className="text-[#C778DD] hover:underline"
                                             >Read More</Link>
