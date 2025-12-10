@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useParams, Link } from "react-router-dom";
-import { PortfolioContextAPI } from "../../../Context-Api/Portfolio-Context";
+import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 
 const ProjectsDetail = () => {
     const { id } = useParams();
