@@ -34,7 +34,7 @@ const Projects = () => {
                   <img
                     src={project.image}
                     alt={project.projectName}
-                    className="w-full h-48 object-cover rounded-md m-4"
+                    className="w-full h-full"
                   />
                   <span className="border border-[#ABB2BF]"></span>
                   <h2 className="text-xl font-semibold m-4 mt-3">{project.projectName}</h2>

@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "/Images/snap-bazar.png",
+        "image": "../Images/E-Commerce-Picture.jpg",
         "projectName": "Snap Bazar",
         "technologies": [
             "HTML",
@@ -21,7 +21,7 @@
     },
     {
         "id": 2,
-        "image": "/Images/phone-hunter.png",
+        "image": "../Images/phone-hunter.jpg",
         "projectName": "Phone Hunter",
         "technologies": [
             "HTML",
@@ -37,7 +37,7 @@
     },
     {
         "id": 3,
-        "image": "/Images/my-portfolio.png",
+        "image": "../Images/My-Portfolio.jpg",
         "projectName": "My Portfolio",
         "technologies": [
             "HTML",
@@ -57,7 +57,7 @@
     },
     {
         "id": 4,
-        "image": "/Images/career-hub.png",
+        "image": "/Images/career-hub.jpg",
         "projectName": "Career Hub",
         "technologies": [
             "HTML",
@@ -77,7 +77,7 @@
     },
     {
         "id": 5,
-        "image": "/Images/knowledge-cafe.png",
+        "image": "/Images/knowledge-cafe.jpg",
         "projectName": "Knowledge Cafe",
         "technologies": [
             "HTML",

@@ -97,8 +97,11 @@ const Home = () => {
                                         <img
                                             src={project.image}
                                             alt={project.projectName}
-                                            className="w-full h-48 object-cover rounded-md m-4"
+                                            className="w-full h-full"
                                         />
+                                        <figure className="max-w-100 rounded-2xl">
+                                            <img src="https://img.daisyui.com/images/stock/creditcard.webp" alt="3D card" />
+                                        </figure>
                                         <span className="border border-[#ABB2BF]"></span>
                                         <h2 className="text-xl font-semibold mt-3 m-4">{project.projectName}</h2>
                                         <span className="border border-[#ABB2BF]"></span>
