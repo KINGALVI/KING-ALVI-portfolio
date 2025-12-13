@@ -27,7 +27,7 @@ const Home = () => {
                         He crafts responsive websites where technologies meet creativity
                     </p>
                     <div className="card-actions justify-center md:justify-center lg:justify-start">
-                        <button className="text-[#ABB2BF]">Contact me !!</button>
+                        <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
                     </div>
                 </div>
                 <div className="grid lg:ps-0 md:ps-16">
@@ -99,9 +99,6 @@ const Home = () => {
                                             alt={project.projectName}
                                             className="w-full h-full"
                                         />
-                                        <figure className="max-w-100 rounded-2xl">
-                                            <img src="https://img.daisyui.com/images/stock/creditcard.webp" alt="3D card" />
-                                        </figure>
                                         <span className="border border-[#ABB2BF]"></span>
                                         <h2 className="text-xl font-semibold mt-3 m-4">{project.projectName}</h2>
                                         <span className="border border-[#ABB2BF]"></span>

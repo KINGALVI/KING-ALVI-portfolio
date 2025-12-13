@@ -49,11 +49,28 @@ button:hover {
   top: 13px;
 }
 
-.projects-btn{
+.projects-btn {
   border: none;
 }
 
-.projects-btn:hover{
+.projects-btn:hover {
   color: whitesmoke;
   background-color: #282C33;
+}
+
+.Link-Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 37px;
+  width: 148px;
+  border: 2px solid #C778DD;
+  border-radius: 5px;
+}
+
+.Link-Button:hover {
+  background-color: #C778DD;
+  cursor: pointer;
+  color: white;
+  font-weight: bolder;
 }

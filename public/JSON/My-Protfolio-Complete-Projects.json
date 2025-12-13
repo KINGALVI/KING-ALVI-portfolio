@@ -95,8 +95,8 @@
     },
     {
         "id": 6,
-        "image": "/Images/chiefs-kitchen-tales.png",
-        "projectName": "Chief's Kitchen Tales",
+        "image": "/Images/chief's-kitchen-tales.jpg",
+        "projectName": "Chief'schief Kitchen Tales",
         "technologies": [
             "HTML",
             "CSS",
@@ -113,7 +113,7 @@
     },
     {
         "id": 7,
-        "image": "/Images/scorer-king-vector.png",
+        "image": "/Images/scorer-king-vector.jpg",
         "projectName": "Scorer King Vector",
         "technologies": [
             "HTML",

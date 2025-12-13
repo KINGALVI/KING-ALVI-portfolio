@@ -17,7 +17,7 @@ const ProjectsDetail = () => {
             <img
                 src={project.image}
                 alt={project.projectName}
-                className="w-full h-64 object-cover rounded-md"
+                className="w-full h-full object-cover rounded-md"
             />
             <h1 className="text-3xl font-bold mt-4">{project.projectName}</h1>
             <h3 className="text-lg font-semibold mt-3 text-[#C778DD]">Technologies Used</h3>
