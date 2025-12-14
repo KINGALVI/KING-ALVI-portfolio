@@ -8,7 +8,6 @@ const PortfolioContextAPIProvider = ({ children }) => {
     fetch('../../public/JSON/My-Protfolio-Complete-Projects.json')
       .then(res => res.json())
       .then(data => setProjectsAPI(data))
-      .catch(err => console.error("Failed to load projects:", err));
   }, []);
 
   const value = { projectsAPI };
