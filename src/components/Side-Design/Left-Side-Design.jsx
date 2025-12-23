@@ -3,7 +3,7 @@ import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 const Left_Side_Design = () => {
     return (
-        <center className="w-[125px] hidden md:block">
+        <center className="w-[100px] hidden md:block">
             <img src={Line} alt="Line" />
             <div className="grid">
                 <span className="pb-2">

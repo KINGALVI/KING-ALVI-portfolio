@@ -1,5 +1,4 @@
 import { useContext } from "react";
-import Pink_line from "../../../../public/Images/Line-7.png";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 import { Link } from "react-router-dom";
 
@@ -14,7 +13,7 @@ const Projects = () => {
           <h1 className="text-4xl">
             <span className="text-[#C778DD]">#</span>Projects
           </h1>
-          <img className="mt-2.5" src={Pink_line} alt="Pink Line" />
+          <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-2xl w-[200px]"></div>
         </div>
       </div>
 
@@ -55,7 +54,7 @@ const Projects = () => {
                     </div>
                     <span className="border border-[#ABB2BF]"></span>
                     <p className="text-sm text-gray-400 line-clamp-3 m-4">
-                      {detailInfo?.slice(0, 100)}...
+                      {detailInfo?.slice(0, 70)}...
                       <Link
                         to={`/PojectsDetail/${id}`}
                         className="text-[#C778DD] hover:underline"
