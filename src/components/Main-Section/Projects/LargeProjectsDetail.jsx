@@ -2,25 +2,27 @@ import { useContext } from "react";
 import { useParams, Link } from "react-router-dom";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 
-const ProjectsDetail = () => {
+const LargeProjectsDetail = () => {
     const { id } = useParams();
-    const { projectsAPI } = useContext(PortfolioContextAPI);
+    const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
 
-    const project = projectsAPI.find(p => p.id === parseInt(id));
+    const LargeProjects = LargeProjectsAPI.find(p => p.id === parseInt(id));
 
-    if (!project) {
+    if (!LargeProjects) {
         return <p className="text-gray-400">Project not found.</p>;
     }
 
-    const { image, projectName, technologies, detailInfo, githubLink, liveLink } = project;
+    const { image, projectName, technologies, detailInfo, githubLink, liveLink } = LargeProjects;
 
     return (
         <div className="p-6 bg-[#2C2F36] rounded-lg shadow-md">
-            <img
-                src={image}
-                alt={projectName}
-                className="w-full h-full object-cover rounded-md"
-            />
+            <center>
+                <img
+                    src={image}
+                    alt={projectName}
+                    className="w-[50%] h-[50%] object-cover rounded-md"
+                />
+            </center>
             <h1 className="text-3xl font-bold mt-4">{projectName}</h1>
             <h3 className="text-lg font-semibold mt-3 text-[#C778DD]">Technologies Used</h3>
             <div className="flex flex-wrap gap-2 mt-2">
@@ -63,4 +65,4 @@ const ProjectsDetail = () => {
     );
 };
 
-export default ProjectsDetail;
+export default LargeProjectsDetail;

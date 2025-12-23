@@ -5,7 +5,7 @@ import Home from "../components/Main-Section/Home/Home";
 import Projects from "../components/Main-Section/Projects/Projects";
 import About from "../components/Main-Section/About/About";
 import Contacts from "../components/Main-Section/Contacts/Contacts";
-import ProjectsDetail from "../components/Main-Section/Projects/ProjectsDetail";
+import LargeProjectsDetail from "../components/Main-Section/Projects/LargeProjectsDetail";
 
 const React_Router = () => {
 
@@ -39,8 +39,8 @@ const React_Router = () => {
 
                 },
                 {
-                    path: "/PojectsDetail/:id",
-                    Component: ProjectsDetail,
+                    path: "/LargeProjectsDetail/:id",
+                    Component: LargeProjectsDetail,
                 }
             ]
         }

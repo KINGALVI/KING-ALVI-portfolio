@@ -1,7 +1,6 @@
 [
     {
         "id": 1,
-        "image": "../Images/Bodyshape.jpg",
         "projectName": "Bodyshape",
         "technologies": [
             "HTML",
@@ -15,7 +14,6 @@
     },
     {
         "id": 2,
-        "image": "../Images/BD-Help-Organization.jpg",
         "projectName": "BD Help Organization",
         "technologies": [
             "HTML",
@@ -27,7 +25,6 @@
     },
     {
         "id": 3,
-        "image": "../Images/Panda-Commerce.jpg",
         "projectName": "Panda Commerce",
         "technologies": [
             "HTML",
@@ -40,7 +37,6 @@
     },
     {
         "id": 4,
-        "image": "/Images/Penguin Fashion.jpg",
         "projectName": "Penguin Fashion",
         "technologies": [
             "HTML",
@@ -54,7 +50,6 @@
     },
     {
         "id": 5,
-        "image": "/Images/edTech-Education.jpg",
         "projectName": "edTech Education",
         "technologies": [
             "HTML",
@@ -68,7 +63,6 @@
     },
     {
         "id": 6,
-        "image": "/Images/Super-Bank.jpg",
         "projectName": "Super Bank",
         "technologies": [
             "HTML",
@@ -81,7 +75,6 @@
     },
     {
         "id": 7,
-        "image": "/Images/Shopping Cart.jpg",
         "projectName": "Shopping Cart",
         "technologies": [
             "HTML",
@@ -95,7 +88,6 @@
     },
     {
         "id": 8,
-        "image": "/Images/scorer-king-vector.jpg",
         "projectName": "Scorer King Vector",
         "technologies": [
             "HTML",

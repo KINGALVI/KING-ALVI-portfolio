@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Projects = () => {
 
-  const { projectsAPI } = useContext(PortfolioContextAPI);
+  const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
 
   return (
     <section className="p-4">
@@ -17,18 +17,18 @@ const Projects = () => {
         </div>
       </div>
 
-      {projectsAPI.length === 0 ? (
+      {LargeProjectsAPI.length === 0 ? (
         <div className="flex justify-center items-center h-screen">
           <span className="loading loading-spinner loading-lg text-[#C778DD]"></span>
         </div>
       ) : (
         <section>
           <section>
-            <h1 className="text-4xl mb-7 text-[#ABB2BF]">
+            <h1 className="text-4xl  mb-7 text-[#ABB2BF]">
               <span className="text-[#C778DD]">#</span>Large-Projects
             </h1>
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              {projectsAPI.map(({ id, image, projectName, technologies, githubLink, liveLink, detailInfo }) => (
+              {LargeProjectsAPI.map(({ id, image, projectName, technologies, githubLink, liveLink, detailInfo }) => (
                 <div className="hover-3d" key={id}>
                   <div
                     className="hover-card grid items-center bg-[#2C2F36] rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
@@ -83,7 +83,7 @@ const Projects = () => {
                       </a>
 
                       <Link
-                        to={`/PojectsDetail/${id}`}
+                        to={`/LargeProjectsDetail/${id}`}
                         className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                       >
                         Details
@@ -95,7 +95,7 @@ const Projects = () => {
             </div>
           </section>
           <section>
-            <h1 className="text-4xl mb-7 text-[#ABB2BF]">
+            <h1 className="text-4xl mt-7 mb-7 text-[#ABB2BF]">
               <span className="text-[#C778DD]">#</span>Small-Projects
             </h1>
             <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">

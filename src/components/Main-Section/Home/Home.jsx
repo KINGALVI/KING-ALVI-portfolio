@@ -10,9 +10,9 @@ import { useContext } from "react";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 
 const Home = () => {
-    const { projectsAPI } = useContext(PortfolioContextAPI);
+    const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
 
-    const firstThreeProjects = projectsAPI.slice(0, 3);
+    const firstThreeProjects = LargeProjectsAPI.slice(0, 3);
 
     return (
         <section className="p-2">
@@ -86,7 +86,7 @@ const Home = () => {
                 <br /><br />
 
                 {
-                    projectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
+                    LargeProjectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
                         :
                         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                             {firstThreeProjects.map(({ id, image, projectName, technologies, githubLink, liveLink, detailInfo }) => (
@@ -139,7 +139,7 @@ const Home = () => {
                                                 Live
                                             </a>
                                             <Link
-                                                to={`/PojectsDetail/${id}`}
+                                                to={`/LargeProjectsDetail/${id}`}
                                                 className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                             >
                                                 Details

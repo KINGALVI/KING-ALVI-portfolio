@@ -2,15 +2,22 @@ import { useEffect, useState } from "react";
 import { PortfolioContextAPI } from "./PortfolioContext";
 
 const PortfolioContextAPIProvider = ({ children }) => {
-  const [projectsAPI, setProjectsAPI] = useState([]);
+  const [LargeProjectsAPI, setLargeProjectsAPI] = useState([]);
+  const [SmallProjectsAPI, setSmallProjectsAPI] = useState([]);
 
   useEffect(() => {
-    fetch('../../public/JSON/My-Protfolio-Complete-Projects.json')
+    fetch('../../public/JSON/My-Protfolio-Large-Projects.json')
       .then(res => res.json())
-      .then(data => setProjectsAPI(data))
+      .then(data => setLargeProjectsAPI(data))
   }, []);
 
-  const value = { projectsAPI };
+    useEffect(() => {
+    fetch('../../public/JSON/My-Protfolio-Small-Projects.json')
+      .then(res => res.json())
+      .then(data => setSmallProjectsAPI(data))
+  }, []);
+
+  const value = { LargeProjectsAPI , SmallProjectsAPI };
 
   return (
     <PortfolioContextAPI.Provider value={value}>
