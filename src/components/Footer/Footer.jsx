@@ -5,8 +5,8 @@ const Footer = () => {
 
     return (
         <>
-            <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
-                <nav className="grid grid-flow-col gap-4">
+            <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded">
+                <nav className="grid grid-flow-col gap-4 mt-10">
                     <NavLink to={"/"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Home</NavLink>
                     <NavLink to={"/Projects"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>Projects</NavLink>
                     <NavLink to={"/About"} className="text-[#ABB2BF]"><span className="text-[#C778DD]">#</span>About-Me</NavLink>
@@ -19,7 +19,7 @@ const Footer = () => {
                         <a target="_blank" href="https://www.facebook.com/alvi.al.mahamud/"><FaFacebookSquare className="w-[30px] h-[30px] text-[#ABB2BF] Logo" /></a>
                     </div>
                 </nav>
-                <aside>
+                <aside className="mb-10">
                     <p>Copyright © {new Date().getFullYear()} - All right reserved by <b>KING ALVI</b></p>
                 </aside>
             </footer>
