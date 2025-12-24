@@ -9,7 +9,7 @@ export default function Header() {
                 <div className="flex items-center">
                     <Link className="btn btn-ghost normal-case text-xl flex items-center">
                         <img src={Logo} alt="Logo" className="w-8 h-8 mr-2" />
-                        KING ALVI
+                        Alvi.Dev.Ops
                     </Link>
                 </div>
             </div>
