@@ -12,7 +12,7 @@ const PortfolioContextAPIProvider = ({ children }) => {
   }, []);
 
     useEffect(() => {
-    fetch('../../public/JSON/My-Protfolio-Small-Projects.json')
+    fetch('../../public/JSON/My-Portfolio-Small-Projects.json')
       .then(res => res.json())
       .then(data => setSmallProjectsAPI(data))
   }, []);

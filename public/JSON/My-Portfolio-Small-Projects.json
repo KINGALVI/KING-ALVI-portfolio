@@ -85,16 +85,5 @@
         "detailInfo": "A dynamic shopping cart UI built with HTML, CSS (Bootstrap), and JavaScript. Users can modify item quantities, remove products, and track real-time pricing updates, including taxes. The checkout process features interactive modals for purchase confirmation, ensuring smooth, accessible, and user-friendly shopping experience for e-commerce platform .",
         "githubLink": "https://github.com/KINGALVI/Shopping-Cart",
         "liveLink": "https://elegant-puppy-c4fdf0.netlify.app/"
-    },
-    {
-        "id": 8,
-        "projectName": "Scorer King Vector",
-        "technologies": [
-            "HTML",
-            "CSS"
-        ],
-        "detailInfo": "This project represents the Bangladesh flag using HTML and CSS. It features a responsive design with a green background and a centered red circle, created using Flexbox for alignment and scalable dimensions. A clean structure and modern styling make it perfect for learning CSS layout techniques and enhancing UI design skills.",
-        "githubLink": "https://github.com/KINGALVI/BANGLADESH-FLAG",
-        "liveLink": "https://magnificent-kulfi-34c791.netlify.app/"
     }
 ]

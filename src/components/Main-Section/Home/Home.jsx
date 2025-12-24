@@ -73,7 +73,7 @@ const Home = () => {
                         </div>
                     </div>
                     <Link
-                        to={"/Projects"}
+                        to={"/AllProjects"}
                         className="text-[#ABB2BF] flex items-center justify-start gap-1.5 projects-btn mt-2.5"
                     >
                         View All
@@ -90,10 +90,10 @@ const Home = () => {
                         :
                         <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                             {firstThreeProjects.map(({ id, image, projectName, technologies, githubLink, liveLink, detailInfo }) => (
-                                <div className="hover-3d ">
+                                <div className="hover-3d">
                                     <div
                                         key={id}
-                                        className="bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
+                                        className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
                                     >
                                         <img
                                             src={image}
@@ -103,7 +103,7 @@ const Home = () => {
                                         <span className="border border-[#ABB2BF]"></span>
                                         <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
                                         <span className="border border-[#ABB2BF]"></span>
-                                        <h3 className="text-lg font-semibold text-[#C778DD] m-4">Technologies Used</h3>
+                                        <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>
                                         <div className="flex flex-wrap gap-2 mt-1 m-4">
                                             {technologies.map((tech, index) => (
                                                 <span
@@ -116,9 +116,12 @@ const Home = () => {
                                         </div>
                                         <span className="border border-[#ABB2BF]"></span>
                                         <p className="text-sm text-gray-400 line-clamp-3 m-4">
-                                            {detailInfo.slice(0, 100)}...<Link to={`/PojectsDetail/${id}`}
+                                            {detailInfo.slice(0, 100)}...
+                                            <Link to={`/LargeProjectsDetail/${id}`}
                                                 className="text-[#C778DD] hover:underline"
-                                            >Read More</Link>
+                                            >
+                                                Read More
+                                            </Link>
                                         </p>
                                         <span className="border border-[#ABB2BF]"></span>
                                         <div className="flex xl:gap-3 gap-2 xl:m-4 m-4 justify-center">

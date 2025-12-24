@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "image": "../Images/E-Commerce-Picture.jpg",
         "projectName": "Snap Bazar",
         "technologies": [
             "HTML",

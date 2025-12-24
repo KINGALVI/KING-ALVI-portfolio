@@ -2,10 +2,10 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ErrorHandel from "../components/HandelError/ErrorHandel";
 import Main from "../components/Main-Section/MainSection";
 import Home from "../components/Main-Section/Home/Home";
-import Projects from "../components/Main-Section/Projects/Projects";
+import AllProjects from "../components/Main-Section/Projects/AllProjects";
 import About from "../components/Main-Section/About/About";
 import Contacts from "../components/Main-Section/Contacts/Contacts";
-import LargeProjectsDetail from "../components/Main-Section/Projects/LargeProjectsDetail";
+import LargeProjectsDetail from "../components/Main-Section/Projects/Large-Projects/LargeProjectsDetail";
 
 const React_Router = () => {
 
@@ -24,8 +24,8 @@ const React_Router = () => {
 
                 },
                 {
-                    path: "/Projects",
-                    Component: Projects,
+                    path: "/AllProjects",
+                    Component: AllProjects,
 
                 },
                 {

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { useParams, Link } from "react-router-dom";
-import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
+import { PortfolioContextAPI } from "../../../../Context-API/PortfolioContext";
 
 const LargeProjectsDetail = () => {
     const { id } = useParams();
@@ -20,7 +20,7 @@ const LargeProjectsDetail = () => {
                 <img
                     src={image}
                     alt={projectName}
-                    className="w-[50%] h-[50%] object-cover rounded-md"
+                    className="md:w-[75%] md:h-[75%] h-full w-full object-cover rounded-md"
                 />
             </center>
             <h1 className="text-3xl font-bold mt-4">{projectName}</h1>
@@ -42,7 +42,7 @@ const LargeProjectsDetail = () => {
                     href={githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="flex justify-center items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     GitHub
                 </a>
@@ -50,13 +50,13 @@ const LargeProjectsDetail = () => {
                     href={liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
-                    Live
+                    Live Link
                 </a>
                 <Link
-                    to="/Projects"
-                    className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    to="/AllProjects"
+                    className="text-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     Back to Projects
                 </Link>
