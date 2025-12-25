@@ -1,29 +1,30 @@
 import { Link, NavLink } from "react-router-dom";
-import Logo from "../../../public/Images/Style=Default.svg";
+import Logo from "../../../public/Images/My-Portfolio-Logo.png";
 import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
     return (
-        <nav className="navbar bg-base-200 px-4 rounded sticky top-0 z-50">
+        <nav className="navbar bg-base-200 p-0 pe-6 rounded sticky top-0 z-50">
+
             <div className="flex-1">
                 <div className="flex items-center">
-                    <Link className="btn btn-ghost normal-case text-xl flex items-center">
-                        <img src={Logo} alt="Logo" className="w-8 h-8 mr-2" />
+                    <Link className="font-bold text-2xl flex items-center">
+                        <img src={Logo} alt="Logo" className="w-[100px] h-[100px]" />
                         Alvi.Dev.Ops
                     </Link>
                 </div>
             </div>
 
-            {/* Desktop / Pad menu */}
-            <ul className="menu menu-horizontal lg:flex hidden">
+            {/* big screen */}
+            <ul className="menu menu-horizontal md:flex hidden md:p-0">
                 <li><NavLink to="/"><span className="text-[#C778DD]">#</span>Home</NavLink></li>
                 <li><NavLink to="/AllProjects"><span className="text-[#C778DD]">#</span>Projects</NavLink></li>
                 <li><NavLink to="/About"><span className="text-[#C778DD]">#</span>About-Me</NavLink></li>
                 <li><NavLink to="/Contacts"><span className="text-[#C778DD]">#</span>Contacts</NavLink></li>
             </ul>
 
-            {/* Mobile / Mini Pad dropdown */}
-            <div className="dropdown dropdown-end lg:hidden">
+            {/* medium & small screen */}
+            <div className="dropdown dropdown-end md:hidden md:p-0">
                 <label tabIndex={0} className="btn btn-ghost btn-square">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6"
                         fill="none" viewBox="0 0 24 24" stroke="currentColor">

@@ -1,5 +1,7 @@
 import { useContext } from "react";
 import { PortfolioContextAPI } from "../../../../Context-API/PortfolioContext";
+import { MdLiveTv } from "react-icons/md";
+import { FaGithub } from "react-icons/fa";
 
 const SmallProjects = () => {
 
@@ -41,18 +43,17 @@ const SmallProjects = () => {
                                         href={githubLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                        className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                     >
-                                        GitHub
+                                        <FaGithub className="text-[21px]" />  GitHub
                                     </a>
-
                                     <a
                                         href={liveLink}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                        className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                     >
-                                        Live Link
+                                        <MdLiveTv className="text-[21px]" /> Live Link
                                     </a>
                                 </div>
                             </div>

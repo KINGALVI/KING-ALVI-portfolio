@@ -6,6 +6,8 @@ import Mini_Small_Screen_Quote from "../../../../public/Images/mini-small-screen
 import quote_man from "../../../../public/Images/Frame-49.png";
 import Arrow_Button from "../../../../public/Images/Arrow_Button.png";
 import { Link } from "react-router-dom";
+import { MdLiveTv } from "react-icons/md";
+import { FaGithub, FaInfo } from "react-icons/fa";
 import { useContext } from "react";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 
@@ -88,16 +90,16 @@ const Home = () => {
                 {
                     LargeProjectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
                         :
-                        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-                            {firstThreeProjects.map(({ id, image, projectName, technologies, githubLink, liveLink, detailInfo }) => (
-                                <div className="hover-3d">
+                        <div className="grid gap-3 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                            {firstThreeProjects.map(({ id, image, alt, projectName, technologies, githubLink, liveLink, detailInfo }) => (
+                                <div className="hover-3d" key={id}>
                                     <div
                                         key={id}
                                         className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
                                     >
                                         <img
                                             src={image}
-                                            alt={projectName}
+                                            alt={alt}
                                             className="w-full h-full"
                                         />
                                         <span className="border border-[#ABB2BF]"></span>
@@ -124,14 +126,41 @@ const Home = () => {
                                             </Link>
                                         </p>
                                         <span className="border border-[#ABB2BF]"></span>
-                                        <div className="flex xl:gap-3 gap-2 xl:m-4 m-4 justify-center">
+                                        {/* big & medium screen */}
+                                        <div className="md:flex hidden xl:gap-2 gap-4 m-4 justify-center">
                                             <a
                                                 href={githubLink}
                                                 target="_blank"
                                                 rel="noopener noreferrer"
-                                                className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                                className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                             >
-                                                GitHub
+                                                <FaGithub className="text-[21px]" />  GitHub
+                                            </a>
+                                            <a
+                                                href={liveLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                            >
+                                                <MdLiveTv className="text-[21px]" /> Live Link
+                                            </a>
+                                            <Link
+                                                to={`/LargeProjectsDetail/${id}`}
+                                                className="text-[15px] gap-0 rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                            >
+                                                <FaInfo className="text-[17px]" />  Detail Info
+                                            </Link>
+                                        </div>
+
+                                        {/* small screen */}
+                                        <div className="md:hidden flex gap-2 m-4 justify-center text-center">
+                                            <a
+                                                href={githubLink}
+                                                target="_blank"
+                                                rel="noopener noreferrer"
+                                                className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                            >
+                                                <span><center><FaGithub className="text-[17px] mb-0" /></center>  GitHub</span>
                                             </a>
                                             <a
                                                 href={liveLink}
@@ -139,15 +168,16 @@ const Home = () => {
                                                 rel="noopener noreferrer"
                                                 className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                             >
-                                                Live
+                                                <center><MdLiveTv className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Live</span> <span> Link</span></span>
                                             </a>
                                             <Link
                                                 to={`/LargeProjectsDetail/${id}`}
                                                 className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
                                             >
-                                                Details
+                                                <center><FaInfo className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Detail</span> <span> Info</span></span>
                                             </Link>
                                         </div>
+
                                     </div>
                                 </div>
                             ))}

@@ -2,7 +2,8 @@
     {
         "id": 1,
         "image": "../Images/E-Commerce-Picture.jpg",
-        "projectName": "Snap Bazar",
+        "alt": "Snap Bazaar Image",
+        "projectName": "Snap Bazaar",
         "technologies": [
             "HTML",
             "CSS",
@@ -15,14 +16,15 @@
             "React Toastify",
             "React Bootstrap"
         ],
-        "detailInfo": "Snap Bazar is a modern e-commerce platform designed to simulate a real shopping experience for users. It showcases ten products with interactive features such as search, login, add money, cart management, and delivery tracking. The goal was to create a responsive, user-friendly platform that demonstrates how technologies can meet creativity in a practical application. Users can search for products, add them to their cart, manage their balance, and confirm delivery, making the experience feel authentic and engaging. The project was built using React for component-based architecture, React Router for navigation, and Context API for global state management. JSON data was used to simulate product information, while React Toastify provided real-time feedback for user actions. Styling was achieved with CSS animations and React Bootstrap, ensuring a polished and responsive interface. One of the key challenges was managing cart and balance updates across multiple components, which was solved through Context API. This project also emphasized the importance of user experience polish, with animations and feedback modals enhancing usability. Snap Bazar reflects my ability to combine multiple technologies into a cohesive product, demonstrating both technical skill and attention to detail. It was a valuable learning experience in building scalable, interactive applications that balance functionality with design.",
+        "detailInfo": "Snap Bazaar is a modern e-commerce platform designed to simulate a real shopping experience for users. It showcases ten products with interactive features such as search, login, add money, cart management, and delivery tracking. The goal was to create a responsive, user-friendly platform that demonstrates how technologies can meet creativity in a practical application. Users can search for products, add them to their cart, manage their balance, and confirm delivery, making the experience feel authentic and engaging. The project was built using React for component-based architecture, React Router for navigation, and Context API for global state management. JSON data was used to simulate product information, while React Toastify provided real-time feedback for user actions. Styling was achieved with CSS animations and React Bootstrap, ensuring a polished and responsive interface. One of the key challenges was managing cart and balance updates across multiple components, which was solved through Context API. This project also emphasized the importance of user experience polish, with animations and feedback modals enhancing usability. Snap Bazaar reflects my ability to combine multiple technologies into a cohesive product, demonstrating both technical skill and attention to detail. It was a valuable learning experience in building scalable, interactive applications that balance functionality with design.",
         "githubLink": "https://github.com/KINGALVI/Snap-Bazaar",
-        "liveLink": "https://frabjous-cascaron-053bbc.netlify.app/"
+        "liveLink": "https://snap-bazaar.netlify.app/"
     },
     {
         "id": 2,
         "image": "../Images/phone-hunter.jpg",
-        "projectName": "Phone Hunter",
+        "alt": "Smart Phone Hunter Image",
+        "projectName": "Smart Phone Hunter",
         "technologies": [
             "HTML",
             "CSS",
@@ -33,11 +35,12 @@
         ],
         "detailInfo": "Phone Hunter is a product showcase website designed to help users explore detailed information about mobile phones. The platform allows visitors to search for specific devices and view their specifications, making it a useful tool for anyone researching or comparing phones. The project emphasizes dynamic data rendering, where JSON data is used to simulate product details. Bootstrap was integrated to ensure responsive layouts, while CSS animations added visual polish to the user interface. One of the main goals of Phone Hunter was to create a simple yet effective search experience, enabling users to quickly find the phone they are interested in. The project also demonstrates how JavaScript can be used to filter and display data dynamically, ensuring smooth interactions without page reloads. Building this application taught me the importance of structuring data effectively and designing interfaces that adapt to different screen sizes. It also reinforced my understanding of combining Bootstrap’s grid system with custom CSS animations to achieve a balance between functionality and aesthetics. Overall, Phone Hunter reflects my ability to build practical, user-focused applications that highlight both technical implementation and design considerations.",
         "githubLink": "https://github.com/KINGALVI/phone-hunter",
-        "liveLink": "https://frolicking-begonia-342508.netlify.app/"
+        "liveLink": "https://smart-phone-hunter.netlify.app/"
     },
     {
         "id": 3,
         "image": "../Images/My-Portfolio.jpg",
+        "alt": "My Portfolio Image",
         "projectName": "My Portfolio",
         "technologies": [
             "HTML",
@@ -58,7 +61,8 @@
     {
         "id": 4,
         "image": "/Images/career-hub.jpg",
-        "projectName": "Career Hub",
+        "alt": "Future Career Hub Image",
+        "projectName": "Future Career Hub",
         "technologies": [
             "HTML",
             "CSS",
@@ -73,12 +77,13 @@
         ],
         "detailInfo": "Career Hub is a job portal website designed to help users find employment opportunities and explore detailed job information. The platform allows visitors to browse listings, view descriptions, and apply for positions directly. It was built using React for component-based architecture, with prop drilling used to manage data flow across multiple components. DaisyUI and TailwindCSS were integrated to create a clean, responsive interface, while React Toastify provided real-time notifications for user actions. JSON data was used to simulate job listings, making the application dynamic and easy to expand. CSS animations added subtle visual enhancements, improving the overall user experience. One of the main challenges was managing state across different components while ensuring data consistency, which was addressed through careful use of props and structured component hierarchies. Career Hub taught me the importance of designing applications that prioritize clarity and usability, especially when dealing with complex data. It also reinforced my ability to integrate multiple libraries and frameworks into a cohesive product. Overall, Career Hub reflects my ability to build functional, user-focused applications that balance technical implementation with design considerations.",
         "githubLink": "https://github.com/KINGALVI/career-hub",
-        "liveLink": "https://statuesque-muffin-211961.netlify.app/"
+        "liveLink": "https://future-career-hub.netlify.app/"
     },
     {
         "id": 5,
         "image": "/Images/knowledge-cafe.jpg",
-        "projectName": "Knowledge Cafe",
+        "alt": "Creative Knowledge Cafe Image",
+        "projectName": "Creative Knowledge Cafe",
         "technologies": [
             "HTML",
             "CSS",
@@ -91,12 +96,13 @@
         ],
         "detailInfo": "Knowledge Cafe is a blog platform designed to provide users with creative and informative articles across various topics. The site allows visitors to read blogs, save their favorites, and search for specific content. Built with React, the project uses props drilling to manage data flow between components, ensuring smooth interactions. TailwindCSS was used for styling, providing a responsive and modern layout, while CSS animations added visual polish. JSON data was integrated to simulate blog content, making the platform dynamic and easy to update. One of the key features is the ability to save blogs, allowing users to curate their own reading list. The search functionality ensures that users can quickly find articles of interest. Developing Knowledge Cafe taught me the importance of designing user-friendly interfaces that encourage engagement and exploration. It also reinforced my understanding of props drilling and how to manage state effectively in React applications. This project reflects my ability to build interactive platforms that combine technical implementation with thoughtful design, creating a product that is both functional and enjoyable to use.",
         "githubLink": "https://github.com/KINGALVI/knowledge-cafe",
-        "liveLink": "https://preeminent-bublanina-bd4fe4.netlify.app/"
+        "liveLink": "https://creative-knowledge-cafe.netlify.app/"
     },
     {
         "id": 6,
         "image": "/Images/chief's-kitchen-tales.jpg",
-        "projectName": "Chief'schief Kitchen Tales",
+        "alt": "Chief's Kitchen Tales Image",
+        "projectName": "Chief's Kitchen Tales",
         "technologies": [
             "HTML",
             "CSS",
@@ -109,11 +115,12 @@
         ],
         "detailInfo": "Chief's Kitchen Tales is a food ordering website designed to provide users with a simple and engaging way to browse and order meals. The platform includes features such as search, cart management, and order confirmation, making it feel like a real food delivery service. Built with React, the project uses props drilling to manage data flow across components. JSON data was integrated to simulate menu items, while React Bootstrap ensured a responsive and polished interface. CSS animations added visual enhancements, improving the overall user experience. One of the main challenges was managing cart updates and ensuring that orders were processed correctly across different components. This was addressed through careful state management and structured component hierarchies. Chief's Kitchen Tales taught me the importance of designing applications that prioritize usability and clarity, especially when dealing with dynamic data. It also reinforced my ability to integrate multiple libraries and frameworks into a cohesive product. Overall, this project reflects my ability to build functional, user-focused applications that balance technical implementation with design considerations.",
         "githubLink": "https://github.com/KINGALVI/Chief-s-Kitchen-Tales",
-        "liveLink": "https://jazzy-pithivier-62da20.netlify.app/"
+        "liveLink": "https://chief-s-kitchen-tales.netlify.app/"
     },
     {
         "id": 7,
         "image": "/Images/scorer-king-vector.jpg",
+        "alt": "Scorer King Vector Image",
         "projectName": "Scorer King Vector",
         "technologies": [
             "HTML",
@@ -128,6 +135,6 @@
         ],
         "detailInfo": "Scorer King Vector is a fantasy football team builder designed to give users the freedom to create their dream squad. The platform allows visitors to browse available players, select them into a custom lineup, and manage their team composition interactively. Built with React, the project leverages props drilling to pass player data and team state across multiple components, ensuring smooth updates as users add or remove players. JSON data was used to simulate player information, including names, positions, and attributes, while React Bootstrap provided a responsive and polished interface. CSS animations were integrated to enhance the experience, making team selections and transitions visually engaging. React Toastify was used to deliver real-time feedback, such as confirming player additions or notifying users when a team limit was reached. One of the key challenges was managing dynamic state across different components while keeping the interface intuitive, which was solved through careful structuring of props and component hierarchies. This project taught me valuable lessons about balancing functionality with user experience, especially in applications that rely heavily on dynamic data handling. Scorer King Vector reflects my ability to design interactive platforms that combine technical implementation with creativity, offering users a fun and engaging way to explore football team building. It demonstrates my growing confidence in React, state management, and UI polish, while also highlighting my ability to integrate multiple libraries into a cohesive product.",
         "githubLink": "https://github.com/KINGALVI/scorer-king-vector",
-        "liveLink": "https://dynamic-yeot-331198.netlify.app/"
+        "liveLink": "https://scorer-king-vector.netlify.app/"
     }
 ]
