@@ -14,10 +14,10 @@ import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 const Home = () => {
     const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
 
-    const firstThreeProjects = LargeProjectsAPI.slice(0, 3);
+    const firstThreeProjects = LargeProjectsAPI.slice(0, 4);
 
     return (
-        <section className="p-2">
+        <section className="m-2">
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
                     <h2 className="text-4xl text-center md:text-center lg:text-left">
@@ -90,7 +90,7 @@ const Home = () => {
                 {
                     LargeProjectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
                         :
-                        <div className="grid gap-3 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                        <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mb-10">
                             {firstThreeProjects.map(({ id, image, alt, projectName, technologies, githubLink, liveLink, detailInfo }) => (
                                 <div className="hover-3d" key={id}>
                                     <div
@@ -126,8 +126,8 @@ const Home = () => {
                                             </Link>
                                         </p>
                                         <span className="border border-[#ABB2BF]"></span>
-                                        {/* big & medium screen */}
-                                        <div className="md:flex hidden xl:gap-2 gap-4 m-4 justify-center">
+                                        {/* big screen */}
+                                        <div className="xl:flex hidden gap-10 m-4 justify-center">
                                             <a
                                                 href={githubLink}
                                                 target="_blank"
@@ -152,8 +152,8 @@ const Home = () => {
                                             </Link>
                                         </div>
 
-                                        {/* small screen */}
-                                        <div className="md:hidden flex gap-2 m-4 justify-center text-center">
+                                        {/* small & medium screen */}
+                                        <div className="xl:hidden flex gap-3 m-4 justify-center text-center">
                                             <a
                                                 href={githubLink}
                                                 target="_blank"

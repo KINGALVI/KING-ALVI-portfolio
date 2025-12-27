@@ -20,7 +20,7 @@ const Footer = () => {
                     </div>
                 </nav>
                 <aside className="mb-10">
-                    <p>Copyright © {new Date().getFullYear()} - All right reserved by <b>KING ALVI</b></p>
+                    <p>Copyright © {new Date().getFullYear()} - All right reserved by <b>Alvi.Dev.Ops</b></p>
                 </aside>
             </footer>
         </>

@@ -11,11 +11,11 @@ const LargeProjects = () => {
 
     return (
         <>
-            <section className="mt-7 mb-14 p-2">
+            <section className="mt-7 mb-14 m-2">
                 <h1 className="text-4xl mb-7 text-[#ABB2BF]">
                     <span className="text-[#C778DD]">#</span>Large-Projects
                 </h1>
-                <div className="grid gap-3 sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
+                <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
                     {LargeProjectsAPI.map(({ id, image, alt, projectName, technologies, githubLink, liveLink, detailInfo }) => (
                         <div className="hover-3d" key={id}>
                             <div
@@ -53,7 +53,7 @@ const LargeProjects = () => {
                                 </p>
                                 <span className="border border-[#ABB2BF]"></span>
                                 {/* big screen */}
-                                <div className="md:flex hidden xl:gap-2 gap-4 m-4 justify-center">
+                                <div className="xl:flex hidden gap-10 m-4 justify-center">
                                     <a
                                         href={githubLink}
                                         target="_blank"
@@ -78,8 +78,8 @@ const LargeProjects = () => {
                                     </Link>
                                 </div>
 
-                                {/* small screen */}
-                                <div className="md:hidden flex gap-2 m-4 justify-center text-center">
+                                {/* small & medium screen */}
+                                <div className="xl:hidden flex gap-3 m-4 justify-center text-center">
                                     <a
                                         href={githubLink}
                                         target="_blank"
