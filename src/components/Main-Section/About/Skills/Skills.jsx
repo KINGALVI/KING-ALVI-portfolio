@@ -39,7 +39,7 @@ const Skills = () => {
                         {/* Languages */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : " focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">
                                 Languages
@@ -87,7 +87,7 @@ const Skills = () => {
                         {/* Tools & Platforms */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
 
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">Tools &amp; Platforms</h4>
@@ -148,7 +148,7 @@ const Skills = () => {
                     <div className="flex flex-col justify-center gap-4 lg:gap-12">
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
                             <h4 className={`text-xl font-bold font-rajdhani ${isDesktop ? "text-white mb-4 group-hover:text-[#C778DD]" : "text-white mb-4 group-focus:text-[#C778DD]"}`}>
                                 Frontend
