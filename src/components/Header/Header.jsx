@@ -8,7 +8,7 @@ export default function Header() {
 
             <div className="flex-1">
                 <div className="flex items-center">
-                    <Link to={"/"} className="font-bold text-2xl flex items-center">
+                    <Link to={"/"} className="font-bold lg:text-2xl text-[20px] flex items-center">
                         <img src={Logo} alt="Logo" className="w-[100px] h-[100px]" />
                         Alvi.Dev.Ops
                     </Link>

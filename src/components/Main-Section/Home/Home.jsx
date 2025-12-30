@@ -1,4 +1,4 @@
-import MyPhoto from "../../../../public/Images/My-Photo-1.jpeg";
+import MyPhoto from "../../../../public/Images/My-Photo-1.png";
 import Dots from "../../../../public/Images/Dots.png";
 import Dedication from "../../../../public/Images/My-Dedication.png";
 import Big_Medium_Screen_Quote from "../../../../public/Images/big-medim-screen-quote.png";
@@ -54,7 +54,7 @@ const Home = () => {
                         <img
                             src={MyPhoto}
                             alt="My Photo"
-                            className="Background-Image lg:w-[457px] lg:h-[386px] md:w-[350px] md:h-[450px] ml-[75px] md:ml-[30px] mx-auto"
+                            className="Background-Image lg:w-[457px] lg:h-[400px] md:w-[350px] md:h-[450px] ml-[75px] md:ml-[30px] mx-auto"
                         />
                         <img className="Dots-Image" src={Dots} alt="" />
                     </figure>

@@ -14,7 +14,7 @@ const Education = () => {
 
     return (
         <>
-            <section id="Education" className="py-16 text-white">
+            <section id="Education" className="py-16 text-white m-3">
                 <div Name="w-11/12 mx-auto">
                     <div className="text-center mb-12">
                         <div className="flex items-center gap-3 mb-3">
