@@ -1,11 +1,20 @@
-import { useContext } from "react";
+import { useContext, useEffect, useState } from "react";
 import { PortfolioContextAPI } from "../../../../Context-API/PortfolioContext";
 import { MdLiveTv } from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 
 const SmallProjects = () => {
 
-    const { SmallProjectsAPI } = useContext(PortfolioContextAPI)
+    const { SmallProjectsAPI } = useContext(PortfolioContextAPI);
+
+    const [isDesktop, setIsDesktop] = useState(false);
+
+    useEffect(() => {
+        const checkScreen = () => setIsDesktop(window.innerWidth >= 1024);
+        checkScreen();
+        window.addEventListener("resize", checkScreen);
+        return () => window.removeEventListener("resize", checkScreen);
+    }, []);
 
     return (
         <>
@@ -18,11 +27,11 @@ const SmallProjects = () => {
                         <div className="hover-3d" key={id}>
                             <div
                                 key={id}
-                                className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 border-[#ABB2BF] lg:hover:shadow-[0_0_20px_#C778DD] focus:shadow-[0_0_20px_#C778DD]"
+                                className={`hover-card group bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:shadow-[0_0_20px_#C778DD]" : "border-[#ABB2BF] focus:border-[#c52fee] focus:shadow-[0_0_20px_#C778DD]"}`}
                                 tabIndex={0}
                             >
                                 <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
-                                <span className="border border-[#ABB2BF]"></span>
+                                <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>
                                 <div className="flex flex-wrap gap-2 mt-1 m-4">
                                     {technologies.map((tech, index) => (
@@ -34,11 +43,11 @@ const SmallProjects = () => {
                                         </span>
                                     ))}
                                 </div>
-                                <span className="border border-[#ABB2BF]"></span>
+                                <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <p className="text-sm text-gray-400  m-4">
                                     {detailInfo}
                                 </p>
-                                <span className="border border-[#ABB2BF]"></span>
+                                <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <div className="flex gap-3 justify-center p-4">
                                     <a
                                         href={githubLink}
