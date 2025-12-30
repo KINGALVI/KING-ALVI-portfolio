@@ -1,6 +1,7 @@
 import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import { useEffect, useState } from "react";
+import Experience from "./Experience/Experience";
 
 const About = () => {
 
@@ -88,6 +89,8 @@ const About = () => {
             <Skills />
 
             <Education />
+
+            <Experience />
 
         </>
     );
