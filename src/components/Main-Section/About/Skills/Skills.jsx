@@ -39,10 +39,7 @@ const Skills = () => {
                         {/* Languages */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop
-                                ? "lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl"
-                                : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"
-                                }`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">
                                 Languages
@@ -53,33 +50,33 @@ const Skills = () => {
 
                                 {/* HTML */}
                                 <div
-                                    className="group flex flex-col items-center justify-centerbg-[#2c2f34] p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <FaHtml5 className="text-2xl mb-1 text-[#e94417] transition-colors duration-300 group-hover:text-[#fa734a]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <FaHtml5 className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#e94417] group-hover:text-[#fa734a]" : "text-[#e94417] group-focus:text-[#fa734a]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         HTML
                                     </span>
                                 </div>
 
                                 {/* CSS */}
                                 <div
-                                    className="group flex flex-col items-center justify-centerbg-[#2c2f34] p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <FaCss3Alt className="text-2xl mb-1 text-[#1572B6] transition-colors duration-300 group-hover:text-[#2196F3]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <FaCss3Alt className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#1572B6] group-hover:text-[#2196F3]" : "text-[#1572B6] group-focus:text-[#2196F3]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         CSS
                                     </span>
                                 </div>
 
                                 {/* JavaScript */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <FaJs className="text-2xl mb-1 text-[#a79303] transition-colors duration-300 group-hover:text-[#F7DF1E]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <FaJs className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#a79303] group-hover:text-[#F7DF1E]" : "text-[#a79303] group-focus:text-[#F7DF1E]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         JavaScript
                                     </span>
                                 </div>
@@ -90,10 +87,7 @@ const Skills = () => {
                         {/* Tools & Platforms */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop
-                                ? "lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl"
-                                : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"
-                                }`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
 
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">Tools &amp; Platforms</h4>
@@ -102,44 +96,44 @@ const Skills = () => {
 
                                 {/* GitHub */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <FaGithub className="text-2xl mb-1 text-gray-400 transition-colors duration-300 group-hover:text-white" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <FaGithub className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-gray-400 group-hover:text-white" : "text-gray-400 group-focus:text-white"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         GitHub
                                     </span>
                                 </div>
 
                                 {/* Vercel */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiVercel className="text-2xl mb-1 text-gray-400 transition-colors duration-300 group-hover:text-white" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiVercel className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-gray-400 group-hover:text-white" : "text-gray-400 group-focus:text-white"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Vercel
                                     </span>
                                 </div>
 
                                 {/* Netlify */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiNetlify className="text-2xl mb-1 text-[#048a7f] transition-colors duration-300 group-hover:text-[#00C7B7]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiNetlify className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#048a7f] group-hover:text-[#00C7B7]" : "text-[#048a7f] group-focus:text-[#00C7B7]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Netlify
                                     </span>
                                 </div>
 
                                 {/* Figma */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiFigma className="text-2xl mb-1 text-red-400 transition-colors duration-300 group-hover:text-[#F24E1E]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiFigma className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-red-400 group-hover:text-[#F24E1E]" : "text-red-400 group-focus:text-[#F24E1E]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Figma
                                     </span>
                                 </div>
@@ -154,68 +148,64 @@ const Skills = () => {
                     <div className="flex flex-col justify-center gap-4 lg:gap-12">
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop
-                                ? "lg:hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl"
-                                : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"
-                                }`}
+                            className={`group p-6 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:border-2 lg:hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl" : "border-[#ABB2BF] focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
                         >
-                            <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">
+                            <h4 className={`text-xl font-bold font-rajdhani ${isDesktop ? "text-white mb-4 group-hover:text-[#C778DD]" : "text-white mb-4 group-focus:text-[#C778DD]"}`}>
                                 Frontend
                             </h4>
-
-                            <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full justify-items-center">
+                            <div className="group grid grid-cols-2 sm:grid-cols-3 gap-4 w-full justify-items-center">
 
                                 {/* React */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <FaReact className="text-2xl mb-1 text-blue-400 transition-colors duration-300 group-hover:text-[#61DAFB]" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <FaReact className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-blue-400 group-hover:text-[#61DAFB]" : "text-blue-400 group-focus:text-[#61DAFB]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         React
                                     </span>
                                 </div>
 
                                 {/* Next.js */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiNextdotjs className="text-2xl mb-1 text-gray-400 transition-colors duration-300 group-hover:text-white" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiNextdotjs className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-gray-400 group-hover:text-white" : "  text-gray-400 group-focus:text-white"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Next.js
                                     </span>
                                 </div>
 
                                 {/* Tailwind CSS */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiTailwindcss className="text-2xl mb-1 text-[#38B2AC] transition-colors duration-300 group-hover:text-teal-400" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiTailwindcss className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#38B2AC] group-hover:text-teal-400" : "text-[#38B2AC] transition-colors duration-300 group-focus:text-teal-400"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Tailwind CSS
                                     </span>
                                 </div>
 
                                 {/* Bootstrap */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiBootstrap className="text-2xl mb-1 text-[#7952B3] transition-colors duration-300 group-hover:text-purple-400" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiBootstrap className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#7952B3] group-hover:text-purple-400" : "text-[#7952B3] group-focus:text-purple-400"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Bootstrap
                                     </span>
                                 </div>
 
                                 {/* DaisyUI */}
                                 <div
-                                    className="group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 bg-[#282C33] group-hover:bg-[#3a3d42]"
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
                                     style={{ opacity: 0.8 }}
                                 >
-                                    <SiDaisyui className="text-2xl mb-1 text-[#C778DD] transition-colors duration-300 group-hover:text-pink-400" />
-                                    <span className="text-sm text-[#9F9F9F] font-medium font-rubik transition-colors duration-300 group-hover:text-white">
+                                    <SiDaisyui className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#C778DD] group-hover:text-pink-400" : "text-[#7952B3] group-focus:text-purple-400"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         DaisyUI
                                     </span>
                                 </div>
