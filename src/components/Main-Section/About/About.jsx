@@ -60,7 +60,7 @@ const About = () => {
                     </div>
                     <div className="gird">
                         <div className="lg:flex grid gap-3 mb-2">
-                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "lg:hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                                 <h4 className="text-lg font-bold font-rajdhani p-4">
                                     Favorite Tech
                                 </h4>
@@ -69,13 +69,13 @@ const About = () => {
                                     React, Tailwind CSS, Bootstrap, DaisyUI, React Bootstrap
                                 </p>
                             </div>
-                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition md:w-[400px] ${isDesktop ? "lg:hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition md:w-[400px] ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                                 <h5 className="text-lg p-4 font-bold font-rajdhani">Currently Exploring</h5>
                                 <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <p className="p-4">Next.js, Google Firebase, MongoDB</p>
                             </div>
                         </div>
-                        <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "lg:hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                        <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                             <h5 className="text-lg font-bold p-4 font-rajdhani">More About Me</h5>
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <p className="p-4">Whether it's through creating projects, exploring new frameworks, or involving myself in developer networks, I'm passionate about lifelong learning. I also love design and animation.</p>
