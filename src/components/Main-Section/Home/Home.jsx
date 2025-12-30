@@ -10,6 +10,7 @@ import { MdLiveTv } from "react-icons/md";
 import { FaGithub, FaInfo } from "react-icons/fa";
 import { useContext } from "react";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
+import About from "../About/About"
 
 const Home = () => {
     const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
@@ -20,15 +21,22 @@ const Home = () => {
         <section className="m-2">
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
-                    <h2 className="text-4xl text-center md:text-center lg:text-left">
+                    <h1 className="text-4xl md:text-center lg:text-left">
                         Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and{" "}
                         <span className="text-[#C778DD]">Gamer</span>
-                    </h2>
-                    <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center md:text-center lg:text-left">
-                        He crafts responsive websites where technologies meet creativity
-                    </p>
-                    <div className="card-actions justify-center md:justify-center lg:justify-start">
-                        <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
+                    </h1>
+                    <h3 className="text-[#ABB2BF] text-2xl pt-5 pb-2.5 md:text-center lg:text-left">
+                        He crafts responsive websites where technologies meet creativity !!
+                    </h3>
+                    <p className="text-[#ABB2BF] pt-5 pb-2.5 md:text-center lg:text-left lg:w-[450px]">As a juninor in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable full-stack web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.</p>
+                    <br />
+                    <div className="md:flex lg:justify-start md:justify-center gird gap-5">
+                        <div className="card-actions justify-center md:justify-center lg:justify-start mb-5">
+                            <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
+                        </div>
+                        <div className="card-actions justify-center md:justify-center lg:justify-start">
+                            <button to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Download Resume</button>
+                        </div>
                     </div>
                 </div>
                 <div className="grid lg:ps-0 md:ps-16">
@@ -65,13 +73,19 @@ const Home = () => {
             <br /><br />
 
             <section>
+                <About />
+            </section>
+
+            <br /><br />
+
+            <section>
                 <div className="lg:flex lg:justify-between grid items-start">
                     <div className="flex items-center gap-3">
                         <h1 className="text-4xl">
                             <span className="text-[#C778DD]">#</span>Projects
                         </h1>
                         <div>
-                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[140px]"></div>
+                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[180px]"></div>
                         </div>
                     </div>
                     <Link
@@ -95,7 +109,8 @@ const Home = () => {
                                 <div className="hover-3d" key={id}>
                                     <div
                                         key={id}
-                                        className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
+                                        className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 border-[#ABB2BF] lg:hover:shadow-[0_0_20px_#C778DD] focus:shadow-[0_0_20px_#C778DD]"
+                                        tabIndex={0}
                                     >
                                         <img
                                             src={image}
@@ -184,6 +199,11 @@ const Home = () => {
                         </div>
                 }
             </section>
+
+            <section>
+
+            </section>
+
         </section>
     );
 };

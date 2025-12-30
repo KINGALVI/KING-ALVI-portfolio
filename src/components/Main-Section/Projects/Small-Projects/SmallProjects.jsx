@@ -18,7 +18,8 @@ const SmallProjects = () => {
                         <div className="hover-3d" key={id}>
                             <div
                                 key={id}
-                                className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:shadow-xl hover:scale-105 border-2 border-[#ABB2BF]"
+                                className="hover-card bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 border-[#ABB2BF] lg:hover:shadow-[0_0_20px_#C778DD] focus:shadow-[0_0_20px_#C778DD]"
+                                tabIndex={0}
                             >
                                 <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
                                 <span className="border border-[#ABB2BF]"></span>
