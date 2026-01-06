@@ -25,7 +25,7 @@ const Experience = () => {
                             <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[400px] w-40"></div>
                         </div>
                     </div>
-                    <p className="md:text-4xl text-2xl text-center mb-5 mt-10">Where I've Got My Trained & Experience</p>
+                    <p className="md:text-4xl text-2xl text-center mb-5 mt-10">Where I've Got My Training & Experience</p>
                 </div>
 
                 <div

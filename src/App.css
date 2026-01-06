@@ -15,7 +15,7 @@ a.active {
   color: white;
 }
 
-.Background-Image {
+.Background-Image-1 {
   background-image: url("../../../../public/Images/Outline-Style.svg");
   background-repeat: no-repeat;
   background-position: left;
@@ -23,12 +23,28 @@ a.active {
   background-position-y: 12%;
 }
 
-.Dots-Image {
+.Dots-Image-1 {
   position: relative;
   width: 85px;
   height: 85px;
   right: 10%;
   top: 85px;
+}
+
+.Background-Image-2 {
+  background-image: url("../../../../public/Images/Outline-Style.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-x: 1%;
+  background-position-y: 15%;
+}
+
+.Dots-Image-2 {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  right: -80%;
+  top: -90px;
 }
 
 button {

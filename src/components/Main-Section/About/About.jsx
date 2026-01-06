@@ -2,6 +2,9 @@ import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import { useEffect, useState } from "react";
 import Experience from "./Experience/Experience";
+import MyPhoto_2 from "../../../../public/Images/My-Photo-2.png";
+import Dots from "../../../../public/Images/Dots.png";
+import SecoendDedication from "../../../../public/Images/My-Dedication-2.png";
 
 const About = () => {
 
@@ -28,20 +31,20 @@ const About = () => {
 
                 <br />
 
-                <h1 className="md:text-4xl text-2xl text-center mb-5">
+                <h1 className="md:text-4xl text-2xl text-center mb-15">
                     Progress • Objective • Progress
                 </h1>
 
-                <div className="lg:flex justify-between items-center gap-3 mb-5">
-                    <div className="mb-5">
+                <div className="lg:flex justify-between gap-3">
+                    <div>
                         <article>
-                            <p className="text-[#ABB2BF] pt-5 pb-2.5 md:text-center lg:text-left">
+                            <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left">
                                 I'm Alvi Al Mahmud, an enthusiastic and innovative web developer who is passionate about solving problems and creating a clean user interface. Developing technology to make life simpler, simpler to enjoy, or more meaningful is what defines me.
                             </p>
-                            <p className="text-[#ABB2BF] pt-5 pb-2.5 md:text-center lg:text-left">
+                            <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left">
                                 I enjoy a challenge. I like the process of coming up with simple, elegant solutions, whether it's for a complex layout, difficult API integration, or performance optimization. That is the driving force behind me.
                             </p>
-                            <p className="text-[#ABB2BF] pt-5 pb-2.5 md:text-center lg:text-left">
+                            <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left">
                                 Great software and web applications, in my view, are made up of empathy, acquiring the problems that users face, and providing solutions that are not only useful but also pleasant.
                             </p>
                         </article>
@@ -55,7 +58,7 @@ const About = () => {
                                 <li>Constructing impactful digital experiences.</li>
                             </ul>
                         </article>
-                        <article className="mt-5">
+                        <article>
                             <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-2">My Philosophy</h3><p class="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
                         </article>
                     </div>
@@ -80,6 +83,17 @@ const About = () => {
                             <h5 className="text-lg font-bold p-4 font-rajdhani">More About Me</h5>
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <p className="p-4">Whether it's through creating projects, exploring new frameworks, or involving myself in developer networks, I'm passionate about lifelong learning. I also love design and animation.</p>
+                        </div>
+                        <div className="gird">
+                            <figure className="grid justify-center" style={{ position: "relative" }}>
+                                <img
+                                    src={MyPhoto_2}
+                                    alt="My Photo"
+                                    className="Background-Image-2 w-[315px] h-[450px]"
+                                />
+                                <img className="Dots-Image-2" src={Dots} alt="" />
+                            </figure>
+                            <center><img src={SecoendDedication} alt="Dedication quote" style={{position:"relative", bottom:"85px"}}/></center>
                         </div>
                     </div>
                 </div>

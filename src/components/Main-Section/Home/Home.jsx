@@ -1,6 +1,6 @@
-import MyPhoto from "../../../../public/Images/My-Photo-1.png";
+import MyPhoto_1 from "../../../../public/Images/My-Photo-1.png";
 import Dots from "../../../../public/Images/Dots.png";
-import Dedication from "../../../../public/Images/My-Dedication.png";
+import FristDedication from "../../../../public/Images/My-Dedication-1.png";
 import Big_Medium_Screen_Quote from "../../../../public/Images/big-medim-screen-quote.png";
 import Mini_Small_Screen_Quote from "../../../../public/Images/mini-small-screen-quote.png";
 import quote_man from "../../../../public/Images/Frame-49.png";
@@ -31,20 +31,20 @@ const Home = () => {
         <section className="m-2">
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
-                    <h1 className="text-4xl md:text-center lg:text-left">
+                    <h1 className="text-4xl text-center lg:text-left">
                         Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and{" "}
                         <span className="text-[#C778DD]">Gamer</span>
                     </h1>
-                    <h3 className="text-[#ABB2BF] text-2xl pt-5 pb-2.5 md:text-center lg:text-left">
+                    <h3 className="text-[#ABB2BF] text-2xl pt-5 pb-2.5 text-center lg:text-left">
                         He crafts responsive websites where technologies meet creativity !!
                     </h3>
-                    <p className="text-[#ABB2BF] pt-5 pb-2.5 md:text-center lg:text-left lg:w-[450px]">As a juninor in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable full-stack web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.</p>
+                    <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left lg:w-[450px]">As a juninor in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable full-stack web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.</p>
                     <br />
-                    <div className="md:flex lg:justify-start md:justify-center gird gap-5">
-                        <div className="card-actions justify-center md:justify-center lg:justify-start mb-5">
+                    <div className="md:flex lg:justify-start justify-center gird gap-5">
+                        <div className="card-actions justify-center lg:justify-start mb-5">
                             <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
                         </div>
-                        <div className="card-actions justify-center md:justify-center lg:justify-start">
+                        <div className="card-actions justify-center lg:justify-start">
                             <button to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Download Resume</button>
                         </div>
                     </div>
@@ -52,13 +52,13 @@ const Home = () => {
                 <div className="grid lg:ps-0 md:ps-16">
                     <figure style={{ position: "relative" }}>
                         <img
-                            src={MyPhoto}
+                            src={MyPhoto_1}
                             alt="My Photo"
-                            className="Background-Image lg:w-[457px] lg:h-[400px] md:w-[350px] md:h-[450px] ml-[75px] md:ml-[30px] mx-auto"
+                            className="Background-Image-1 lg:w-[457px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] mx-auto"
                         />
-                        <img className="Dots-Image" src={Dots} alt="" />
+                        <img className="Dots-Image-1" src={Dots} alt="" />
                     </figure>
-                    <center><img src={Dedication} alt="" /></center>
+                    <center><img src={FristDedication} alt="Dedication quote" /></center>
                 </div>
             </section>
 
@@ -66,7 +66,7 @@ const Home = () => {
 
             <section className="flex justify-center">
                 <div>
-                    <img className="reletive-quote_man-image" src={quote_man} alt="" />
+                    <img className="reletive-quote_man-image" src={quote_man} alt="The quote Man" />
                     <img
                         src={Big_Medium_Screen_Quote}
                         alt="Quote for big/medium screens"

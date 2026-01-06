@@ -16,7 +16,7 @@ const Education = () => {
         <>
             <section id="Education" className="py-16 text-white m-3">
                 <div Name="w-11/12 mx-auto">
-                    <div className="text-center mb-12">
+                    <div className="text-center mb-5">
                         <div className="flex items-center gap-3 mb-3">
                             <h1 className="md:text-4xl text-3xl">
                                 <span className="text-[#C778DD]">#</span>Education
@@ -25,7 +25,7 @@ const Education = () => {
                                 <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[400px] w-40"></div>
                             </div>
                         </div>
-                        <p className="md:text-4xl text-2xl text-center mb-5">My Academic Journey</p>
+                        <h2 className="md:text-4xl text-2xl text-center md:mt-5 md:mb-5 mt-2.5 mb-2.5">My Academic Journey</h2>
                     </div>
                     <div className="relative">
                         <div className="absolute left-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 h-full w-1 bg-[#a4a7ad]"></div>

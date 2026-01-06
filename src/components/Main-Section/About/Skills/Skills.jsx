@@ -27,9 +27,9 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <h1 className="md:text-4xl text-2xl text-center mb-5">
+                <h2 className="md:text-4xl text-2xl text-center md:mt-5 md:mb-5 mt-2.5 mb-2.5">
                     Skill I have
-                </h1>
+                </h2>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-0 lg:divide-y-0 lg:divide-x-4 divide-[#a4a7ad]">
 
