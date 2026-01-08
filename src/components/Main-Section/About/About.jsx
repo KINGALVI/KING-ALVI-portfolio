@@ -2,9 +2,6 @@ import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import { useEffect, useState } from "react";
 import Experience from "./Experience/Experience";
-import MyPhoto_2 from "../../../../public/Images/My-Photo-2.png";
-import Dots from "../../../../public/Images/Dots.png";
-import SecoendDedication from "../../../../public/Images/My-Dedication-2.png";
 
 const About = () => {
 
@@ -59,7 +56,7 @@ const About = () => {
                             </ul>
                         </article>
                         <article className="mb-5 lg:mb-0">
-                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">My Philosophy</h3><p class="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
+                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">My Philosophy</h3><p className="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
                         </article>
                     </div>
                     <div className="gird">
@@ -84,21 +81,11 @@ const About = () => {
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <p className="p-4">Whether it's through creating projects, exploring new frameworks, or involving myself in developer networks, I'm passionate about lifelong learning. I also love design and animation.</p>
                         </div>
-                        <div className="gird">
-                            <figure className="grid justify-center" style={{ position: "relative" }}>
-                                <img
-                                    src={MyPhoto_2}
-                                    alt="My Photo"
-                                    className="Background-Image-2 w-[315px] h-[450px]"
-                                />
-                                <img className="Dots-Image-2" src={Dots} alt="" />
-                            </figure>
-                            <center><img src={SecoendDedication} alt="Dedication quote" style={{position:"relative", bottom:"85px"}}/></center>
-                        </div>
                     </div>
                 </div>
             </section>
 
+            <br /><br />
 
             <Skills />
 

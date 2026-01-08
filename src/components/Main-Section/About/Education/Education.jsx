@@ -73,7 +73,7 @@ const Education = () => {
                                     <div className="w-1/2 relative flex justify-end items-start">
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute -top-10 -right-2"></div>
                                     </div>
-                                    <div class="w-1/2 pl-6 text-left">
+                                    <div className="w-1/2 pl-6 text-left">
                                         <div className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-lg mr-auto space-y-4 transition-shadow duration-300 ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee] hover:border-2" : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] focus:border-[#c52fee] focus:border-2"}`}
                                             tabIndex={0} style={{ transform: "none" }}>
                                             <h4 className="text-xl font-bold font-rajdhani">Secondary School Certificate (SSC)</h4>

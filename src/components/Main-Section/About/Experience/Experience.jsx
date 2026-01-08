@@ -43,7 +43,7 @@ const Experience = () => {
                         </h4>
                         <p className="text-sm text-[#9F9F9F] mb-4 font-rubik">July 2025 – October, 2025</p>
 
-                        <div class="flex mb-6">
+                        <div className="flex mb-6">
                             <div className="text-sm text-[#D1D1D1] font-rubik space-y-2.5">
                                 {/* HTML, CSS, JS */}
                                 <div className="flex items-center">

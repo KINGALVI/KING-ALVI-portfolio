@@ -40,11 +40,11 @@ a.active {
 }
 
 .Dots-Image-2 {
-  position: relative;
+  position: absolute; /* instead of relative */
   width: 85px;
   height: 85px;
-  right: -80%;
-  top: -90px;
+  right: 10%;
+  top: 20px;
 }
 
 button {
@@ -55,10 +55,15 @@ button {
 }
 
 button:hover {
-  background-color: #C778DD;
+  background-color: #c52fee;
+  border: 2px solid #c52fee;
   cursor: pointer;
   color: white;
   font-weight: bolder;
+}
+
+.form-button{
+width: 100%;
 }
 
 .reletive-quote_man-image {
@@ -86,7 +91,8 @@ button:hover {
 }
 
 .Link-Button:hover {
-  background-color: #C778DD;
+  background-color: #c52fee;
+  border: 2px solid #c52fee;
   cursor: pointer;
   color: white;
   font-weight: bolder;
