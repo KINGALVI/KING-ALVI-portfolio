@@ -27,7 +27,7 @@ const Skills = () => {
                     </div>
                 </div>
 
-                <h2 className="md:text-4xl text-2xl text-center md:mt-5 md:mb-5 mt-2.5 mb-2.5">
+                <h2 className="md:text-4xl text-2xl text-center mb-10 mt-5">
                     Skill I have
                 </h2>
 

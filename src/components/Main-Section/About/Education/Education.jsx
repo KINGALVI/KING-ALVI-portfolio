@@ -25,7 +25,7 @@ const Education = () => {
                                 <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[400px] w-40"></div>
                             </div>
                         </div>
-                        <h2 className="md:text-4xl text-2xl text-center md:mt-5 md:mb-5 mt-2.5 mb-2.5">My Academic Journey</h2>
+                        <h2 className="md:text-4xl text-2xl text-center mb-10 mt-5">My Academic Journey</h2>
                     </div>
                     <div className="relative">
                         <div className="absolute left-0 lg:left-1/2 lg:transform lg:-translate-x-1/2 h-full w-1 bg-[#a4a7ad]"></div>

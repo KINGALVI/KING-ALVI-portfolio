@@ -31,7 +31,7 @@ const About = () => {
 
                 <br />
 
-                <h1 className="md:text-4xl text-2xl text-center mb-15">
+                <h1 className="md:text-4xl text-2xl text-center lg:mb-15 mb-5">
                     Progress • Objective • Progress
                 </h1>
 
@@ -48,8 +48,8 @@ const About = () => {
                                 Great software and web applications, in my view, are made up of empathy, acquiring the problems that users face, and providing solutions that are not only useful but also pleasant.
                             </p>
                         </article>
-                        <article className="mt-5">
-                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-2">Things That Encourage Me
+                        <article className="mt-5 mb-5">
+                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">Things That Encourage Me
                             </h3>
                             <ul className="list-disc list-inside text-[#ABB2BF] font-rubik">
                                 <li>Solving real-world problems with code.</li>
@@ -58,8 +58,8 @@ const About = () => {
                                 <li>Constructing impactful digital experiences.</li>
                             </ul>
                         </article>
-                        <article>
-                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-2">My Philosophy</h3><p class="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
+                        <article className="mb-5 lg:mb-0">
+                            <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">My Philosophy</h3><p class="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
                         </article>
                     </div>
                     <div className="gird">

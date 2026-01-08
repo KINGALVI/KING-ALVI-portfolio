@@ -10,7 +10,8 @@ import { MdLiveTv } from "react-icons/md";
 import { FaGithub, FaInfo } from "react-icons/fa";
 import { useContext, useEffect, useState } from "react";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
-import About from "../About/About"
+import About from "../About/About";
+import Contacts from "../Contacts/Contacts";
 
 const Home = () => {
 
@@ -45,7 +46,7 @@ const Home = () => {
                             <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
                         </div>
                         <div className="card-actions justify-center lg:justify-start">
-                            <button to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Download Resume</button>
+                            <button className="Link-Button text-[#ABB2BF]">Download Resume</button>
                         </div>
                     </div>
                 </div>
@@ -88,7 +89,7 @@ const Home = () => {
 
             <br /><br />
 
-            <section>
+            <section className="mb-10">
                 <div className="lg:flex lg:justify-between grid items-start">
                     <div className="flex items-center gap-3">
                         <h1 className="text-4xl">
@@ -114,7 +115,7 @@ const Home = () => {
                 {
                     LargeProjectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
                         :
-                        <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 mb-10">
+                        <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
                             {firstThreeProjects.map(({ id, image, alt, projectName, technologies, githubLink, liveLink, detailInfo }) => (
                                 <div className="hover-3d" key={id}>
                                     <div
@@ -127,7 +128,7 @@ const Home = () => {
                                             alt={alt}
                                             className="w-full h-full"
                                         />
-                                        <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
+                                        <div className={`border  w-full rounded ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                         <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
                                         <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                         <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>
@@ -208,10 +209,19 @@ const Home = () => {
                             ))}
                         </div>
                 }
+
+                <center>
+                    <Link to={"/AllProjects"} className="Link-Button text-[#ABB2BF]">View All Projects</Link>
+                </center>
+
             </section>
 
-            <section>
+            <section className="mb-20">
+                <About />
+            </section>
 
+            <section className="mb-20">
+                <Contacts />
             </section>
 
         </section>

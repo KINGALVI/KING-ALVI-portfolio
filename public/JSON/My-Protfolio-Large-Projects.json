@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "image": "../Images/E-Commerce-Picture.jpg",
+        "image": "../Images/E-Commerce-Picture.png",
         "alt": "Snap Bazaar Image",
         "projectName": "Snap Bazaar",
         "technologies": [
@@ -22,7 +22,7 @@
     },
     {
         "id": 2,
-        "image": "../Images/phone-hunter.jpg",
+        "image": "../Images/phone-hunter.png",
         "alt": "Smart Phone Hunter Image",
         "projectName": "Smart Phone Hunter",
         "technologies": [
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "image": "../Images/My-Portfolio.jpg",
+        "image": "../Images/My-Portfolio.png",
         "alt": "My Portfolio Image",
         "projectName": "My Portfolio",
         "technologies": [
@@ -60,7 +60,7 @@
     },
     {
         "id": 4,
-        "image": "/Images/career-hub.jpg",
+        "image": "/Images/career-hub.png",
         "alt": "Future Career Hub Image",
         "projectName": "Future Career Hub",
         "technologies": [
@@ -81,9 +81,9 @@
     },
     {
         "id": 5,
-        "image": "/Images/knowledge-cafe.jpg",
-        "alt": "Creative Knowledge Cafe Image",
-        "projectName": "Creative Knowledge Cafe",
+        "image": "/Images/knowledge-cafe.png",
+        "alt": "Knowledge Cafe Image",
+        "projectName": "Knowledge Cafe",
         "technologies": [
             "HTML",
             "CSS",
@@ -100,7 +100,7 @@
     },
     {
         "id": 6,
-        "image": "/Images/chief's-kitchen-tales.jpg",
+        "image": "/Images/chief's-kitchen-tales.png",
         "alt": "Chief's Kitchen Tales Image",
         "projectName": "Chief's Kitchen Tales",
         "technologies": [
@@ -119,7 +119,7 @@
     },
     {
         "id": 7,
-        "image": "/Images/scorer-king-vector.jpg",
+        "image": "/Images/scorer-king-vector.png",
         "alt": "Scorer King Vector Image",
         "projectName": "Scorer King Vector",
         "technologies": [
