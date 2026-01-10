@@ -27,8 +27,8 @@ a.active {
   position: relative;
   width: 85px;
   height: 85px;
-  right: 10%;
-  top: 85px;
+  right: 20%;
+  top: -100px;
 }
 
 .Background-Image-2 {
@@ -40,11 +40,11 @@ a.active {
 }
 
 .Dots-Image-2 {
-  position: absolute; /* instead of relative */
+  position: absolute;
   width: 85px;
   height: 85px;
-  right: 10%;
-  top: 20px;
+  right: 15%;
+  top: 40px;
 }
 
 button {
@@ -62,8 +62,8 @@ button:hover {
   font-weight: bolder;
 }
 
-.form-button{
-width: 100%;
+.form-button {
+  width: 100%;
 }
 
 .reletive-quote_man-image {

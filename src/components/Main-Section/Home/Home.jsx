@@ -55,11 +55,11 @@ const Home = () => {
                         <img
                             src={MyPhoto_1}
                             alt="My Photo"
-                            className="Background-Image-1 lg:w-[457px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] mx-auto"
+                            className="Background-Image-1 lg:w-[457px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block"
                         />
                         <img className="Dots-Image-1" src={Dots} alt="" />
                     </figure>
-                    <center><img src={FristDedication} alt="Dedication quote" /></center>
+                    <div className=""><img className="lg:md-0 md:me-10" src={FristDedication} alt="Dedication quote"/></div>
                 </div>
             </section>
 
@@ -111,7 +111,7 @@ const Home = () => {
                 {
                     LargeProjectsAPI.length === 0 ? <h3 className="text-4xl">Loding....</h3>
                         :
-                        <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2">
+                        <div className="grid xl:gap-10 xl:p-10 gap-3 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-2 lg:mb-0 mb-10">
                             {firstThreeProjects.map(({ id, image, alt, projectName, technologies, githubLink, liveLink, detailInfo }) => (
                                 <div className="hover-3d" key={id}>
                                     <div

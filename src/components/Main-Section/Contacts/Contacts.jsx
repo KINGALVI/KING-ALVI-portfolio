@@ -20,7 +20,7 @@ const Contacts = () => {
                 <h2 className="md:text-4xl text-2xl text-center mb-10 mt-5">Get in Touch With Me</h2>
             </div>
 
-            <div className="w-11/12 mx-auto flex flex-col md:flex-row justify-between">
+            <div className="w-11/12 mx-auto flex lg:flex-row lg:justify-between flex-col justify-center">
                 <div className="flex flex-1 flex-col items-center md:items-start text-center md:text-left my-auto">
                     <div className="w-11/12 mx-auto my-auto md:w-md">
                         <div className="gird mb-5">
@@ -79,7 +79,7 @@ const Contacts = () => {
                         </div>
                     </div>
                 </div>
-                <form className="space-y-4 bg-[#1e2125] p-5 rounded shadow-lg my-auto flex-1 font-rubik" >
+                <form className="space-y-4 bg-[#1e2125] p-5 rounded shadow-lg my-auto flex-1 font-rubik mt-10">
                     <div className="flex flex-col md:flex-row gap-4">
                         <div className="flex-1">
                             <input placeholder="Enter your full name" className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]" name="fullName" />
