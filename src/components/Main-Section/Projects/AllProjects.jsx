@@ -10,7 +10,7 @@ const AllProjects = () => {
 
   return (
     <>
-      <div className="flex justify-between mb-7 mt-7 p-4">
+      <div className="flex justify-between mb-7 mt-3 p-4">
         <div className="flex items-center gap-3">
           <h1 className="text-4xl">
             <span className="text-[#C778DD]">#</span>Projects

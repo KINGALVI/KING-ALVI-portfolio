@@ -14,7 +14,7 @@ const Experience = () => {
 
     return (
         <>
-            <section className="m-3">
+            <section className="m-3 mb-10">
 
                 <div className="text-center mb-12">
                     <div className="flex items-center gap-3 mb-3">

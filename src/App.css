@@ -31,6 +31,14 @@ a.active {
   top: -100px;
 }
 
+.Outline-Style-Image {
+  position: relative;
+  width: 85px;
+  height: 85px;
+  right: 20%;
+  top: -100px;
+}
+
 .Background-Image-2 {
   background-image: url("../../../../public/Images/Outline-Style.svg");
   background-repeat: no-repeat;

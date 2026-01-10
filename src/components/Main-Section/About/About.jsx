@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <>
-            <section className="lg:m-5 m-2">
+            <section className="lg:m-5 m-2 mt-7">
                 <div className="flex items-center gap-3">
                     <h1 className="md:text-4xl text-3xl">
                         <span className="text-[#C778DD]">#</span>About Me

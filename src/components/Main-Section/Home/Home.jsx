@@ -55,7 +55,7 @@ const Home = () => {
                         <img
                             src={MyPhoto_1}
                             alt="My Photo"
-                            className="Background-Image-1 lg:w-[457px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block"
+                            className="Background-Image-1 lg:w-[400px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block"
                         />
                         <img className="Dots-Image-1" src={Dots} alt="" />
                     </figure>
@@ -89,7 +89,7 @@ const Home = () => {
                 <div className="lg:flex lg:justify-between grid items-start">
                     <div className="flex items-center gap-3">
                         <h1 className="text-4xl">
-                            <span className="text-[#C778DD]">#</span>Projects
+                            <span className="text-[#C778DD] ms-4">#</span>Projects
                         </h1>
                         <div>
                             <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[180px]"></div>
@@ -97,7 +97,7 @@ const Home = () => {
                     </div>
                     <Link
                         to={"/AllProjects"}
-                        className="text-[#ABB2BF] flex items-center justify-start gap-1.5 projects-btn mt-2.5"
+                        className="text-[#ABB2BF] flex items-center justify-start gap-1.5 projects-btn mt-2.5 lg:ms-0 ms-4"
                     >
                         View All
                         <span>
@@ -212,11 +212,11 @@ const Home = () => {
 
             </section>
 
-            <section className="mb-20">
+            <section className="mb-10">
                 <About />
             </section>
 
-            <section className="mb-20">
+            <section className="mb-10 mt-10">
                 <Contacts />
             </section>
 
