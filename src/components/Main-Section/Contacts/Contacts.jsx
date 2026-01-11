@@ -24,7 +24,7 @@ const Contacts = () => {
                 <div className="w-11/12 mx-auto flex lg:flex-row lg:justify-between flex-col justify-center">
                     <div className="flex flex-1 flex-col items-center md:items-start text-center md:text-left my-auto">
                         <div className="w-11/12 mx-auto my-auto md:w-md">
-                            <div className="gird mb-5">
+                            <div className="grid mb-5">
                                 <figure className="grid justify-center" style={{ position: "relative" }}>
                                     <img
                                         src={MyPhoto_2}

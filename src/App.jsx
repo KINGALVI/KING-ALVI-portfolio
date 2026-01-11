@@ -12,7 +12,7 @@ function App() {
         <ProtfolioContextAPIProvider>
             <React_Router />
         </ProtfolioContextAPIProvider>
-      </StrictMode>
+      </StrictMode> 
     </>
   )
 }

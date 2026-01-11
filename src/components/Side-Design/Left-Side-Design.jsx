@@ -22,7 +22,7 @@ const Left_Side_Design = () => {
                     </a>
                 </span>
             </div>
-        </center>
+        </center> 
     );
 };
 

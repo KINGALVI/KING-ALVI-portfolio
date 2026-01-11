@@ -7,7 +7,7 @@ const AllProjects = () => {
 
   const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
   const { SmallProjectsAPI } = useContext(PortfolioContextAPI);
-
+ 
   return (
     <>
       <div className="flex justify-between mb-7 mt-3 p-4">

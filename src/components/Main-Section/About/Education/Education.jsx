@@ -7,7 +7,7 @@ const Education = () => {
 
     useEffect(() => {
         const checkScreen = () => setIsDesktop(window.innerWidth >= 1024);
-        checkScreen();
+        checkScreen(); 
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
     }, []);
@@ -15,7 +15,7 @@ const Education = () => {
     return (
         <>
             <section id="Education" className="py-16 text-white m-3">
-                <div Name="w-11/12 mx-auto">
+                <div className="w-11/12 mx-auto">
                     <div className="text-center mb-5">
                         <div className="flex items-center gap-3 mb-3">
                             <h1 className="md:text-4xl text-3xl">

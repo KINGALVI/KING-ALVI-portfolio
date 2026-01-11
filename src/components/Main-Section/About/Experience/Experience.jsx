@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Experience = () => {
 
     const [isDesktop, setIsDesktop] = useState(false);
-
+ 
     useEffect(() => {
         const checkScreen = () => setIsDesktop(window.innerWidth >= 1024);
         checkScreen();

@@ -13,7 +13,7 @@ const React_Router = () => {
         {
             path: "/",
 
-            element: <Main />,
+            element: <Main />, 
 
             errorElement: <ErrorHandel />,
 

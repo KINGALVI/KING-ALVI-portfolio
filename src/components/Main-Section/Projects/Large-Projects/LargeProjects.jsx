@@ -46,7 +46,7 @@ const LargeProjects = () => {
                                         <span
                                             key={index}
                                             className="px-3 py-1 text-sm rounded-full bg-[#1E2127] text-[#ABB2BF] border border-[#C778DD] hover:border-[#c52fee] hover:bg-[#c52fee] hover:text-white transition-colors duration-300"
-                                        >
+                                        > 
                                             {tech}
                                         </span>
                                     ))}

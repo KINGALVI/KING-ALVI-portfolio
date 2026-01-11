@@ -29,7 +29,7 @@ const SmallProjects = () => {
                                 key={id}
                                 className={`hover-card group bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:shadow-[0_0_20px_#C778DD]" : "border-[#ABB2BF] focus:border-[#c52fee] focus:shadow-[0_0_20px_#C778DD]"}`}
                                 tabIndex={0}
-                            >
+                            > 
                                 <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
                                 <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>

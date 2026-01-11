@@ -13,7 +13,7 @@ export default function Header() {
                         Alvi.Dev.Ops
                     </Link>
                 </div>
-            </div>
+            </div> 
 
             {/* big screen */}
             <ul className="menu menu-horizontal md:flex hidden md:p-0">

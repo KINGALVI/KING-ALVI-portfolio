@@ -13,7 +13,7 @@ const Main = () => {
 
       <section className="md:w-[2500px] bg-[#282C33]">
 
-        <Header />
+        <Header /> 
 
         <Outlet />
 

@@ -41,7 +41,7 @@ const Home = () => {
                     </h3>
                     <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left lg:w-[450px]">As a juninor in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable full-stack web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.</p>
                     <br />
-                    <div className="md:flex lg:justify-start justify-center gird gap-5">
+                    <div className="md:flex lg:justify-start justify-center grid gap-5">
                         <div className="card-actions justify-center lg:justify-start mb-5">
                             <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF]">Contact me !!</Link>
                         </div>
@@ -81,7 +81,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <br /><br />
+            <br /><br /> 
 
             <br /><br />
 

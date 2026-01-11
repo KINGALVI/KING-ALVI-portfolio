@@ -15,7 +15,7 @@ const Skills = () => {
     }, []);
 
 
-    return (
+    return ( 
         <>
             <section id="Skills" className="m-2">
                 <div className="flex items-center gap-3 mb-3">

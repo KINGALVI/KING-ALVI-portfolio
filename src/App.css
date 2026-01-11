@@ -32,7 +32,7 @@ a.active {
 }
 
 .Outline-Style-Image {
-  position: relative;
+  position: relative; 
   width: 85px;
   height: 85px;
   right: 20%;

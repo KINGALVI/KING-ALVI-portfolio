@@ -11,13 +11,13 @@ const PortfolioContextAPIProvider = ({ children }) => {
       .then(data => setLargeProjectsAPI(data))
   }, []);
 
-    useEffect(() => {
+  useEffect(() => {
     fetch('../../public/JSON/My-Portfolio-Small-Projects.json')
       .then(res => res.json())
       .then(data => setSmallProjectsAPI(data))
   }, []);
 
-  const value = { LargeProjectsAPI , SmallProjectsAPI };
+  const value = { LargeProjectsAPI, SmallProjectsAPI };
 
   return (
     <PortfolioContextAPI.Provider value={value}>
