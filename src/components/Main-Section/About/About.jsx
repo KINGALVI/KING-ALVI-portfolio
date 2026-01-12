@@ -32,7 +32,7 @@ const About = () => {
                     Progress • Objective • Progress
                 </h1>
 
-                <div className="lg:flex justify-between gap-3">
+                <div className="lg:flex gap-3">
                     <div>
                         <article>
                             <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left">
@@ -59,7 +59,7 @@ const About = () => {
                             <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">My Philosophy</h3><p className="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
                         </article>
                     </div>
-                    <div className="grid">
+                    <div className="grid h-[50%]">
                         <div className="lg:flex grid gap-3 mb-2">
                             <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                                 <h4 className="text-lg font-bold font-rajdhani p-4">

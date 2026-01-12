@@ -24,7 +24,6 @@ const SmallProjects = () => {
                 </h1>
                 <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
                     {SmallProjectsAPI.map(({ id, projectName, technologies, githubLink, liveLink, detailInfo }) => (
-                        <div className="hover-3d" key={id}>
                             <div
                                 key={id}
                                 className={`hover-card group bg-[#2C2F36] grid items-center justify-center rounded-lg shadow-md transition-transform duration-300 ease-out hover:-translate-y-2 hover:scale-105 border-2 ${isDesktop ? "lg:border-[#ABB2BF] lg:hover:border-[#c52fee] lg:hover:shadow-[0_0_20px_#C778DD]" : "border-[#ABB2BF] focus:border-[#c52fee] focus:shadow-[0_0_20px_#C778DD]"}`}
@@ -67,7 +66,6 @@ const SmallProjects = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
                     ))}
                 </div>
             </section>
