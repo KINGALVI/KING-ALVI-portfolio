@@ -1,13 +1,8 @@
-import { useContext } from "react";
-import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 import LargeProjects from "./Large-Projects/LargeProjects";
 import SmallProjects from "./Small-Projects/SmallProjects";
 
 const AllProjects = () => {
 
-  const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
-  const { SmallProjectsAPI } = useContext(PortfolioContextAPI);
- 
   return (
     <>
       <div className="flex justify-between mb-7 mt-3 p-4">
@@ -19,31 +14,25 @@ const AllProjects = () => {
         </div>
       </div>
 
-      {LargeProjectsAPI && SmallProjectsAPI.length === 0 ? (
-        <div className="flex justify-center items-center h-screen">
-          <span className="loading loading-spinner loading-lg text-[#C778DD]"></span>
-        </div>
-      ) : (
-        <section>
+      <section>
 
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
 
-          <LargeProjects />
+        <LargeProjects />
 
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
 
-          <SmallProjects />
+        <SmallProjects />
 
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full"></div>
-          <div className="border border-[#ABB2BF] w-full mb-14"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full"></div>
+        <div className="border border-[#ABB2BF] w-full mb-14"></div>
 
-        </section>
-      )}
+      </section>
     </>
   );
 };

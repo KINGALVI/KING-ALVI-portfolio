@@ -106,7 +106,25 @@ button:hover {
   font-weight: bolder;
 }
 
+.fade-in-bounce {
+    animation: fadeBounce 0.8s ease-out;
+}
 
+@keyframes fadeBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    60% {
+        opacity: 1;
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 
 @keyframes fadeSlide {
   0% {
