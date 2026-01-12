@@ -32,7 +32,7 @@ a.active {
 }
 
 .Outline-Style-Image {
-  position: relative; 
+  position: relative;
   width: 85px;
   height: 85px;
   right: 20%;
@@ -104,4 +104,62 @@ button:hover {
   cursor: pointer;
   color: white;
   font-weight: bolder;
+}
+
+
+
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeSlide {
+  animation: fadeSlide 0.8s ease forwards;
+}
+
+
+.logo-hover {
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.logo-hover:hover {
+  filter: drop-shadow(0 0 10px #c52fee);
+}
+
+/* Nav Link Hover + Active Styling */
+.nav-links .nav-link {
+  position: relative;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links .nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #c52fee;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-links .nav-link:hover::after,
+.nav-links .nav-link.nav-active::after {
+  transform: scaleX(1);
+}
+
+.nav-links .nav-link:hover,
+.nav-links .nav-link.nav-active {
+  color: #C778DD;
+  background-color: var(--color-base-200);
 }
