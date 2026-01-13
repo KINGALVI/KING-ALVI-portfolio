@@ -13,11 +13,18 @@ function App() {
 
   useEffect(() => {
     AOS.init({
-      duration: 1000,   // how long the animation runs
-      once: false,      // 👈 allow animations to trigger every time
-      mirror: true      // 👈 animate out when scrolling past, so they reset
+      duration: 1000,
+      once: false,
+      mirror: true
     });
   }, []);
+
+  useEffect(() => {
+    if (LargeProjectsAPI.length && SmallProjectsAPI.length) {
+      AOS.refreshHard();
+    }
+  }, [LargeProjectsAPI, SmallProjectsAPI]);
+
 
   return (
     <>

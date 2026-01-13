@@ -7,7 +7,7 @@ const Education = () => {
 
     useEffect(() => {
         const checkScreen = () => setIsDesktop(window.innerWidth >= 1024);
-        checkScreen(); 
+        checkScreen();
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
     }, []);
@@ -35,49 +35,122 @@ const Education = () => {
 
                             </div>
                             <div className="relative flex items-center justify-between w-full">
-                                <div className="lg:hidden w-full pl-6 text-left aos-init aos-animate" data-aos="zoom-in">
-                                    <div className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-xs mr-auto relative transition-shadow duration-300 ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee] hover:border-2" : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] focus:border-[#c52fee] focus:border-2"}`}
-                                        tabIndex={0}>
+                                {/* Mobile view */}
+                                <div
+                                    className="lg:hidden w-full pl-6 text-left"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-once="false"
+                                    data-aos-mirror="true"
+                                >
+                                    <div
+                                        className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-xs mr-auto relative transition duration-300 ease-in-out transform ${isDesktop
+                                            ? "hover:scale-105 hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee]"
+                                            : "focus:scale-105 focus:shadow-[0_0_20px_#C778DD] active:scale-105 focus:border-[#c52fee]"
+                                            }`}
+                                        tabIndex={0}
+                                    >
+                                        {/* Pulsing dot accent */}
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute top-5 -left-7.5 lg:-top-2 lg:-left-10"></div>
-                                        <h4 className="text-xl font-bold font-rajdhani">Diploma of Computer Science &amp; Engineering</h4>
-                                        <p className="text-[#9F9F9F] font-rubik">shariatpur polytechnic institute, Shariatpur - 8001</p>
+
+                                        <h4 className="text-xl font-bold font-rajdhani">
+                                            Diploma of Computer Science & Engineering
+                                        </h4>
+                                        <p className="text-[#9F9F9F] font-rubik">
+                                            Shariatpur Polytechnic Institute, Shariatpur - 8001
+                                        </p>
                                         <span className="text-sm font-rubik">2026 - 2027</span>
                                     </div>
                                 </div>
-                                <div className="hidden lg:flex w-full items-center justify-between aos-init aos-animate" data-aos="zoom-in">
+
+                                {/* Desktop view */}
+                                <div
+                                    className="hidden lg:flex w-full items-center justify-between"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-once="false"
+                                    data-aos-mirror="true"
+                                >
                                     <div className="w-1/2 pr-6 text-right">
-                                        <div className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tl-3xl rounded-br-3xl shadow-md max-w-lg ml-auto space-y-4 transition-shadow duration-300 ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee] hover:border-2" : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] focus:border-[#c52fee] focus:border-2"}`}
-                                            tabIndex={0}>
-                                            <h4 className="text-xl font-bold font-rajdhani">Diploma of Computer Science &amp; Engineering</h4>
-                                            <p className="text-[#9F9F9F] font-rubik">shariatpur polytechnic institute, Shariatpur - 8001</p>
+                                        <div
+                                            className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tl-3xl rounded-br-3xl shadow-md max-w-lg ml-auto space-y-4 transition duration-300 ease-in-out transform ${isDesktop
+                                                ? "hover:scale-105 hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee]"
+                                                : "focus:scale-105 focus:shadow-[0_0_20px_#C778DD] active:scale-105 focus:border-[#c52fee]"
+                                                }`}
+                                            tabIndex={0}
+                                        >
+                                            <h4 className="text-xl font-bold font-rajdhani">
+                                                Diploma of Computer Science & Engineering
+                                            </h4>
+                                            <p className="text-[#9F9F9F] font-rubik">
+                                                Shariatpur Polytechnic Institute, Shariatpur - 8001
+                                            </p>
                                             <span className="text-sm font-rubik">2026 - 2027</span>
                                         </div>
                                     </div>
+
+                                    {/* Pulsing dot accent */}
                                     <div className="w-1/2 relative flex justify-start items-start">
-                                        <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute -top-10 -left-2">
-                                        </div>
+                                        <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute -top-10 -left-2"></div>
                                     </div>
                                 </div>
                             </div>
                             <div className="relative flex items-center justify-between w-full">
-                                <div className="lg:hidden w-full pl-6 text-left aos-init" data-aos="zoom-in">
-                                    <div className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-xs mr-auto relative transition-shadow duration-300 ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee] hover:border-2" : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] focus:border-[#c52fee] focus:border-2"}`}
-                                        tabIndex={0}>
+                                {/* Mobile view */}
+                                <div
+                                    className="lg:hidden w-full pl-6 text-left"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-once="false"
+                                    data-aos-mirror="true"
+                                >
+                                    <div
+                                        className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-xs mr-auto relative transition duration-300 ease-in-out transform ${isDesktop
+                                            ? "hover:scale-105 hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee]"
+                                            : "focus:scale-105 focus:shadow-[0_0_20px_#C778DD] active:scale-105 focus:border-[#c52fee]"
+                                            }`}
+                                        tabIndex={0}
+                                    >
+                                        {/* Pulsing dot accent */}
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute top-5 -left-7.5 lg:-top-2 lg:-left-10"></div>
-                                        <h4 className="text-xl font-bold font-rajdhani">Secondary School Certificate (SSC)</h4>
-                                        <p className="text-[#9F9F9F] font-rubik">B.C.S.I.R High School & Collage, Dhaka - 1205</p>
+
+                                        <h4 className="text-xl font-bold font-rajdhani">
+                                            Secondary School Certificate (SSC)
+                                        </h4>
+                                        <p className="text-[#9F9F9F] font-rubik">
+                                            B.C.S.I.R High School & Collage, Dhaka - 1205
+                                        </p>
                                         <span className="text-sm font-rubik">2019 - 2020</span>
                                     </div>
                                 </div>
-                                <div className="hidden lg:flex w-full items-center justify-between aos-init aos-animate" data-aos="zoom-in">
+
+                                {/* Desktop view */}
+                                <div
+                                    className="hidden lg:flex w-full items-center justify-between"
+                                    data-aos="zoom-in"
+                                    data-aos-duration="1000"
+                                    data-aos-once="false"
+                                    data-aos-mirror="true"
+                                >
+                                    {/* Pulsing dot accent */}
                                     <div className="w-1/2 relative flex justify-end items-start">
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute -top-10 -right-2"></div>
                                     </div>
+
                                     <div className="w-1/2 pl-6 text-left">
-                                        <div className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-lg mr-auto space-y-4 transition-shadow duration-300 ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee] hover:border-2" : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] focus:border-[#c52fee] focus:border-2"}`}
-                                            tabIndex={0} style={{ transform: "none" }}>
-                                            <h4 className="text-xl font-bold font-rajdhani">Secondary School Certificate (SSC)</h4>
-                                            <p className="text-[#9F9F9F] font-rubik">B.C.S.I.R High School & Collage, Dhaka - 1205</p>
+                                        <div
+                                            className={`bg-[#1e2125] border-2 border-[#ABB2BF] p-5 rounded-tr-3xl rounded-bl-3xl shadow-md max-w-lg mr-auto space-y-4 transition duration-300 ease-in-out transform ${isDesktop
+                                                ? "hover:scale-105 hover:shadow-[0_0_20px_#C778DD] hover:border-[#c52fee]"
+                                                : "focus:scale-105 focus:shadow-[0_0_20px_#C778DD] active:scale-105 focus:border-[#c52fee]"
+                                                }`}
+                                            tabIndex={0}
+                                        >
+                                            <h4 className="text-xl font-bold font-rajdhani">
+                                                Secondary School Certificate (SSC)
+                                            </h4>
+                                            <p className="text-[#9F9F9F] font-rubik">
+                                                B.C.S.I.R High School & Collage, Dhaka - 1205
+                                            </p>
                                             <span className="text-sm font-rubik">2019 - 2020</span>
                                         </div>
                                     </div>

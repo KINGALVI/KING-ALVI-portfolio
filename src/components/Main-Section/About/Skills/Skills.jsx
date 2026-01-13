@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact } from "react-icons/fa";
 import { SiVercel, SiNetlify, SiFigma, SiNextdotjs, SiTailwindcss, SiBootstrap, SiDaisyui } from "react-icons/si";
+import { VscVscode } from "react-icons/vsc";
 
 
 const Skills = () => {
@@ -134,6 +135,17 @@ const Skills = () => {
                                     <SiFigma className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-red-400 group-hover:text-[#F24E1E]" : "text-red-400 group-focus:text-[#F24E1E]"}`} />
                                     <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
                                         Figma
+                                    </span>
+                                </div>
+
+                                {/* VS Code */}
+                                <div
+                                    className={`group flex flex-col items-center justify-center p-3 rounded-lg shadow text-center w-full transition duration-300 ${isDesktop ? "bg-[#282C33] group-hover:bg-[#3a3d42]" : "bg-[#282C33] group-focus:bg-[#3a3d42]"}`}
+                                    style={{ opacity: 0.8 }}
+                                >
+                                    <VscVscode className={`text-2xl mb-1 transition-colors duration-300 ${isDesktop ? "text-[#1572B6] group-hover:text-[#2196F3]" : "text-[#1572B6] group-focus:text-[#2196F3]"}`} />
+                                    <span className={`text-sm font-medium font-rubik transition-colors duration-300  ${isDesktop ? "text-[#9F9F9F] group-hover:text-white" : "text-[#9F9F9F] group-focus:text-white"}`}>
+                                        VS Code
                                     </span>
                                 </div>
 
