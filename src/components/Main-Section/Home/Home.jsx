@@ -12,6 +12,7 @@ import { useContext, useEffect, useState } from "react";
 import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 import About from "../About/About";
 import Contacts from "../Contacts/Contacts";
+import { Typewriter } from 'react-simple-typewriter';
 
 const Home = () => {
 
@@ -37,11 +38,27 @@ const Home = () => {
                         Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and{" "}
                         <span className="text-[#C778DD]">Gamer</span>
                     </h1>
-                    <h3 className="text-[#ABB2BF] text-2xl pt-5 pb-2.5 text-center lg:text-left animate-fadeSlide delay-200">
-                        He crafts responsive websites where technologies meet creativity!!
+                    <h3
+                        className="relative text-[#ABB2BF] text-2xl md:mt-2.5 md:mb-2.5 mt-7 mb-7 lg:w-[550px] h-16 lg:text-left text-center"
+                    >
+                        <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
+                            <Typewriter
+                                words={[
+                                    "He can crafts responsive websites where technologies meet it's creativity !!",
+                                    "He can Turn complex ideas into elegant digital experiences !!",
+                                    "He can Build recruiter‑friendly web Application with interactive polish !!"
+                                ]}
+                                loop={true}
+                                cursor
+                                cursorStyle="|"
+                                typeSpeed={50}
+                                deleteSpeed={30}
+                                delaySpeed={2000}
+                            />
+                        </span>
                     </h3>
-                    <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left lg:w-[450px] animate-fadeSlide delay-300">
-                        As a junior in the MERN stack and a web developer, I prioritize creating user-friendly interfaces...
+                    <p className="text-[#ABB2BF] pb-2.5 text-center lg:text-left lg:w-[450px] animate-fadeSlide delay-300">
+                        As a professional in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.
                     </p>
 
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
@@ -58,8 +75,8 @@ const Home = () => {
                 <div className="grid lg:ps-0 md:ps-16 animate-fadeSlide delay-500">
                     <figure style={{ position: "relative" }}>
                         <img src={MyPhoto_1} alt="My Photo"
-                            className="Background-Image-1 lg:w-[400px] lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block" />
-                        <img className="Dots-Image-1 animate-spin-slow" src={Dots} alt="Dot Image" />
+                            className="Background-Image-1 lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block" />
+                        <img className="relative w-[85px] h-[85px] md:right-[17%] right-[21%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
                     </figure>
                     <div>
                         <img className="lg:md-0 md:me-10" src={FristDedication} alt="Dedication quote" />

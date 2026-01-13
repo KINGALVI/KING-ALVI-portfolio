@@ -29,15 +29,6 @@ a.active {
   background-position-y: 12%;
 }
 
-/* Decorative dots image (variant 1) */
-.Dots-Image-1 {
-  position: relative;
-  width: 85px;
-  height: 85px;
-  right: 20%;
-  top: -100px;
-}
-
 /* Outline style image (same size/position as dots-1) */
 .Outline-Style-Image {
   position: relative;

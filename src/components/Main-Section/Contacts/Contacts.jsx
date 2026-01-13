@@ -31,7 +31,7 @@ const Contacts = () => {
                                         alt="My Photo"
                                         className="Background-Image-2 w-[315px] h-[450px] block"
                                     />
-                                    <img className="absolute w-[85px] h-[85px] md:right-[15%] right-[0%] top-10 animate-spin-slow" src={Dots} alt="Dot Image" />
+                                    <img className="absolute w-[85px] h-[85px] md:right-[12%] right-[0%] top-10 animate-spin-slow" src={Dots} alt="Dot Image" />
                                 </figure>
                                 <div className="flex justify-center">
                                     <img
