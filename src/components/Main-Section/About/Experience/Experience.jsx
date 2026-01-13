@@ -33,7 +33,7 @@ const Experience = () => {
                     role="button"
                     className={`bg-[#1e2125] border-2 border-[#ABB2BF] w-11/12 mx-auto p-6 rounded-3xl text-left h-full flex flex-col justify-between mb-10 ${isDesktop
                         ? "hover:shadow-[0_0_20px_#C778DD] hover:border-2 hover:border-[#c52fee]"
-                        : "focus:shadow-[0_0_20px_#C778DD] focus:border-2 focus:border-[#c52fee] active:shadow-[0_0_20px_#C778DD] active:border-2 active:border-[#c52fee]"
+                        : "focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] active:border-2 active:border-[#c52fee]"
                         } aos-init aos-animate`} data-aos="flip-up"
                 >
                     <div>
