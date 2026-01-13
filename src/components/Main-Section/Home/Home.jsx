@@ -65,9 +65,22 @@ const Home = () => {
                         <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">
                             Contact me !!
                         </Link>
-                        <button className="Link-Button text-[#ABB2BF] hover:animate-pulse">
+                        <a
+                            href=""
+                            download="ALVI-AL-MAHMUD-CV.pdf"
+                            className="Link-Button text-[#ABB2BF] hover:animate-pulse"
+                        >
                             Download Resume
-                        </button>
+                        </a>
+                        <a
+                            href=""
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="Link-Button text-[#ABB2BF] hover:animate-pulse"
+                        >
+                            View Resume
+                        </a>
+
                     </div>
                 </div>
 
