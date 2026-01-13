@@ -7,7 +7,7 @@ const Contacts = () => {
 
     return (
         <>
-            <section className="mb-10 mt-10 ms-3">
+            <section className="mb-10 mt-10 ms-3 animate-fadeSlide">
                 <div className="flex items-center gap-3">
                     <h1 className="md:text-4xl text-3xl">
                         <span className="text-[#C778DD]">#</span>Contacts
