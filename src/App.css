@@ -56,15 +56,6 @@ a.active {
   background-position-y: 15%;
 }
 
-/* Decorative dots image (variant 2) */
-.Dots-Image-2 {
-  position: absolute;
-  width: 85px;
-  height: 85px;
-  right: 15%;
-  top: 40px;
-}
-
 /* Default button styling */
 button {
   height: 37px;

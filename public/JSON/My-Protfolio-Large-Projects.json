@@ -1,4 +1,4 @@
-[ 
+[
     {
         "id": 1,
         "image": "../Images/E-Commerce-Picture.png",
@@ -60,24 +60,23 @@
     },
     {
         "id": 4,
-        "image": "/Images/career-hub.png",
-        "alt": "Future Career Hub Image",
-        "projectName": "Future Career Hub",
+        "image": "/Images/scorer-king-vector.png",
+        "alt": "Scorer King Vector Image",
+        "projectName": "Scorer King Vector",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript",
-            "DaisyUI",
             "JSON Data",
             "React",
-            "Prop Drilling",
-            "React Toastify",
+            "Props Drilling",
+            "React Bootstrap",
             "CSS Animation",
-            "TailwindCSS"
+            "React Toastify"
         ],
-        "detailInfo": "Career Hub is a job portal website designed to help users find employment opportunities and explore detailed job information. The platform allows visitors to browse listings, view descriptions, and apply for positions directly. It was built using React for component-based architecture, with prop drilling used to manage data flow across multiple components. DaisyUI and TailwindCSS were integrated to create a clean, responsive interface, while React Toastify provided real-time notifications for user actions. JSON data was used to simulate job listings, making the application dynamic and easy to expand. CSS animations added subtle visual enhancements, improving the overall user experience. One of the main challenges was managing state across different components while ensuring data consistency, which was addressed through careful use of props and structured component hierarchies. Career Hub taught me the importance of designing applications that prioritize clarity and usability, especially when dealing with complex data. It also reinforced my ability to integrate multiple libraries and frameworks into a cohesive product. Overall, Career Hub reflects my ability to build functional, user-focused applications that balance technical implementation with design considerations.",
-        "githubLink": "https://github.com/KINGALVI/career-hub",
-        "liveLink": "https://future-career-hub.netlify.app/"
+        "detailInfo": "Scorer King Vector is a fantasy football team builder designed to give users the freedom to create their dream squad. The platform allows visitors to browse available players, select them into a custom lineup, and manage their team composition interactively. Built with React, the project leverages props drilling to pass player data and team state across multiple components, ensuring smooth updates as users add or remove players. JSON data was used to simulate player information, including names, positions, and attributes, while React Bootstrap provided a responsive and polished interface. CSS animations were integrated to enhance the experience, making team selections and transitions visually engaging. React Toastify was used to deliver real-time feedback, such as confirming player additions or notifying users when a team limit was reached. One of the key challenges was managing dynamic state across different components while keeping the interface intuitive, which was solved through careful structuring of props and component hierarchies. This project taught me valuable lessons about balancing functionality with user experience, especially in applications that rely heavily on dynamic data handling. Scorer King Vector reflects my ability to design interactive platforms that combine technical implementation with creativity, offering users a fun and engaging way to explore football team building. It demonstrates my growing confidence in React, state management, and UI polish, while also highlighting my ability to integrate multiple libraries into a cohesive product.",
+        "githubLink": "https://github.com/KINGALVI/scorer-king-vector",
+        "liveLink": "https://scorer-king-vector.netlify.app/"
     },
     {
         "id": 5,
@@ -119,22 +118,23 @@
     },
     {
         "id": 7,
-        "image": "/Images/scorer-king-vector.png",
-        "alt": "Scorer King Vector Image",
-        "projectName": "Scorer King Vector",
+        "image": "/Images/career-hub.png",
+        "alt": "Future Career Hub Image",
+        "projectName": "Future Career Hub",
         "technologies": [
             "HTML",
             "CSS",
             "JavaScript",
+            "DaisyUI",
             "JSON Data",
             "React",
-            "Props Drilling",
-            "React Bootstrap",
+            "Prop Drilling",
+            "React Toastify",
             "CSS Animation",
-            "React Toastify"
+            "TailwindCSS"
         ],
-        "detailInfo": "Scorer King Vector is a fantasy football team builder designed to give users the freedom to create their dream squad. The platform allows visitors to browse available players, select them into a custom lineup, and manage their team composition interactively. Built with React, the project leverages props drilling to pass player data and team state across multiple components, ensuring smooth updates as users add or remove players. JSON data was used to simulate player information, including names, positions, and attributes, while React Bootstrap provided a responsive and polished interface. CSS animations were integrated to enhance the experience, making team selections and transitions visually engaging. React Toastify was used to deliver real-time feedback, such as confirming player additions or notifying users when a team limit was reached. One of the key challenges was managing dynamic state across different components while keeping the interface intuitive, which was solved through careful structuring of props and component hierarchies. This project taught me valuable lessons about balancing functionality with user experience, especially in applications that rely heavily on dynamic data handling. Scorer King Vector reflects my ability to design interactive platforms that combine technical implementation with creativity, offering users a fun and engaging way to explore football team building. It demonstrates my growing confidence in React, state management, and UI polish, while also highlighting my ability to integrate multiple libraries into a cohesive product.",
-        "githubLink": "https://github.com/KINGALVI/scorer-king-vector",
-        "liveLink": "https://scorer-king-vector.netlify.app/"
+        "detailInfo": "Career Hub is a job portal website designed to help users find employment opportunities and explore detailed job information. The platform allows visitors to browse listings, view descriptions, and apply for positions directly. It was built using React for component-based architecture, with prop drilling used to manage data flow across multiple components. DaisyUI and TailwindCSS were integrated to create a clean, responsive interface, while React Toastify provided real-time notifications for user actions. JSON data was used to simulate job listings, making the application dynamic and easy to expand. CSS animations added subtle visual enhancements, improving the overall user experience. One of the main challenges was managing state across different components while ensuring data consistency, which was addressed through careful use of props and structured component hierarchies. Career Hub taught me the importance of designing applications that prioritize clarity and usability, especially when dealing with complex data. It also reinforced my ability to integrate multiple libraries and frameworks into a cohesive product. Overall, Career Hub reflects my ability to build functional, user-focused applications that balance technical implementation with design considerations.",
+        "githubLink": "https://github.com/KINGALVI/career-hub",
+        "liveLink": "https://future-career-hub.netlify.app/"
     }
 ]
