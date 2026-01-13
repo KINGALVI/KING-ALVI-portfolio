@@ -16,7 +16,7 @@ const About = () => {
 
     return (
         <>
-            <section className="lg:m-5 m-2 mt-7">
+            <section className="lg:m-5 m-2 mt-7 animate-fadeSlide delay-500">
                 <div className="flex items-center gap-3">
                     <h1 className="md:text-4xl text-3xl">
                         <span className="text-[#C778DD]">#</span>About Me
@@ -32,7 +32,7 @@ const About = () => {
                     Progress • Objective • Progress
                 </h1>
 
-                <div className="lg:flex gap-3">
+                <div className="lg:flex gap-3 aos-init aos-animate" data-aos="fade-down">
                     <div>
                         <article>
                             <p className="text-[#ABB2BF] pt-5 pb-2.5 text-center lg:text-left">

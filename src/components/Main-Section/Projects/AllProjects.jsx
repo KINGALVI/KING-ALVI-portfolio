@@ -5,33 +5,35 @@ const AllProjects = () => {
 
   return (
     <>
-      <div className="flex justify-between mb-7 mt-3 p-4">
-        <div className="flex items-center gap-3">
-          <h1 className="text-4xl">
-            <span className="text-[#C778DD]">#</span>Projects
-          </h1>
-          <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[190px]"></div>
+      <section className="animate-fadeSlide delay-500">
+        <div className="flex justify-between mb-7 mt-3 p-4">
+          <div className="flex items-center gap-3">
+            <h1 className="text-4xl">
+              <span className="text-[#C778DD]">#</span>Projects
+            </h1>
+            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[190px]"></div>
+          </div>
         </div>
-      </div>
 
-      <section>
+        <section>
 
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
 
-        <LargeProjects />
+          <LargeProjects />
 
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
 
-        <SmallProjects />
+          <SmallProjects />
 
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full"></div>
-        <div className="border border-[#ABB2BF] w-full mb-14"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full"></div>
+          <div className="border border-[#ABB2BF] w-full mb-14"></div>
 
+        </section>
       </section>
     </>
   );

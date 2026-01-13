@@ -21,7 +21,7 @@ const Contacts = () => {
                     <h2 className="md:text-4xl text-2xl text-center mb-10 mt-5">Get in Touch With Me</h2>
                 </div>
 
-                <div className="w-11/12 mx-auto flex lg:flex-row lg:justify-between flex-col justify-center">
+                <div className="w-11/12 mx-auto flex lg:flex-row lg:justify-between flex-col justify-center aos-init aos-animate" data-aos="fade-down">
                     <div className="flex flex-1 flex-col items-center md:items-start text-center md:text-left my-auto">
                         <div className="w-11/12 mx-auto my-auto md:w-md">
                             <div className="grid mb-5">
@@ -31,7 +31,7 @@ const Contacts = () => {
                                         alt="My Photo"
                                         className="Background-Image-2 w-[315px] h-[450px] block"
                                     />
-                                    <img className="Dots-Image-2" src={Dots} alt="" />
+                                    <img className="Dots-Image-2 animate-spin-slow" src={Dots} alt="Dot Image" />
                                 </figure>
                                 <div className="flex justify-center">
                                     <img
@@ -80,7 +80,7 @@ const Contacts = () => {
                             </div>
                         </div>
                     </div>
-                    <form className="space-y-4 bg-[#1e2125] p-5 rounded shadow-lg my-auto flex-1 font-rubik mt-10">
+                    <form className="space-y-4 bg-[#1e2125] p-5 rounded shadow-lg my-auto flex-1 font-rubik lg:mt-7 mt-10 aos-init aos-animate" data-aos="flip-up">
                         <div className="flex flex-col md:flex-row gap-4">
                             <div className="flex-1">
                                 <input placeholder="Enter your full name" className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]" name="fullName" />

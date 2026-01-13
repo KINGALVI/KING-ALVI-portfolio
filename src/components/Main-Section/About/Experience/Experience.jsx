@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 const Experience = () => {
 
     const [isDesktop, setIsDesktop] = useState(false);
- 
+
     useEffect(() => {
         const checkScreen = () => setIsDesktop(window.innerWidth >= 1024);
         checkScreen();
@@ -34,7 +34,7 @@ const Experience = () => {
                     className={`bg-[#1e2125] border-2 border-[#ABB2BF] w-11/12 mx-auto p-6 rounded-3xl shadow-lg text-left h-full flex flex-col justify-between transition duration-300 mb-10 ${isDesktop
                         ? "hover:shadow-[0_0_20px_#C778DD] hover:border-2 hover:border-[#c52fee]"
                         : "focus:shadow-[0_0_20px_#C778DD] focus:border-2 focus:border-[#c52fee] active:shadow-[0_0_20px_#C778DD] active:border-2 active:border-[#c52fee]"
-                        }`}
+                        } aos-init aos-animate`} data-aos="flip-up"
                 >
                     <div>
                         <h3 className="text-xl font-bold font-rajdhani text-[#C778DD]">Bdcalling Academy</h3>
@@ -103,8 +103,7 @@ const Experience = () => {
                     className={`bg-[#1e2125] w-11/12 mx-auto border-2 border-[#ABB2BF] p-6 rounded-3xl shadow-lg text-left h-full flex flex-col justify-between transition duration-300 ${isDesktop
                         ? "hover:shadow-[0_0_20px_#C778DD] hover:border-2 hover:border-[#c52fee]"
                         : "focus:shadow-[0_0_20px_#C778DD] focus:border-2 focus:border-[#c52fee] active:shadow-[0_0_20px_#C778DD] active:border-2 active:border-[#c52fee]"
-                        }`}
-                >
+                        } aos-init aos-animate`} data-aos="flip-up">
                     <div>
                         <h3 className="text-xl font-bold font-rajdhani text-[#C778DD]">Programming Hero</h3>
                         <h4 className="text-lg font-semibold font-rubik mt-1">

@@ -1,20 +1,26 @@
+/* Import TailwindCSS framework */
 @import "tailwindcss";
 
+/* Enable DaisyUI plugin */
 @plugin "daisyui";
 
+/* Set global background color for the body */
 body {
   background-color: oklch(25.33% 0.016 252.42);
 }
 
+/* Active link styling */
 a.active {
   color: white;
   font-weight: bolder;
 }
 
+/* Logo hover effect */
 .Logo:hover {
   color: white;
 }
 
+/* Background image for hero section (variant 1) */
 .Background-Image-1 {
   background-image: url("../../../../public/Images/Outline-Style.svg");
   background-repeat: no-repeat;
@@ -23,6 +29,7 @@ a.active {
   background-position-y: 12%;
 }
 
+/* Decorative dots image (variant 1) */
 .Dots-Image-1 {
   position: relative;
   width: 85px;
@@ -31,6 +38,7 @@ a.active {
   top: -100px;
 }
 
+/* Outline style image (same size/position as dots-1) */
 .Outline-Style-Image {
   position: relative;
   width: 85px;
@@ -39,6 +47,7 @@ a.active {
   top: -100px;
 }
 
+/* Background image for hero section (variant 2) */
 .Background-Image-2 {
   background-image: url("../../../../public/Images/Outline-Style.svg");
   background-repeat: no-repeat;
@@ -47,6 +56,7 @@ a.active {
   background-position-y: 15%;
 }
 
+/* Decorative dots image (variant 2) */
 .Dots-Image-2 {
   position: absolute;
   width: 85px;
@@ -55,6 +65,7 @@ a.active {
   top: 40px;
 }
 
+/* Default button styling */
 button {
   height: 37px;
   width: 148px;
@@ -62,6 +73,7 @@ button {
   border-radius: 5px;
 }
 
+/* Button hover effect */
 button:hover {
   background-color: #c52fee;
   border: 2px solid #c52fee;
@@ -70,24 +82,29 @@ button:hover {
   font-weight: bolder;
 }
 
+/* Form button full width */
 .form-button {
   width: 100%;
 }
 
+/* Quote man image positioning */
 .reletive-quote_man-image {
   position: relative;
   top: 13px;
 }
 
+/* Projects button styling */
 .projects-btn {
   border: none;
 }
 
+/* Projects button hover effect */
 .projects-btn:hover {
   color: whitesmoke;
   background-color: #282C33;
 }
 
+/* Link button styling (same size as button but flex centered) */
 .Link-Button {
   display: flex;
   justify-content: center;
@@ -98,6 +115,7 @@ button:hover {
   border-radius: 5px;
 }
 
+/* Link button hover effect */
 .Link-Button:hover {
   background-color: #c52fee;
   border: 2px solid #c52fee;
@@ -106,43 +124,29 @@ button:hover {
   font-weight: bolder;
 }
 
+/* Fade-in bounce animation utility */
 .fade-in-bounce {
-    animation: fadeBounce 0.8s ease-out;
+  animation: fadeBounce 0.8s ease-out;
 }
 
+/* Keyframes for fade-in bounce */
 @keyframes fadeBounce {
-    0% {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    60% {
-        opacity: 1;
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-@keyframes fadeSlide {
   0% {
     opacity: 0;
+    transform: translateY(20px);
+  }
+
+  60% {
+    opacity: 1;
     transform: translateY(-10px);
   }
 
   100% {
-    opacity: 1;
     transform: translateY(0);
   }
 }
 
-.animate-fadeSlide {
-  animation: fadeSlide 0.8s ease forwards;
-}
-
-
+/* Logo hover glow effect */
 .logo-hover {
   transition: transform 0.4s ease, filter 0.4s ease;
 }
@@ -180,4 +184,36 @@ button:hover {
 .nav-links .nav-link.nav-active {
   color: #C778DD;
   background-color: var(--color-base-200);
+}
+
+/* Fade + Slide animation utility */
+@keyframes fadeSlide {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeSlide {
+  animation: fadeSlide 0.8s ease forwards;
+}
+
+/* Slow spin animation (for dots) */
+@keyframes spinSlow {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spinSlow 20s linear infinite;
 }

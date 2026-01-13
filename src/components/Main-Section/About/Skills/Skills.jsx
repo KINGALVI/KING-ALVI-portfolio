@@ -15,7 +15,7 @@ const Skills = () => {
     }, []);
 
 
-    return ( 
+    return (
         <>
             <section id="Skills" className="m-2">
                 <div className="flex items-center gap-3 mb-3">
@@ -40,12 +40,10 @@ const Skills = () => {
                         {/* Languages */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 flex border-2 border-base-200 flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : " focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
-                        >
+                            className={`group p-6 flex border-2 border-base-200 flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : " focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"} aos-init aos-animate`} data-aos="flip-up">
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">
                                 Languages
                             </h4>
-
 
                             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full justify-items-center">
 
@@ -88,7 +86,7 @@ const Skills = () => {
                         {/* Tools & Platforms */}
                         <div
                             tabIndex={0}
-                            className={`group p-6 border-2 border-base-200 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
+                            className={`group p-6 border-2 border-base-200 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tl-3xl rounded-bl-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"} aos-init aos-animate`} data-aos="flip-up"
                         >
 
                             <h4 className="text-xl font-bold font-rajdhani text-white mb-4 group-hover:text-[#C778DD]">Tools &amp; Platforms</h4>
@@ -149,7 +147,7 @@ const Skills = () => {
                     <div className="flex flex-col justify-center gap-4 lg:gap-12">
                         <div
                             tabIndex={0}
-                            className={`group p-6 border-2 border-base-200 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"}`}
+                            className={`group p-6 border-2 border-base-200 flex flex-col items-center bg-base-200 transition-shadow duration-300 select-none outline-none focus:outline-none ${isDesktop ? "hover:border-[#c52fee] hover:border-2 hover:shadow-[0_0_20px_#C778DD] rounded-tr-3xl rounded-br-3xl" : "focus:border-[#c52fee] focus:border-2 focus:shadow-[0_0_20px_#C778DD] active:shadow-[0_0_20px_#C778DD] rounded-3xl"} aos-init aos-animate`} data-aos="flip-up"
                         >
                             <h4 className={`text-xl font-bold font-rajdhani ${isDesktop ? "text-white mb-4 group-hover:text-[#C778DD]" : "text-white mb-4 group-focus:text-[#C778DD]"}`}>
                                 Frontend

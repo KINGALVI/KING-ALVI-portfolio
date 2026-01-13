@@ -18,7 +18,7 @@ const LargeProjectsDetail = () => {
     const { image, alt, projectName, technologies, detailInfo, githubLink, liveLink } = LargeProjects;
 
     return (
-        <div className="p-6 bg-[#2C2F36] rounded-lg shadow-md">
+        <section className="p-6 bg-[#2C2F36] rounded-lg shadow-md animate-fadeSlide delay-500">
             <center>
                 <img
                     src={image}
@@ -64,7 +64,7 @@ const LargeProjectsDetail = () => {
                   <GoProjectSymlink className="text-[21px]" />  Back to Projects
                 </Link>
             </div>
-        </div>
+        </section>
     );
 };
 

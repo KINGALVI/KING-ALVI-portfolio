@@ -20,7 +20,7 @@ const LargeProjects = () => {
 
     return (
         <>
-            <section className="mt-7 mb-14 m-2">
+            <section className="mt-10 mb-14 m-2">
                 <h1 className="text-4xl mb-7 text-[#ABB2BF]">
                     <span className="text-[#C778DD]">#</span>Large-Projects
                 </h1>
