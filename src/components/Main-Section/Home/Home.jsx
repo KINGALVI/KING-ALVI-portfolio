@@ -96,7 +96,6 @@ const Home = () => {
                 </div>
             </section>
 
-
             <br />
 
             {/* Quote Section */}
