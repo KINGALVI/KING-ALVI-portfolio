@@ -111,7 +111,7 @@ const Education = () => {
                                             }`}
                                         tabIndex={0}
                                     >
-                                        {/* Pulsing dot accent */}
+                                        {/* Mobile view dot accent */}
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute top-5 -left-7.5 lg:-top-2 lg:-left-10"></div>
 
                                         <h4 className="text-xl font-bold font-rajdhani">
@@ -132,7 +132,7 @@ const Education = () => {
                                     data-aos-once="false"
                                     data-aos-mirror="true"
                                 >
-                                    {/* Pulsing dot accent */}
+                                    {/* Desktop view dot accent */}
                                     <div className="w-1/2 relative flex justify-end items-start">
                                         <div className="w-4 h-4 bg-[#b519e0] rounded-full border-4 border-white shadow-md absolute -top-10 -right-2"></div>
                                     </div>

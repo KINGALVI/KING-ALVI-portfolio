@@ -80,8 +80,8 @@ const Home = () => {
                         >
                             View Resume
                         </a>
-
                     </div>
+                    
                 </div>
 
                 {/* Hero Image */}

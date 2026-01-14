@@ -68,15 +68,21 @@ const Contacts = () => {
                         <div className="mx-auto mt-6">
                             <h2 className="text-xl text-center text-[#C778DD] font-semibold font-rajdhani mb-3">Find Me Online:</h2>
                             <div className="flex justify-center md:justify-start gap-4 my-4 md:my-0">
-                                <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
-                                    <a href="https://www.facebook.com/alvi.al.mahamud/" target="_blank" rel="noopener noreferrer"><FaFacebookSquare className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" /></a>
-                                </div>
-                                <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
-                                    <a href="https://www.linkedin.com/in/alvi-al-mahamud-565a07398/" target="_blank" rel="noopener noreferrer"><FaLinkedin className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" /></a>
-                                </div>
-                                <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
-                                    <a href="https://github.com/KINGALVI" target="_blank" rel="noopener noreferrer"><FaGithub className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" /></a>
-                                </div>
+                                <a href="https://www.facebook.com/alvi.al.mahamud/" target="_blank" rel="noopener noreferrer">
+                                    <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
+                                        <FaFacebookSquare className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" />
+                                    </div>
+                                </a>
+                                <a href="https://www.linkedin.com/in/alvi-al-mahamud-565a07398/" target="_blank" rel="noopener noreferrer">
+                                    <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
+                                        <FaLinkedin className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" />
+                                    </div>
+                                </a>
+                                <a href="https://github.com/KINGALVI" target="_blank" rel="noopener noreferrer">
+                                    <div className="bg-base-200 group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
+                                        <FaGithub className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" />
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +104,7 @@ const Contacts = () => {
                         <button type="submit" className="mt-4 flex items-center justify-center form-button text-gray-400 transition duration-300 hover:text-white font-bold px-6 py-2 rounded-full font-rajdhani">Send Message</button>
                     </form>
                 </div >
-            </section>
+            </section >
         </>
     );
 };
