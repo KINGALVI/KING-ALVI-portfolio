@@ -80,7 +80,7 @@ const Home = () => {
                             View Resume
                         </a>
                     </div>
-                    
+
                 </div>
 
                 {/* Hero Image */}
@@ -208,7 +208,7 @@ const Home = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#c52fee] focus:border-[#c52fee] focus:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
                                 >
                                     <span><center><FaGithub className="text-[17px] mb-0" /></center>  GitHub</span>
                                 </a>
@@ -216,13 +216,13 @@ const Home = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 focus:bg-[#c52fee] focus:border-[#c52fee] focus:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
                                 >
                                     <center><MdLiveTv className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Live</span> <span> Link</span></span>
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 focus:bg-[#c52fee] focus:border-[#c52fee] focus:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
                                 >
                                     <center><FaInfo className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Detail</span> <span> Info</span></span>
                                 </Link>
