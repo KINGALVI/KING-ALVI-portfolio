@@ -15,8 +15,8 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300">
-                            <FaFacebookSquare className="w-[30px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
+                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
+                            <FaFacebookSquare className="lg:w-[30px] w-[25px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>
                     <a
@@ -24,7 +24,7 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300">
+                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
                             <FaLinkedin className="w-[30px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>
@@ -33,7 +33,7 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300">
+                        <div className="bg-base-200 group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
                             <FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>
