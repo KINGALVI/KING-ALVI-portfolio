@@ -65,14 +65,14 @@ const Home = () => {
                             Contact Me !!
                         </Link>
                         <a
-                            href=""
+                            href="../../../../public/Documents/ALVI AL MAHMUD.pdf.pdf"
                             download="ALVI-AL-MAHMUD-CV.pdf"
                             className="Link-Button text-[#ABB2BF] hover:animate-pulse"
                         >
                             Download Resume
                         </a>
                         <a
-                            href=""
+                            href="https://drive.google.com/file/d/1f3UpiZWYwlDOaErcXsFEz8PxXcqGWrJy/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="Link-Button text-[#ABB2BF] hover:animate-pulse"
