@@ -2,6 +2,7 @@ import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import MyPhoto_2 from "../../../../public/Images/My-Photo-2.png";
 import Dots from "../../../../public/Images/Dots.png";
 import SecoendDedication from "../../../../public/Images/My-Dedication-2.png";
+import ContactFrom from "./Contact-From/ContactFrom";
 
 const Contacts = () => {
 
@@ -86,23 +87,7 @@ const Contacts = () => {
                             </div>
                         </div>
                     </div>
-                    <form className="space-y-4 bg-[#1e2125] p-5 rounded shadow-lg my-auto flex-1 font-rubik lg:mt-7 mt-10 aos-init aos-animate" data-aos="flip-up">
-                        <div className="flex flex-col md:flex-row gap-4">
-                            <div className="flex-1">
-                                <input placeholder="Enter your full name" className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]" name="fullName" />
-                            </div>
-                            <div className="flex-1">
-                                <input placeholder="Enter your email" className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]" name="email" />
-                            </div>
-                        </div>
-                        <div>
-                            <input placeholder="Subject" className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]" name="subject" />
-                        </div>
-                        <div>
-                            <textarea name="message" rows="5" placeholder="Write your message..." className="w-full px-4 py-2 rounded-md bg-[#2d2f36] text-white focus:outline-none focus:ring-2 focus:ring-[#c52fee]"></textarea>
-                        </div>
-                        <button type="submit" className="mt-4 flex items-center justify-center form-button text-gray-400 transition duration-300 hover:text-white font-bold px-6 py-2 rounded-full font-rajdhani">Send Message</button>
-                    </form>
+                    <ContactFrom />
                 </div >
             </section >
         </>
