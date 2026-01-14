@@ -45,7 +45,7 @@ const LargeProjectsDetail = () => {
                     href={githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     <FaGithub className="text-[21px]" />  GitHub
                 </a>
@@ -53,13 +53,13 @@ const LargeProjectsDetail = () => {
                     href={liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     <MdLiveTv className="text-[21px]" /> Live Link
                 </a>
                 <Link
                     to="/AllProjects"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] transition-all duration-300 hover:bg-[#C778DD] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                   <GoProjectSymlink className="text-[21px]" />  Back to Projects
                 </Link>
