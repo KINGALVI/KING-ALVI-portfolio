@@ -21,7 +21,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (LargeProjectsAPI.length || SmallProjectsAPI.length) {
+    if (LargeProjectsAPI.length && SmallProjectsAPI.length) {
       AOS.refreshHard();
     }
   }, [LargeProjectsAPI, SmallProjectsAPI]);
