@@ -60,7 +60,6 @@ const Home = () => {
                     <p className="text-[#ABB2BF] pb-2.5 text-center lg:text-left lg:w-[450px] animate-fadeSlide delay-300">
                         As a professional in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.
                     </p>
-
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
                         <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">
                             Contact Me !!
