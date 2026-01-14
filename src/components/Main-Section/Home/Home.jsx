@@ -65,8 +65,8 @@ const Home = () => {
                             Contact Me !!
                         </Link>
                         <a
-                            href="../../../../Documents/ALVI AL MAHMUD.pdf"
-                            download="ALVI AL MAHMUD.pdf"
+                            href="../../../../Documents/ALVI AL MAHMUD CV.pdf"
+                            download="ALVI AL MAHMUD CV.pdf"
                             className="Link-Button text-[#ABB2BF] hover:animate-pulse"
                         >
                             Download Resume
