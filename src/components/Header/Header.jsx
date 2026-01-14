@@ -19,7 +19,7 @@ export default function Header() {
                             className="w-[100px] h-[100px] transform transition-transform duration-700  group-hover:scale-110 group-active:rotate-12 group-active:scale-110"
                         />
                         {/* Brand name with subtle fade-slide animation */}
-                        <h1 className="ml-2 text-white font-rajdhani animate-fadeSlide">
+                        <h1 className=" text-white font-rajdhani animate-fadeSlide">
                             Alvi.Dev.Ops
                         </h1>
                     </Link>
