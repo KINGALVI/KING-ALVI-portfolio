@@ -63,7 +63,7 @@ const Home = () => {
 
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
                         <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">
-                            Contact me !!
+                            Contact Me !!
                         </Link>
                         <a
                             href=""
