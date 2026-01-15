@@ -3,8 +3,17 @@ import MyPhoto_2 from "../../../../public/Images/My-Photo-2.png";
 import Dots from "../../../../public/Images/Dots.png";
 import SecoendDedication from "../../../../public/Images/My-Dedication-2.png";
 import ContactFrom from "./Contact-From/ContactFrom";
+import Aos from "aos";
+import { useEffect } from "react";
 
 const Contacts = () => {
+
+        useEffect(() => {
+            // Refresh AOS after Home and its children render
+            setTimeout(() => {
+                Aos.refresh();
+            }, 0);
+        }, []);
 
     return (
         <>

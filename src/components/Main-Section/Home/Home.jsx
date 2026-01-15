@@ -13,6 +13,7 @@ import { PortfolioContextAPI } from "../../../Context-API/PortfolioContext";
 import About from "../About/About";
 import Contacts from "../Contacts/Contacts";
 import { Typewriter } from 'react-simple-typewriter';
+import AOS from "aos";
 
 const Home = () => {
 
@@ -24,6 +25,14 @@ const Home = () => {
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
     }, []);
+
+    useEffect(() => {
+        // Refresh AOS after Home and its children render
+        setTimeout(() => {
+            AOS.refresh();
+        }, 0);
+    }, []);
+
 
     const { LargeProjectsAPI } = useContext(PortfolioContextAPI);
 
