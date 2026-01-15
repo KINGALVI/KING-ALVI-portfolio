@@ -8,24 +8,24 @@ import { ToastContainer } from "react-toastify";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-
 function App() {
   const { LargeProjectsAPI, SmallProjectsAPI } = useContext(PortfolioContextAPI);
 
+  // Initialize AOS once
   useEffect(() => {
     AOS.init({
       duration: 1000,
       once: false,
-      mirror: true
+      mirror: true,
     });
   }, []);
 
+  // Refresh AOS after JSON data loads
   useEffect(() => {
     if (LargeProjectsAPI.length && SmallProjectsAPI.length) {
-      AOS.refreshHard();
+      AOS.refresh();
     }
   }, [LargeProjectsAPI, SmallProjectsAPI]);
-
 
   return (
     <>
@@ -36,7 +36,7 @@ function App() {
           <span className="loading loading-spinner loading-lg text-[#C778DD]"></span>
         </div>
       ) : (
-        <section data-aos="fade-up"> {/* AOS animation */}
+        <section data-aos="fade-up">
           <React_Router />
         </section>
       )}
