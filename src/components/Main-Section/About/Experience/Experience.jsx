@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-
+import AOS from "aos";
 
 const Experience = () => {
 
@@ -12,17 +12,24 @@ const Experience = () => {
         return () => window.removeEventListener("resize", checkScreen);
     }, []);
 
+    useEffect(() => {
+        // Refresh AOS after Home and its children render
+        setTimeout(() => {
+            AOS.refresh();
+        }, 0);
+    }, []);
+
     return (
         <>
             <section className="m-3 mb-10">
 
                 <div className="text-center mb-12">
-                    <div className="flex items-center gap-3 mb-3">
+                    <div className="flex items-center md:gap-3 gap-0 mb-3">
                         <h1 className="md:text-4xl text-3xl">
                             <span className="text-[#C778DD]">#</span>Professional Experience
                         </h1>
                         <div>
-                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[400px] w-40"></div>
+                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[400px] w-32"></div>
                         </div>
                     </div>
                     <p className="md:text-4xl text-2xl text-center mb-5 mt-10">Where I've Got My Training & Experience</p>

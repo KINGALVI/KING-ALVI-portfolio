@@ -6,6 +6,7 @@ import AllProjects from "../components/Main-Section/Projects/AllProjects";
 import About from "../components/Main-Section/About/About";
 import Contacts from "../components/Main-Section/Contacts/Contacts";
 import LargeProjectsDetail from "../components/Main-Section/Projects/Large-Projects/LargeProjectsDetail";
+import AOS from "aos";
 
 const React_Router = () => {
 
@@ -13,7 +14,7 @@ const React_Router = () => {
         {
             path: "/",
 
-            element: <Main />, 
+            element: <Main />,
 
             errorElement: <ErrorHandel />,
 
@@ -45,6 +46,13 @@ const React_Router = () => {
             ]
         }
     ])
+
+    router.subscribe(() => {
+        setTimeout(() => {
+            AOS.refreshHard();
+        }, 0);
+    });
+
 
     return (
         <>

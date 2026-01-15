@@ -39,7 +39,7 @@ const Contacts = () => {
                                     <img
                                         src={MyPhoto_2}
                                         alt="My Photo"
-                                        className="Background-Image-2 w-[315px] h-[450px] block"
+                                        className="Background-Image-2 md:w-[315px] w-[275px] md:h-[450px] h-[400px] block"
                                     />
                                     <img className="absolute w-[85px] h-[85px] md:right-[12%] right-[0%] top-10 animate-spin-slow" src={Dots} alt="Dot Image" />
                                 </figure>

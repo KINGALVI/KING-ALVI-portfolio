@@ -96,7 +96,7 @@ const Home = () => {
                 <div className="grid lg:ps-0 md:ps-16 animate-fadeSlide delay-500">
                     <figure style={{ position: "relative" }}>
                         <img src={MyPhoto_1} alt="My Photo"
-                            className="Background-Image-1 lg:h-[400px] w-[350px] h-[450px] ml-[75px] md:ml-[30px] block" />
+                            className="Background-Image-1 lg:h-[400px] w-[300px] h-[375px] ml-[75px] md:ml-[30px] block" />
                         <img className="relative w-[85px] h-[85px] md:right-[17%] right-[21%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
                     </figure>
                     <div>
@@ -133,7 +133,7 @@ const Home = () => {
                             <span className="text-[#C778DD] ms-4">#</span>Projects
                         </h1>
                         <div>
-                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-[180px]"></div>
+                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-40"></div>
                         </div>
                     </div>
                     <Link

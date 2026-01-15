@@ -1,10 +1,18 @@
 import emailjs from "emailjs-com";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import AOS from "aos";
 import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
     const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        // Refresh AOS after Home and its children render
+        setTimeout(() => {
+            AOS.refresh();
+        }, 0);
+    }, []);
 
     const sendEmail = (e) => {
         e.preventDefault();
