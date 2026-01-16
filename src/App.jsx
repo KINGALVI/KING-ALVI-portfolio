@@ -23,7 +23,7 @@ function App() {
   // Refresh AOS after JSON data loads
   useEffect(() => {
     if (LargeProjectsAPI.length && SmallProjectsAPI.length) {
-      AOS.refreshHard();
+      AOS.refresh();
     }
   }, [LargeProjectsAPI, SmallProjectsAPI]);
 

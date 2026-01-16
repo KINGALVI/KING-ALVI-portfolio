@@ -49,7 +49,7 @@ const React_Router = () => {
 
     router.subscribe(() => {
         setTimeout(() => {
-            AOS.refreshHard();
+            AOS.refresh();
         }, 0);
     });
 
