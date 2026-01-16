@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaGithub, FaReact } from "react-icons/fa";
 import { SiVercel, SiNetlify, SiFigma, SiNextdotjs, SiTailwindcss, SiBootstrap, SiDaisyui } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import AOS from "aos";
 
 const Skills = () => {
 
@@ -13,13 +12,6 @@ const Skills = () => {
         checkScreen();
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
-    }, []);
-
-    useEffect(() => {
-        // Refresh AOS after Home and its children render
-        setTimeout(() => {
-            AOS.refresh();
-        }, 0);
     }, []);
 
     return (

@@ -2,7 +2,6 @@ import Skills from "./Skills/Skills";
 import Education from "./Education/Education";
 import { useEffect, useState } from "react";
 import Experience from "./Experience/Experience";
-import AOS from "aos";
 
 const About = () => {
 
@@ -13,13 +12,6 @@ const About = () => {
         checkScreen();
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
-    }, []);
-
-    useEffect(() => {
-        // Refresh AOS after Home and its children render
-        setTimeout(() => {
-            AOS.refresh();
-        }, 0);
     }, []);
 
     return (

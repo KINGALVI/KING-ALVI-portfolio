@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import AOS from "aos";
 
 const Education = () => {
 
@@ -10,13 +9,6 @@ const Education = () => {
         checkScreen();
         window.addEventListener("resize", checkScreen);
         return () => window.removeEventListener("resize", checkScreen);
-    }, []);
-
-    useEffect(() => {
-        // Refresh AOS after Home and its children render
-        setTimeout(() => {
-            AOS.refresh();
-        }, 0);
     }, []);
 
     return (
