@@ -32,10 +32,10 @@ const LargeProjectsDetail = () => {
                 {technologies.map((tech, index) => (
                     <span
                         key={index}
-                        className="px-3 py-1 text-sm rounded-full bg-[#1E2127] text-[#ABB2BF] border border-[#C778DD] hover:bg-[#C778DD] hover:text-white transition-colors duration-300"
+                        className="px-3 py-1 text-sm rounded-full bg-[#1E2127] text-[#ABB2BF] border border-[#C778DD] hover:border-[#c52fee] hover:bg-[#c52fee] hover:text-white transition-colors duration-300"
                     >
                         {tech}
-                    </span> 
+                    </span>
                 ))}
             </div>
             <p className="text-gray-400 mt-4">{detailInfo}</p>
@@ -61,7 +61,7 @@ const LargeProjectsDetail = () => {
                     to="/AllProjects"
                     className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
-                  <GoProjectSymlink className="text-[21px]" />  Back to Projects
+                    <GoProjectSymlink className="text-[21px]" />  Back to Projects
                 </Link>
             </div>
         </section>
