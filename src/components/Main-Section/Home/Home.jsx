@@ -81,7 +81,7 @@ const Home = () => {
                             Download Resume
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1BvnuB4nknTvn63fHq2-f0U9eHAroIcZb/view?usp=sharing"
+                            href="https://drive.google.com/file/d/17P0Qpr5IxUxnWzxv6mb36NWncIsUN2g9/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="Link-Button text-[#ABB2BF] hover:animate-pulse"

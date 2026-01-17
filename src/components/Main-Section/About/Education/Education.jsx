@@ -56,7 +56,7 @@ const Education = () => {
                                             Diploma of Computer Science & Engineering
                                         </h4>
                                         <p className="text-[#9F9F9F] font-rubik">
-                                            Shariatpur Polytechnic Institute, Shariatpur - 8001
+                                            Shariatpur Polytechnic Institute, Shariatpur, Dhaka - 8001
                                         </p>
                                         <span className="text-sm font-rubik">2026 - 2027</span>
                                     </div>
@@ -82,7 +82,7 @@ const Education = () => {
                                                 Diploma of Computer Science & Engineering
                                             </h4>
                                             <p className="text-[#9F9F9F] font-rubik">
-                                                Shariatpur Polytechnic Institute, Shariatpur - 8001
+                                                Shariatpur Polytechnic Institute, Shariatpur, Dhaka - 8001
                                             </p>
                                             <span className="text-sm font-rubik">2026 - 2027</span>
                                         </div>
@@ -117,7 +117,7 @@ const Education = () => {
                                             Secondary School Certificate (SSC)
                                         </h4>
                                         <p className="text-[#9F9F9F] font-rubik">
-                                            B.C.S.I.R High School & Collage, Dhaka - 1205
+                                            B.C.S.I.R High School & Collage, Dhanmondi, Dhaka - 1205
                                         </p>
                                         <span className="text-sm font-rubik">2019 - 2020</span>
                                     </div>
@@ -148,7 +148,7 @@ const Education = () => {
                                                 Secondary School Certificate (SSC)
                                             </h4>
                                             <p className="text-[#9F9F9F] font-rubik">
-                                                B.C.S.I.R High School & Collage, Dhaka - 1205
+                                                B.C.S.I.R High School & Collage, Dhanmodi, Dhaka - 1205
                                             </p>
                                             <span className="text-sm font-rubik">2019 - 2020</span>
                                         </div>
