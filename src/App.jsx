@@ -9,6 +9,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 function App() {
+  
   const { LargeProjectsAPI, SmallProjectsAPI } = useContext(PortfolioContextAPI);
 
   // Initialize AOS once

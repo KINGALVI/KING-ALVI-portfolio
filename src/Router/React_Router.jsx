@@ -6,52 +6,37 @@ import AllProjects from "../components/Main-Section/Projects/AllProjects";
 import About from "../components/Main-Section/About/About";
 import Contacts from "../components/Main-Section/Contacts/Contacts";
 import LargeProjectsDetail from "../components/Main-Section/Projects/Large-Projects/LargeProjectsDetail";
+import AOS from "aos";
+
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <Main />,
+        errorElement: <ErrorHandel />,
+        children: [
+            { path: "/", Component: Home },
+            { path: "/AllProjects", Component: AllProjects },
+            { path: "/About", Component: About },
+            { path: "/Contacts", Component: Contacts },
+            { path: "/LargeProjectsDetail/:id", Component: LargeProjectsDetail },
+        ],
+    },
+]);
+
+// Subscribe to navigation changes
+router.subscribe(() => {
+    // Scroll to top on every route change
+    window.scrollTo(0, 0);
+
+    // Refresh AOS after DOM updates
+    setTimeout(() => {
+        AOS.refresh();
+    }, 0);
+
+});
 
 const React_Router = () => {
-
-    const router = createBrowserRouter([
-        {
-            path: "/",
-
-            element: <Main />,
-
-            errorElement: <ErrorHandel />,
-
-            children: [
-                {
-                    path: "/",
-                    Component: Home,
-
-                },
-                {
-                    path: "/AllProjects",
-                    Component: AllProjects,
-
-                },
-                {
-                    path: "/About",
-                    Component: About,
-
-                },
-                {
-                    path: "/Contacts",
-                    Component: Contacts,
-
-                },
-                {
-                    path: "/LargeProjectsDetail/:id",
-                    Component: LargeProjectsDetail,
-                }
-            ]
-        }
-    ])
-
-
-    return (
-        <>
-            <RouterProvider router={router} />
-        </>
-    )
-}
+    return <RouterProvider router={router} />;
+};
 
 export default React_Router;

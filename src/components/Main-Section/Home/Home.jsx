@@ -97,7 +97,7 @@ const Home = () => {
                     <figure style={{ position: "relative" }}>
                         <img src={MyPhoto_1} alt="My Photo"
                             className="Background-Image-1 lg:h-[400px] w-[300px] h-[375px] ml-[75px] md:ml-[30px] block" />
-                        <img className="relative w-[85px] h-[85px] md:right-[17%] right-[21%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
+                        <img className="relative md:w-[85px] w-[70px] md:h-[85px] h-[70px] md:right-[17%] right-[18%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
                     </figure>
                     <div>
                         <img className="lg:md-0 md:me-10" src={FristDedication} alt="Dedication quote" />
