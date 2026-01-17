@@ -23,7 +23,7 @@ const LargeProjectsDetail = () => {
                 <img
                     src={image}
                     alt={alt}
-                    className="md:w-[75%] md:h-[75%] h-full w-full object-cover rounded-md"
+                    className="md:w-[75%] md:h-[75%] h-full w-full lg:h-[50%] lg:w-[50%] object-cover rounded-md"
                 />
             </center>
             <h1 className="text-3xl font-bold mt-4">{projectName}</h1>
