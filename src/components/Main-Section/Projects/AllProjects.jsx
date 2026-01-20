@@ -8,7 +8,7 @@ const AllProjects = () => {
       <section className="animate-fadeSlide delay-500">
         <div className="flex justify-between mb-7 mt-3 p-4">
           <div className="flex items-center gap-3">
-            <h1 className="text-4xl">
+            <h1 className="text-4xl text-white">
               <span className="text-[#C778DD]">#</span>Projects
             </h1>
             <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-40"></div>

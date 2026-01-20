@@ -165,7 +165,7 @@ button:hover {
 .nav-links .nav-link:hover,
 .nav-links .nav-link.nav-active {
   color: #C778DD;
-  background-color: var(--color-base-200);
+  background-color: oklch(23.26%_0.014_253.1);
 }
 
 /* Fade + Slide animation utility */

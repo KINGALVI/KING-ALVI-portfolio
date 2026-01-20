@@ -18,7 +18,7 @@ const About = () => {
         <>
             <section className="lg:m-5 m-2 mt-7 animate-fadeSlide delay-500">
                 <div className="flex items-center gap-3">
-                    <h1 className="md:text-4xl text-3xl">
+                    <h1 className="md:text-4xl text-3xl text-white">
                         <span className="text-[#C778DD]">#</span>About Me
                     </h1>
                     <div>
@@ -28,7 +28,7 @@ const About = () => {
 
                 <br />
 
-                <h1 className="md:text-4xl text-2xl text-center lg:mb-15 mb-5">
+                <h1 className="md:text-4xl text-2xl text-center lg:mb-15 mb-5 text-white">
                     Progress • Objective • Progress
                 </h1>
 
@@ -59,24 +59,24 @@ const About = () => {
                             <h3 className="text-xl font-semibold font-rajdhani text-[#C778DD] mb-1">My Philosophy</h3><p className="text-[#ABB2BF] font-rubik">“I create modern, human-centered solutions that are impactful and simple for solving real-world issues. These solutions are readable, reusable, and ultimately helpful.”</p>
                         </article>
                     </div>
-                    <div className="grid h-[50%]">
+                    <div className="grid h-[50%] text-white">
                         <div className="lg:flex grid gap-3 mb-2">
-                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                            <div className={`group bg-[#1d2229] rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                                 <h4 className="text-lg font-bold font-rajdhani p-4">
                                     Favorite Tech
                                 </h4>
-                                <div className={`border  w-full rounded-t-xl${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
+                                <div className={`border border-[#ABB2BF] w-full rounded-t-xl${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <p className="p-4">
                                     React, Tailwind CSS, Bootstrap, DaisyUI, React Bootstrap
                                 </p>
                             </div>
-                            <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition md:w-[400px] ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                            <div className={`group bg-[#1d2229] rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition md:w-[400px] ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                                 <h5 className="text-lg p-4 font-bold font-rajdhani">Currently Exploring</h5>
                                 <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                                 <p className="p-4">Next.js, Google Firebase, MongoDB</p>
                             </div>
                         </div>
-                        <div className={`group bg-base-200 rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
+                        <div className={`group bg-[#1d2229] rounded-xl shadow-xl border-2 border-[#ABB2BF] hover:border-[#c52fee] transition ${isDesktop ? "hover:shadow-[0_0_20px_#C778DD]" : "focus:shadow-[0_0_20px_#C778DD] border-[#ABB2BF] focus:border-[#c52fee]"}`} tabIndex={0}>
                             <h5 className="text-lg font-bold p-4 font-rajdhani">More About Me</h5>
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <p className="p-4">Whether it's through creating projects, exploring new frameworks, or involving myself in developer networks, I'm passionate about lifelong learning. I also love design and animation.</p>

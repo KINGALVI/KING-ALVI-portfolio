@@ -4,7 +4,7 @@ import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 
 export default function Header() {
     return (
-        <nav className="navbar bg-base-200 p-0 pe-6 rounded sticky top-0 z-50 transition duration-500 ease-in-out shadow-md hover:shadow-lg flex justify-between">
+        <nav className="navbar bg-[oklch(23.26%_0.014_253.1)] p-0 pe-6 rounded sticky top-0 z-50 transition duration-500 ease-in-out shadow-lg flex justify-between">
 
             <div>
                 <div className="flex items-center group">
@@ -27,7 +27,7 @@ export default function Header() {
             </div>
 
             {/* big screen & medium */}
-            <ul className="menu menu-horizontal md:flex hidden md:p-0 animate-fadeSlide nav-links">
+            <ul className="menu menu-horizontal text-white md:flex hidden md:p-0 animate-fadeSlide nav-links">
                 <li>
                     <NavLink
                         to="/"

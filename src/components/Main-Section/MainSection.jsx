@@ -11,9 +11,9 @@ const Main = () => {
 
       <Left_Side_Design />
 
-      <section className="md:w-[2500px] bg-[#282c33]">
-{/* bg-[#282C33] */}
-        <Header /> 
+      <section className="md:w-[2500px] bg-[#282c33] text-white">
+
+        <Header />
 
         <Outlet />
 

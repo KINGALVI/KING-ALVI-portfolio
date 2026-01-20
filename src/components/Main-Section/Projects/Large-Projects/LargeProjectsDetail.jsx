@@ -26,7 +26,7 @@ const LargeProjectsDetail = () => {
                     className="md:w-[75%] md:h-[75%] h-full w-full lg:h-[50%] lg:w-[50%] object-cover rounded-md"
                 />
             </center>
-            <h1 className="text-3xl font-bold mt-4">{projectName}</h1>
+            <h1 className="text-3xl font-bold mt-4 text-white">{projectName}</h1>
             <h3 className="text-lg font-semibold mt-3 text-[#C778DD]">Technologies Used</h3>
             <div className="flex flex-wrap gap-2 mt-2">
                 {technologies.map((tech, index) => (
@@ -45,7 +45,7 @@ const LargeProjectsDetail = () => {
                     href={githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] shadow-lg rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     <FaGithub className="text-[21px]" />  GitHub
                 </a>
@@ -53,13 +53,13 @@ const LargeProjectsDetail = () => {
                     href={liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] shadow-lg rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     <MdLiveTv className="text-[21px]" /> Live Link
                 </a>
                 <Link
                     to="/AllProjects"
-                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                    className="text-[15px] shadow-lg rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
                 >
                     <GoProjectSymlink className="text-[21px]" />  Back to Projects
                 </Link>

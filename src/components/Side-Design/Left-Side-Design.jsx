@@ -6,7 +6,6 @@ const Left_Side_Design = () => {
         <section className="w-[250px] hidden md:block relative">
             {/* Sticky container for line + icons */}
             <div className="sticky top-0 flex flex-col items-center">
-                {/* Vertical line behind icons */}
 
                 <img src={Code} className="absolute lg:w-[77px] md:w-0 left-[-13px] top-[-25px]" alt="Code Image 1" />
                 <img src={Code} className="absolute lg:w-[77px] md:w-0 left-[47px] top-2.5" alt="Code Image 2" />
@@ -43,7 +42,7 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
+                        <div className="bg-[oklch(23.26%_0.014_253.1)] border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
                             <FaFacebookSquare className="lg:w-[30px] w-[25px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>
@@ -52,7 +51,7 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
+                        <div className="bg-[oklch(23.26%_0.014_253.1)] border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
                             <FaLinkedin className="w-[30px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>
@@ -61,7 +60,7 @@ const Left_Side_Design = () => {
                         target="_blank"
                         rel="noopener noreferrer"
                     >
-                        <div className="bg-base-200 border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
+                        <div className="bg-[oklch(23.26%_0.014_253.1)] border-2 border-[#c52fee] group hover:bg-[#c52fee] p-3 rounded-full transition-colors duration-300 flex justify-center items-center">
                             <FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] group-hover:text-white" />
                         </div>
                     </a>

@@ -43,7 +43,7 @@ const Home = () => {
             {/* Hero Section */}
             <section className="card lg:card-side bg-[#282C33] flex justify-center items-center">
                 <div className="card-body grid lg:items-start md:items-center sm:items-center">
-                    <h1 className="text-4xl text-center lg:text-left animate-fadeSlide">
+                    <h1 className="text-4xl text-center lg:text-left animate-fadeSlide text-white">
                         Alvi is a <span className="text-[#C778DD]">Front-End Developer</span> and{" "}
                         <span className="text-[#C778DD]">Gamer</span>
                     </h1>
@@ -97,7 +97,7 @@ const Home = () => {
                     <figure style={{ position: "relative" }}>
                         <img src={MyPhoto_1} alt="My Photo"
                             className="Background-Image-1 lg:h-[400px] w-[300px] h-[375px] ml-[75px] md:ml-[30px] block" />
-                        <img className="relative md:w-[85px] w-[70px] md:h-[85px] h-[70px] md:right-[17%] right-[18%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
+                        <img className="relative md:w-[85px] w-[70px] md:h-[85px] h-[70px] md:right-[14%] right-[18%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
                     </figure>
                     <div>
                         <img className="lg:md-0 md:me-10" src={FristDedication} alt="Dedication quote" />
@@ -129,7 +129,7 @@ const Home = () => {
             <section className="mb-10 animate-fadeSlide delay-500">
                 <div className="lg:flex lg:justify-between grid items-start">
                     <div className="flex items-center gap-3">
-                        <h1 className="text-4xl">
+                        <h1 className="text-4xl text-white">
                             <span className="text-[#C778DD] ms-4">#</span>Projects
                         </h1>
                         <div>
@@ -162,7 +162,7 @@ const Home = () => {
                                 className="w-full h-full"
                             />
                             <div className={`border  w-full rounded ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
-                            <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
+                            <h2 className="text-xl font-semibold mt-3 m-4 text-white">{projectName}</h2>
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>
                             <div className="flex flex-wrap gap-2 mt-1 m-4">
@@ -191,7 +191,7 @@ const Home = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <FaGithub className="text-[21px]" />  GitHub
                                 </a>
@@ -199,13 +199,13 @@ const Home = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <MdLiveTv className="text-[21px]" /> Live Link
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="text-[15px] gap-0 rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] gap-0 rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <FaInfo className="text-[17px]" />  Detail Info
                                 </Link>
@@ -217,7 +217,7 @@ const Home = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <span><center><FaGithub className="text-[17px] mb-0" /></center>  GitHub</span>
                                 </a>
@@ -225,13 +225,13 @@ const Home = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <center><MdLiveTv className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Live</span> <span> Link</span></span>
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <center><FaInfo className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Detail</span> <span> Info</span></span>
                                 </Link>

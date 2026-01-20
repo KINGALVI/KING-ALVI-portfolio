@@ -37,7 +37,7 @@ const LargeProjects = () => {
                                 className="w-full h-full"
                             />
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
-                            <h2 className="text-xl font-semibold mt-3 m-4">{projectName}</h2>
+                            <h2 className="text-xl font-semibold mt-3 m-4 text-white">{projectName}</h2>
                             <div className={`border  w-full rounded-t-xl ${isDesktop ? "border-[#ABB2BF] group-hover:border-[#c52fee]" : "border-[#ABB2BF] group-focus:border-[#c52fee]"}`}></div>
                             <h3 className="text-lg font-semibold text-[#C778DD] mt-3 m-4">Technologies Used</h3>
                             <div className="flex flex-wrap gap-2 mt-1 m-4">
@@ -67,7 +67,7 @@ const LargeProjects = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <FaGithub className="text-[21px]" />  GitHub
                                 </a>
@@ -75,13 +75,13 @@ const LargeProjects = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <MdLiveTv className="text-[21px]" /> Live Link
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="text-[15px] gap-0 rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1"
+                                    className="text-[15px] gap-0 rounded-md btn bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <FaInfo className="text-[17px]" />  Detail Info
                                 </Link>
@@ -93,7 +93,7 @@ const LargeProjects = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <span><center><FaGithub className="text-[17px] mb-0" /></center>  GitHub</span>
                                 </a>
@@ -101,13 +101,13 @@ const LargeProjects = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <center><MdLiveTv className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Live</span> <span> Link</span></span>
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD]"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
                                 >
                                     <center><FaInfo className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Detail</span> <span> Info</span></span>
                                 </Link>

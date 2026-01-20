@@ -6,7 +6,7 @@ const Footer = () => {
 
     return ( 
         <>
-            <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded pt-12  font-rajdhani">
+            <footer className="footer footer-horizontal footer-center bg-[oklch(23.26%_0.014_253.1)] text-base-content rounded pt-12  font-rajdhani shadow-lg">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 w-11/12 mx-auto">
                     <div className="lg:col-span-4">
                         <div className="flex items-center ps-[50px] relative top-[-3px]">
