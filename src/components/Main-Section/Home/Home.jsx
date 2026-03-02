@@ -48,7 +48,7 @@ const Home = () => {
                         <span className="text-[#C778DD]">Gamer</span>
                     </h1>
                     <h3
-                        className="relative text-[#ABB2BF] text-2xl md:mt-2.5 md:mb-2.5 mt-7 mb-7 lg:w-[550px] h-16 lg:text-left text-center"
+                        className="relative text-[#ABB2BF] text-2xl md:mt-2.5 md:mb-2.5 mt-7 mb-7 lg:w-137.5 h-16 lg:text-left text-center"
                     >
                         <span className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full">
                             <Typewriter
@@ -66,7 +66,7 @@ const Home = () => {
                             />
                         </span>
                     </h3>
-                    <p className="text-[#ABB2BF] pb-2.5 text-center lg:text-left lg:w-[450px] animate-fadeSlide delay-300">
+                    <p className="text-[#ABB2BF] pb-2.5 text-center lg:text-left lg:w-112.5 animate-fadeSlide delay-300">
                         As a professional in the MERN stack and a web developer, I prioritize creating user-friendly interfaces and scalable web applications. Focused on frontend excellence, translating concepts into clean, functional, and user-centric digital experiences.
                     </p>
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
@@ -96,8 +96,8 @@ const Home = () => {
                 <div className="grid lg:ps-0 md:ps-16 animate-fadeSlide delay-500">
                     <figure style={{ position: "relative" }}>
                         <img src={MyPhoto_1} alt="My Photo"
-                            className="Background-Image-1 lg:h-[400px] w-[300px] h-[375px] ml-[75px] md:ml-[30px] block" />
-                        <img className="relative md:w-[85px] w-[70px] md:h-[85px] h-[70px] md:right-[14%] right-[18%] -top-[100px] animate-spin-slow" src={Dots} alt="Dot Image" />
+                            className="Background-Image-1 lg:h-100 w-75 h-93.75 ml-18.75 md:ml-7.5 block" />
+                        <img className="relative md:w-21.25 w-17.5 md:h-21.25 h-17.5 md:right-[14%] right-[18%] -top-25 animate-spin-slow" src={Dots} alt="Dot Image" />
                     </figure>
                     <div>
                         <img className="lg:md-0 md:me-10" src={FristDedication} alt="Dedication quote" />
@@ -133,7 +133,7 @@ const Home = () => {
                             <span className="text-[#C778DD] ms-4">#</span>Projects
                         </h1>
                         <div>
-                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-40"></div>
+                            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-127.5 w-40"></div>
                         </div>
                     </div>
                     <Link
@@ -240,7 +240,7 @@ const Home = () => {
                         </div>
                     ))}
                 </div>
-
+                <br />
                 <center>
                     <Link to={"/AllProjects"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">View All Projects</Link>
                 </center>
