@@ -16,7 +16,7 @@ export default function Header() {
                         <img
                             src={Logo}
                             alt="Logo"
-                            className="w-[100px] h-[100px] transform transition-transform duration-700  group-hover:scale-110 group-active:rotate-12 group-active:scale-110"
+                            className="w-25 h-25 transform transition-transform duration-700  group-hover:scale-110 group-active:rotate-12 group-active:scale-110"
                         />
                         {/* Brand name with subtle fade-slide animation */}
                         <h1 className=" text-white font-rajdhani animate-fadeSlide">
@@ -115,13 +115,13 @@ export default function Header() {
                     <br />
                     <div className="md:hidden flex justify-center gap-2.5">
                         <a target="_blank" href="https://github.com/KING-ALVI">
-                            <FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-bounce" />
+                            <FaGithub className="w-7.5 h-7.5 text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-bounce" />
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/alvi-al-mahamud-565a07398/">
-                            <FaLinkedin className="w-[30px] h-[30px] text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-pulse" />
+                            <FaLinkedin className="w-7.5 h-7.5 text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-pulse" />
                         </a>
                         <a target="_blank" href="https://www.facebook.com/alvi.al.mahamud/">
-                            <FaFacebookSquare className="w-[30px] h-[30px] text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-spin" />
+                            <FaFacebookSquare className="w-7.5 h-7.5 text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-spin" />
                         </a>
                     </div>
                     <br />
