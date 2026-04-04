@@ -56,7 +56,7 @@ const Left_Side_Design = () => {
                         </div>
                     </a>
                     <a
-                        href="https://github.com/KINGALVI"
+                        href="https://github.com/KING-ALVI"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

@@ -9,7 +9,7 @@
             "Font Awesome"
         ],
         "detailInfo": "A responsive fitness landing page built with HTML and Tailwind CSS. Features include trainer highlights, gym benefits, custom tag grids, and a branded footer. Designed for clarity, scalability, and modern UI. Ideal for showcasing fitness programs and attracting new clients with clean visuals and mobile-first layout.",
-        "githubLink": "https://github.com/KINGALVI/Bodyshape",
+        "githubLink": "https://github.com/KING-ALVI/Bodyshape",
         "liveLink": "https://body-shape-gym-community.netlify.app/"
     },
     {
@@ -20,7 +20,7 @@
             "CSS"
         ],
         "detailInfo": "BD-Donate-Organization is a humanitarian platform supporting vulnerable communities in Bangladesh through donations for food, shelter, and education. Built with HTML, CSS, and JavaScript, it ensures a responsive and transparent experience, allowing donors to make meaningful contributions and create lasting change for those in urgent need.",
-        "githubLink": "https://github.com/KINGALVI/BD-Help-Organization",
+        "githubLink": "https://github.com/KING-ALVI/BD-Help-Organization",
         "liveLink": "https://bd-help-organization.netlify.app/"
     },
     {
@@ -32,7 +32,7 @@
             "Bootstrap CSS"
         ],
         "detailInfo": "Panda Commerce is a modern, responsive e-commerce platform built with HTML, CSS (Bootstrap & Tailwind), and JavaScript. It features interactive UI components, an optimized product showcase, and seamless navigation for a smooth shopping experience. Perfect for learning and implementing best practices in web development and design!",
-        "githubLink": "https://github.com/KINGALVI/Panda-Commerce",
+        "githubLink": "https://github.com/KING-ALVI/Panda-Commerce",
         "liveLink": "https://super-panda-e-commerce.netlify.app/"
     },
     {
@@ -45,7 +45,7 @@
             "Tailwind CSS"
         ],
         "detailInfo": "Penguin Fashion is a modern e-commerce website for winter apparel, built with Tailwind CSS and JavaScript for a sleek, responsive UI. It features interactive product listings, dynamic pricing, and an intuitive shopping experience, ensuring seamless browsing across mobile and desktop with a clean, user-friendly interface!!",
-        "githubLink": "https://github.com/KINGALVI/Penguin-Fashion",
+        "githubLink": "https://github.com/KING-ALVI/Penguin-Fashion",
         "liveLink": "https://super-penguin-fashion-e-commerce.netlify.app/"
     },
     {
@@ -58,7 +58,7 @@
             "Bootstrap CSS"
         ],
         "detailInfo": "edTech Education is a modern, responsive online learning platform designed to enhance educational experiences. It features structured courses, student success stories, interactive FAQs, and seamless UI. Built with HTML, Bootstrap CSS, JavaScript, and GitHub for version control, it delivers dynamic and accessible learning opportunities!!",
-        "githubLink": "https://github.com/KINGALVI/edTech-Education",
+        "githubLink": "https://github.com/KING-ALVI/edTech-Education",
         "liveLink": "https://ed-tech-education.netlify.app/"
     },
     {
@@ -70,7 +70,7 @@
             "JavaScript"
         ],
         "detailInfo": "Super Bank is a dynamic bank transaction management system built to handle deposits, withdrawals, and balance tracking seamlessly. Designed with modern UI styling and real-time updates, this project provides a secure, efficient, and user-friendly experience for managing finances online.",
-        "githubLink": "https://github.com/KINGALVI/Super-Bank",
+        "githubLink": "https://github.com/KING-ALVI/Super-Bank",
         "liveLink": "https://super-bank-login.netlify.app/"
     },
     {
@@ -83,7 +83,7 @@
             "Tailwind CSS"
         ],
         "detailInfo": "A dynamic shopping cart UI built with HTML, CSS (Bootstrap), and JavaScript. Users can modify item quantities, remove products, and track real-time pricing updates, including taxes. The checkout process features interactive modals for purchase confirmation, ensuring smooth, accessible, and user-friendly shopping experience for e-commerce platform.",
-        "githubLink": "https://github.com/KINGALVI/Shopping-Cart",
+        "githubLink": "https://github.com/KING-ALVI/Shopping-Cart",
         "liveLink": "https://super-shopping-cart.netlify.app/"
     }
 ]

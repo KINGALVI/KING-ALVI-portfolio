@@ -79,7 +79,7 @@ const Contacts = () => {
                                         <FaLinkedin className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" />
                                     </div>
                                 </a>
-                                <a href="https://github.com/KINGALVI" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/KING-ALVI" target="_blank" rel="noopener noreferrer">
                                     <div className="bg-[oklch(23.26%_0.014_253.1)] group hover:bg-[#c52fee] p-2 rounded-full transition-colors duration-300">
                                         <FaGithub className="w-6 h-6 text-[#ABB2BF] group-hover:text-white Logo" />
                                     </div>

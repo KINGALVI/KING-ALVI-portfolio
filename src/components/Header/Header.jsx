@@ -114,7 +114,7 @@ export default function Header() {
                     </li>
                     <br />
                     <div className="md:hidden flex justify-center gap-2.5">
-                        <a target="_blank" href="https://github.com/KINGALVI">
+                        <a target="_blank" href="https://github.com/KING-ALVI">
                             <FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] transition-transform duration-500 hover:scale-125 hover:animate-bounce" />
                         </a>
                         <a target="_blank" href="https://www.linkedin.com/in/alvi-al-mahamud-565a07398/">

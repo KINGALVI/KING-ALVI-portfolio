@@ -40,7 +40,7 @@ const Footer = () => {
                             <div className="flex-1 text-sm space-y-1 text-gray-300">
                                 <h3 className="text-[#C778DD] text-xl font-medium mb-3">Social</h3>
                                 <div className="grid grid-flow-col gap-4 justify-center">
-                                    <a target="_blank" href="https://github.com/KINGALVI"><FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] Logo" /></a>
+                                    <a target="_blank" href="https://github.com/KING-ALVI"><FaGithub className="w-[30px] h-[30px] text-[#ABB2BF] Logo" /></a>
                                     <a target="_blank" href="https://www.linkedin.com/in/alvi-al-mahamud-565a07398/"><FaLinkedin className="w-[30px] h-[30px] text-[#ABB2BF] Logo" /></a>
                                     <a target="_blank" href="https://www.facebook.com/alvi.al.mahamud/"><FaFacebookSquare className="w-[30px] h-[30px] text-[#ABB2BF] Logo" /></a>
                                 </div>
