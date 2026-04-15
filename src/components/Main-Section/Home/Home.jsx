@@ -71,7 +71,7 @@ const Home = () => {
                     </p>
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
                         <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">
-                            Contact Me !!
+                            Contact Me 
                         </Link>
                         <a
                             href="../../../../Documents/ALVI AL MAHMUD CV.pdf"
@@ -81,7 +81,7 @@ const Home = () => {
                             Download Resume
                         </a>
                         <a
-                            href="https://drive.google.com/file/d/1CMS9tpSYxBNswyo2La-H_pP-5Rwxe8uf/view?usp=sharing"
+                            href="https://drive.google.com/file/d/17PDNAwTOrtxEk7T_lbedX3DCKevNApxV/view?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="Link-Button text-[#ABB2BF] hover:animate-pulse"
