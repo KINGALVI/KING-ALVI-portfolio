@@ -71,7 +71,7 @@ const Home = () => {
                     </p>
                     <div className="md:flex lg:justify-start justify-center grid gap-5 mt-5 animate-fadeSlide delay-500">
                         <Link to={"/Contacts"} className="Link-Button text-[#ABB2BF] hover:animate-pulse">
-                            Contact Me 
+                            Contact Me
                         </Link>
                         <a
                             href="../../../../Documents/ALVI AL MAHMUD CV.pdf"
@@ -217,7 +217,7 @@ const Home = () => {
                                     href={githubLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <span><center><FaGithub className="text-[17px] mb-0" /></center>  GitHub</span>
                                 </a>
@@ -225,13 +225,13 @@ const Home = () => {
                                     href={liveLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <center><MdLiveTv className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Live</span> <span> Link</span></span>
                                 </a>
                                 <Link
                                     to={`/LargeProjectsDetail/${id}`}
-                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] shadow-lg"
+                                    className="grid items-center px-4 py-2 rounded-md bg-[#2C2F36] text-[#C778DD] border border-[#C778DD] hover:border-[#c52fee] transition-all duration-300 hover:bg-[#c52fee] hover:text-white hover:shadow-lg hover:-translate-y-1 shadow-lg"
                                 >
                                     <center><FaInfo className="text-[17px] mb-0" /></center> <span className="flex gap-1"><span>Detail</span> <span> Info</span></span>
                                 </Link>

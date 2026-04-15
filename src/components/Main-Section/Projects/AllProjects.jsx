@@ -11,7 +11,7 @@ const AllProjects = () => {
             <h1 className="text-4xl text-white">
               <span className="text-[#C778DD]">#</span>Projects
             </h1>
-            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-[510px] w-40"></div>
+            <div className="h-0.5 border mt-2.5 border-[#C778DD] md:w-127.5 w-40"></div>
           </div>
         </div>
 
