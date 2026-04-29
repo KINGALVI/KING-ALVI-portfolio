@@ -3,7 +3,7 @@ import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import MyLogo from "../../../public/Images/My-Portfolio-Logo.png";
 
 const Footer = () => {
-
+ 
     return ( 
         <>
             <footer className="footer footer-horizontal footer-center bg-[oklch(23.26%_0.014_253.1)] text-base-content rounded pt-12  font-rajdhani shadow-lg">
